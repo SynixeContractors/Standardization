@@ -2,3 +2,34 @@ name = "Synixe Standardization"
 author = "Synixe Contractors"
 prefix = "synixe_standardization"
 mainprefix = "s"
+
+[hemtt.launch.default]
+workshop = [
+    "3499977893", # ADT
+    "factions:@3den_attributes_fast_load",
+    "factions:@ace_realisticdispersion",
+    "factions:@cba_a3",
+    "factions:@synixe_mgp",
+    "factions:@ace",
+    "factions:@ace_tracers",
+    "factions:@cba_rf",
+    "factions:@low_visibility_attir",
+    "factions:@rf",
+    "factions:@theseus_services",
+    "factions:@ace_noactionmenu",
+    "factions:@aegis",
+    "factions:@cba_ws",
+    "factions:@mu",
+    "factions:@synixe_armoury",
+    "factions:@toh_characters",
+    "factions:@ace_nocrosshair",
+    "factions:@aegis_atlas",
+    "factions:@generic_civilian_clothing",
+    "factions:@oteden",
+    "factions:@synixe_contractors",
+    "factions:@ws",
+    "factions:@ace_particles",
+    "factions:@aegis_opposing_forces",
+    "factions:@gorkas",
+    "factions:@synixe_factions",
+]
