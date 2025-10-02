@@ -17,7 +17,7 @@ class arifle_MSBS65_F: arifle_MSBS65_base_F {
 };
 class arifle_MSBS65_base_camo_F;
 class arifle_MSBS65_camo_F: arifle_MSBS65_base_camo_F {
-    displayName = "MSBS Grot (Geo)";
+    displayName = "MSBS Grot (Geo Woodland)";
 };
 class arifle_MSBS65_GL_base_F;
 class arifle_MSBS65_GL_F: arifle_MSBS65_GL_base_F {
@@ -25,7 +25,7 @@ class arifle_MSBS65_GL_F: arifle_MSBS65_GL_base_F {
 };
 class arifle_MSBS65_GL_base_camo_F;
 class arifle_MSBS65_GL_camo_F: arifle_MSBS65_GL_base_camo_F {
-    displayName = "MSBS Grot GL (Geo)";
+    displayName = "MSBS Grot GL (Geo Woodland)";
 };
 class arifle_MSBS65_Mark_base_F;
 class arifle_MSBS65_Mark_F: arifle_MSBS65_Mark_base_F {
@@ -33,7 +33,7 @@ class arifle_MSBS65_Mark_F: arifle_MSBS65_Mark_base_F {
 };
 class arifle_MSBS65_Mark_base_camo_F;
 class arifle_MSBS65_Mark_camo_F: arifle_MSBS65_Mark_base_camo_F {
-    displayName = "MSBS Grot MR (Geo)";
+    displayName = "MSBS Grot MR (Geo Woodland)";
 };
 class arifle_MSBS65_UBS_base_F;
 class arifle_MSBS65_UBS_F: arifle_MSBS65_UBS_base_F {
@@ -41,7 +41,7 @@ class arifle_MSBS65_UBS_F: arifle_MSBS65_UBS_base_F {
 };
 class arifle_MSBS65_UBS_base_camo_F;
 class arifle_MSBS65_UBS_camo_F: arifle_MSBS65_UBS_base_camo_F {
-    displayName = "MSBS Grot SH (Geo)";
+    displayName = "MSBS Grot SH (Geo Woodland)";
 };
 
 // RPK-12

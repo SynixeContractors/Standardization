@@ -1,18 +1,6 @@
 class CfgWeapons {
-    // VS-121
-    class srifle_DMR_01_black_RF;
-    class srifle_DMR_01_tan_RF: srifle_DMR_01_black_RF {
-        displayName = "VS-121 (Sand)";
-    };
-
-    // HERA H6
-    class srifle_h6_base_rf;
-    class srifle_h6_tan_rf: srifle_h6_base_rf {
-        displayName = "HERA H6 (Sand)";
-    };
-    class srifle_h6_digi_rf: srifle_h6_tan_rf {
-        displayName = "HERA H6 (DAP Green)";
-    };
+    #include "CfgWeapons_Helmets.hpp"
+    #include "CfgWeapons_Rifles.hpp"
 
     // Vortex Spitfire Prism
     class ItemCore;
@@ -52,14 +40,14 @@ class CfgWeapons {
         displayName = "PSRL-1 (DAP Green)";
     };
     class launch_PSRL1_geo_RF: launch_PSRL1_base_RF {
-        displayName = "PSRL-1 (Geo)";
+        displayName = "PSRL-1 (Geo Woodland)";
     };
     class launch_PSRL1_PWS_base_RF;
     class launch_PSRL1_PWS_digi_RF: launch_PSRL1_PWS_base_RF {
         displayName = "PSRL-1 PWS (DAP Green)";
     };
     class launch_PSRL1_PWS_geo_RF: launch_PSRL1_PWS_base_RF {
-        displayName = "PSRL-1 PWS (Geo)";
+        displayName = "PSRL-1 PWS (Geo Woodland)";
     };
 
     // Sound Suppressor

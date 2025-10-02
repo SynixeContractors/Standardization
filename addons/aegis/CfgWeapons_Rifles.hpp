@@ -315,7 +315,7 @@ class MMG_01_hex_F: MMG_01_base_F {
     displayName = "HK121 (Hex Arid)";
 };
 class MMG_01_ghex_F: MMG_01_hex_F {
-    displayName = "HK121 (Hex Woodland)";
+    displayName = "HK121 (Hex Tropic)";
 };
 class MMG_01_tan_F: MMG_01_hex_F {
     displayName = "HK121 (Sand)";
@@ -701,7 +701,13 @@ class Opf_arifle_SKS_oak_F: Opf_arifle_SKS_base_F {
 // Noreen ULR
 class srifle_DMR_02_F;
 class srifle_DMR_02_tna_F: srifle_DMR_02_F {
-    displayName = "Noreen ""Bad News"" ULR (Tropic)";
+    displayName = "Noreen ""Bad News"" ULR (Dazzle Dark)";
+};
+
+// Stoner 99 LMG
+class LMG_Mk200_F;
+class LMG_Mk200_khk_F: LMG_Mk200_F {
+    displayName = "Stoner 99 LMG (Olive)";
 };
 
 // F2000
@@ -717,17 +723,24 @@ class arifle_Mk20C_plain_F;
 class arifle_Mk20C_hex_F: arifle_Mk20C_plain_F {
     displayName = "F2000 Tactical (Hex Arid)";
 };
+class arifle_Mk20_GL_black_F: arifle_Mk20_GL_plain_F {
+    displayName = "F2000 GL (Black)";
+};
 
 // Negev NG7
 class LMG_Zafir_F;
 class LMG_Zafir_ghex_F: LMG_Zafir_F {
-    displayName = "Negev NG7 (Hex Woodland)";
+    displayName = "Negev NG7 (Hex Tropic)";
 };
 
 // GM6B Cheetah .50 BMG
 class Aegis_srifle_GM6B_base_F;
 class Aegis_srifle_GM6B_F: Aegis_srifle_GM6B_base_F {
     displayName = "GM6B Cheetah .50 BMG (Black)";
+};
+class Aegis_srifle_GM6B_sand_F;
+class Aegis_srifle_GM6B_khaki_F: Aegis_srifle_GM6B_sand_F {
+    displayName = "GM6B Cheetah .50 BMG (Olive)";
 };
 
 // HK416A5
@@ -740,6 +753,12 @@ class Aegis_arifle_SPAR_02_inf_khk_F: Aegis_arifle_SPAR_02_Inf_base_F {
 };
 class Aegis_arifle_SPAR_02_inf_snd_F: Aegis_arifle_SPAR_02_Inf_base_F {
     scope = 1;
+};
+
+// FN Minimi SPW
+class LMG_03_base_F;
+class LMG_03_khk_F: LMG_03_base_F {
+    displayName = "FN Minimi SPW (Olive)";
 };
 
 // Sound Suppressor

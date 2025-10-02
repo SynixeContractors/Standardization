@@ -40,7 +40,7 @@ class srifle_GM6_camo_F: srifle_GM6_F {
     displayName = "GM6 Lynx (Hex Arid)";
 };
 class srifle_GM6_ghex_F: srifle_GM6_F {
-    displayName = "GM6 Lynx (Hex Woodland)";
+    displayName = "GM6 Lynx (Hex Tropic)";
 };
 
 // Cyrus
@@ -58,7 +58,7 @@ class srifle_LRR_F: LRR_base_F {
 // Mk14 Mod 1 EBR
 class EBR_base_F;
 class srifle_EBR_F: EBR_base_F {
-    displayName = "Mk14 Mod 1 EBR (Black)";
+    displayName = "Mk14 Mod 1 EBR (Tan)";
 };
 
 // MX
@@ -109,9 +109,6 @@ class LMG_Zafir_F: Rifle_Long_Base_F {
 class srifle_DMR_02_F;
 class srifle_DMR_02_camo_F: srifle_DMR_02_F {
     displayName = "Noreen ""Bad News"" ULR (Dazzle Light)";
-};
-class srifle_DMR_02_tna_F: srifle_DMR_02_F {
-    displayName = "Noreen ""Bad News"" ULR (Dazzle Dark)";
 };
 
 // P90
