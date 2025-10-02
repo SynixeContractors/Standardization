@@ -13,7 +13,7 @@ class H_HelmetHBK_ear_F: H_HelmetHBK_ear_base_F {
 };
 class H_HelmetHBK_headset_base_F;
 class H_HelmetHBK_headset_F: H_HelmetHBK_headset_base_F {
-    displayName = "AMH (Geo Woodland, Headset)";
+    displayName = "AMH (Geo Woodland, Headphones)";
 };
 
 // Avenger Helmet

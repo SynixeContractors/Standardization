@@ -2,7 +2,7 @@ class H_HelmetB;
 
 // Special Purpose Helmet
 class H_HelmetO_ViperSP_hex_F: H_HelmetB {
-    displayName = "Special Purpose Helmet (Hex Ariod)";
+    displayName = "Special Purpose Helmet (Hex Arid)";
 };
 class H_HelmetO_ViperSP_ghex_F: H_HelmetO_ViperSP_hex_F {
     displayName = "Special Purpose Helmet (Hex Tropic)";

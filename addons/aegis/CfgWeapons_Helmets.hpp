@@ -13,7 +13,7 @@ class H_HelmetHBK_arid_ear_F: H_HelmetHBK_ear_base_F {
 };
 class H_HelmetHBK_headset_base_F;
 class H_HelmetHBK_arid_headset_F: H_HelmetHBK_headset_base_F {
-    displayName = "AMH (Geo Arid, Headset)";
+    displayName = "AMH (Geo Arid, Headphones)";
 };
 class H_HelmetHBK_olive_F: H_HelmetHBK_base_F {
     displayName = "AMH (Olive)";
@@ -25,7 +25,7 @@ class H_HelmetHBK_olive_ear_F: H_HelmetHBK_ear_base_F {
     displayName = "AMH (Olive, Ear Protectors)";
 };
 class H_HelmetHBK_olive_headset_F: H_HelmetHBK_headset_base_F {
-    displayName = "AMH (Olive, Headset)";
+    displayName = "AMH (Olive, Headphones)";
 };
 
 class H_HelmetHBK_commando_F: H_HelmetHBK_base_F {
@@ -38,7 +38,7 @@ class H_HelmetHBK_commando_ear_F: H_HelmetHBK_ear_base_F {
     displayName = "AMH (Horizon Digital, Ear Protectors)";
 };
 class H_HelmetHBK_commando_headset_F: H_HelmetHBK_headset_base_F {
-    displayName = "AMH (Horizon Digital, Headset)";
+    displayName = "AMH (Horizon Digital, Headphones)";
 };
 
 // Hiding ADF variants
@@ -55,7 +55,7 @@ class H_HelmetHBK_aucamo_arid_ear_F: H_HelmetHBK_ear_base_F {
     scope = 1;
 };
 class H_HelmetHBK_aucamo_arid_headset_F: H_HelmetHBK_headset_base_F {
-    displayName = "AMH (ADF Arid, Headset)";
+    displayName = "AMH (ADF Arid, Headphones)";
     scope = 1;
 };
 class H_HelmetHBK_aucamo_tropic_F: H_HelmetHBK_base_F {
@@ -71,7 +71,7 @@ class H_HelmetHBK_aucamo_tropic_ear_F: H_HelmetHBK_ear_base_F {
     scope = 1;
 };
 class H_HelmetHBK_aucamo_tropic_headset_F: H_HelmetHBK_headset_base_F {
-    displayName = "AMH (ADF Tropic, Headset)";
+    displayName = "AMH (ADF Tropic, Headphones)";
     scope = 1;
 };
 class H_HelmetHBK_aucamo_F: H_HelmetHBK_base_F {
@@ -87,7 +87,7 @@ class H_HelmetHBK_aucamo_ear_F: H_HelmetHBK_ear_base_F {
     scope = 1;
 };
 class H_HelmetHBK_aucamo_headset_F: H_HelmetHBK_headset_base_F {
-    displayName = "AMH (ADF Woodland, Headset)";
+    displayName = "AMH (ADF Woodland, Headphones)";
     scope = 1;
 };
 
@@ -172,7 +172,7 @@ class Atlas_H_PASGT_Cover_UN_F: Atlas_H_PASGT_Cover_base_F {
 };
 class Atlas_H_PASGT_Cover_I_Base_F;
 class Atlas_H_PASGT_Cover_I_UNA_F: Atlas_H_PASGT_Cover_I_Base_F {
-    displayName = "PASGT Cover [UNA] (UNA)";
+    displayName = "PASGT Cover [UNA] (UN)";
 };
 class Atlas_H_PASGT_Cover_HIMF_F: Atlas_H_PASGT_Cover_base_F {
     displayName = "PASGT Cover (Horizon Stripe)";
@@ -302,7 +302,7 @@ class Atlas_H_FieldCap_kzg: Atlas_H_FieldCap_flecktarn {
 };
 class Atlas_H_FieldCap_hs_kzg: Atlas_H_FieldCap_hs_flecktarn {
     scope = 2;
-    displayName = "Field Cap (Khaybaran, Headset)";
+    displayName = "Field Cap (Khaybaran, Headphones)";
 };
 class Atlas_H_FieldCap_ldf: Atlas_H_FieldCap_flecktarn {
     scope = 2;
@@ -310,11 +310,11 @@ class Atlas_H_FieldCap_ldf: Atlas_H_FieldCap_flecktarn {
 };
 class Atlas_H_FieldCap_hs_ldf: Atlas_H_FieldCap_hs_flecktarn {
     scope = 2;
-    displayName = "Field Cap [LDF] (Geo Woodland, Headset)";
+    displayName = "Field Cap [LDF] (Geo Woodland, Headphones)";
 };
 class Atlas_H_FieldCap_hs_pantera: Atlas_H_FieldCap_hs_flecktarn {
     scope = 2;
-    displayName = "Field Cap [LDF] (Pantera, Headset)";
+    displayName = "Field Cap [LDF] (Pantera, Headphones)";
 };
 class Atlas_H_FieldCap_pantera: Atlas_H_FieldCap_flecktarn {
     scope = 2;
@@ -328,13 +328,13 @@ class Aegis_H_Helmet_Virtus_rgr_F: Aegis_H_Helmet_Virtus_base_F {
 };
 class Aegis_H_Helmet_Virtus_Headset_base_F;
 class Aegis_H_Helmet_Virtus_Headset_rgr_F: Aegis_H_Helmet_Virtus_Headset_base_F {
-    displayName = "Fortis (Ranger Green, Headset)";
+    displayName = "Fortis (Ranger Green, Headphones)";
 };
 class Aegis_H_Helmet_Virtus_snd_F: Aegis_H_Helmet_Virtus_base_F {
     displayName = "Fortis (Sand)";
 };
 class Aegis_H_Helmet_Virtus_Headset_snd_F: Aegis_H_Helmet_Virtus_Headset_base_F {
-    displayName = "Fortis (Sand, Headset)";
+    displayName = "Fortis (Sand, Headphones)";
 };
 class Aegis_H_Helmet_Virtus_Cover_base_F;
 class Aegis_H_Helmet_Virtus_Cover_mtp_F: Aegis_H_Helmet_Virtus_Cover_base_F {
@@ -411,19 +411,19 @@ class Atlas_H_HelmetCCH_HiCut_blk_F: Atlas_H_HelmetCCH_HiCut_base_F {
 };
 class Atlas_H_HelmetCCH_HiCut_headset_base_F;
 class Atlas_H_HelmetCCH_HiCut_Headset_blk_F: Atlas_H_HelmetCCH_HiCut_headset_base_F {
-    displayName = "Intruder (Black, Headset)";
+    displayName = "Intruder (Black, Headphones)";
 };
 class Atlas_H_HelmetCCH_HiCut_grn_F: Atlas_H_HelmetCCH_HiCut_base_F {
     displayName = "Intruder (Green)";
 };
 class Atlas_H_HelmetCCH_HiCut_Headset_grn_F: Atlas_H_HelmetCCH_HiCut_headset_base_F {
-    displayName = "Intruder (Green, Headset)";
+    displayName = "Intruder (Green, Headphones)";
 };
 class Atlas_H_HelmetCCH_HiCut_khk_F: Atlas_H_HelmetCCH_HiCut_base_F {
     displayName = "Intruder (Khaki)";
 };
 class Atlas_H_HelmetCCH_HiCut_Headset_khk_F: Atlas_H_HelmetCCH_HiCut_headset_base_F {
-    displayName = "Intruder (Khaki, Headset)";
+    displayName = "Intruder (Khaki, Headphones)";
 };
 
 class Atlas_H_HelmetCCH_HiCut_Cover_base_F;
@@ -501,25 +501,25 @@ class Aegis_H_Helmet_FASTMT_blk_F: Aegis_H_Helmet_FASTMT_base_F {
 };
 class Aegis_H_Helmet_FASTMT_headset_base_F;
 class Aegis_H_Helmet_FASTMT_Headset_blk_F: Aegis_H_Helmet_FASTMT_headset_base_F {
-    displayName = "Operator (Black, Headset)";
+    displayName = "Operator (Black, Headphones)";
 };
 class Aegis_H_Helmet_FASTMT_cbr_F: Aegis_H_Helmet_FASTMT_base_F {
     displayName = "Operator (Coyote Brown)";
 };
 class Aegis_H_Helmet_FASTMT_Headset_cbr_F: Aegis_H_Helmet_FASTMT_headset_base_F {
-    displayName = "Operator (Coyote Brown, Headset)";
+    displayName = "Operator (Coyote Brown, Headphones)";
 };
 class Aegis_H_Helmet_FASTMT_rgr_F: Aegis_H_Helmet_FASTMT_base_F {
     displayName = "Operator (Ranger Green)";
 };
 class Aegis_H_Helmet_FASTMT_Headset_rgr_F: Aegis_H_Helmet_FASTMT_headset_base_F {
-    displayName = "Operator (Ranger Green, Headset)";
+    displayName = "Operator (Ranger Green, Headphones)";
 };
 class Aegis_H_Helmet_FASTMT_tan_F: Aegis_H_Helmet_FASTMT_base_F {
     displayName = "Operator (Sand)";
 };
 class Aegis_H_Helmet_FASTMT_Headset_tan_F: Aegis_H_Helmet_FASTMT_headset_base_F {
-    displayName = "Operator (Sand, Headset)";
+    displayName = "Operator (Sand, Headphones)";
 };
 class Aegis_H_Helmet_FASTMT_Cover_base_F;
 class Aegis_H_Helmet_FASTMT_Cover_blk_F: Aegis_H_Helmet_FASTMT_Cover_base_F {
@@ -580,19 +580,19 @@ class H_HelmetLuchnik_brn_F: H_HelmetLuchnik_base_F {
 };
 class H_HelmetLuchnik_headset_base_F;
 class H_HelmetLuchnik_headset_brn_F: H_HelmetLuchnik_headset_base_F {
-    displayName = "Luchnik (Brown, Headset)";
+    displayName = "Luchnik (Brown, Headphones)";
 };
 class H_HelmetLuchnik_khk_F: H_HelmetLuchnik_base_F {
     displayName = "Luchnik (Khaki)";
 };
 class H_HelmetLuchnik_headset_khk_F: H_HelmetLuchnik_headset_base_F {
-    displayName = "Luchnik (Khaki, Headset)";
+    displayName = "Luchnik (Khaki, Headphones)";
 };
 class H_HelmetLuchnik_olive_F: H_HelmetLuchnik_base_F {
     displayName = "Luchnik (Olive)";
 };
 class H_HelmetLuchnik_headset_olive_F: H_HelmetLuchnik_headset_base_F {
-    displayName = "Luchnik (Olive, Headset)";
+    displayName = "Luchnik (Olive, Headphones)";
 };
 class H_HelmetLuchnik_cover_base_F;
 class H_HelmetLuchnik_cover_ruarid_F: H_HelmetLuchnik_cover_base_F {
@@ -645,16 +645,16 @@ class H_HelmetSpecter_paint_F: H_HelmetSpecter_base_F {
 };
 class H_HelmetSpecter_headset_base_F;
 class H_HelmetSpecter_headset_F: H_HelmetSpecter_headset_base_F {
-    displayName = "Raven (Olive, Headset)";
+    displayName = "Raven (Olive, Headphones)";
 };
 class H_HelmetSpecter_headset_black_F: H_HelmetSpecter_headset_base_F {
-    displayName = "Raven (Black, Headset)";
+    displayName = "Raven (Black, Headphones)";
 };
 class H_HelmetSpecter_headset_brown_F: H_HelmetSpecter_headset_base_F {
-    displayName = "Raven (Brown, Headset)";
+    displayName = "Raven (Brown, Headphones)";
 };
 class H_HelmetSpecter_headset_paint_F: H_HelmetSpecter_headset_base_F {
-    displayName = "Raven (Spraypaint, Headset)";
+    displayName = "Raven (Spraypaint, Headphones)";
 };
 
 class H_HelmetSpecter_cover_base_F;
@@ -759,4 +759,13 @@ class H_HelmetIA_sb_digital_RF: H_HelmetIA {
 };
 class H_HelmetIA_sb_arid_RF: H_HelmetIA {
     displayName = "Modular Helmet Shape Breaker (Hex Arid)";
+};
+
+// Protector Helmet
+class H_HelmetO_ocamo;
+class H_HelmetO_oicamo: H_HelmetO_ocamo {
+    displayName = "Protector Helmet (Hex Desert)";
+};
+class H_HelmetO_whex_F: H_HelmetO_ocamo {
+    displayName = "Protector Helmet (Hex Woodland)";
 };

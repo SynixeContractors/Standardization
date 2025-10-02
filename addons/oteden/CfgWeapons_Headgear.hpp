@@ -92,100 +92,142 @@ class H_Bandanna_gry_headset: H_Bandanna_gry {
 
 // Rename
 class H_MilCap_checker: H_MilCap_ocamo {
-    displayName = "Military Cap (Headset, Checker Green)";
+    displayName = "Military Cap (Checker Green, Headset)";
 };
 class H_MilCap_checker_tan: H_MilCap_checker {
-    displayName = "Military Cap (Headset, Checker Orange)";
+    displayName = "Military Cap (Checker Orange, Headset)";
 };
 class H_MilCap_checker_white: H_MilCap_checker {
-    displayName = "Military Cap (Headset, Checker White)";
+    displayName = "Military Cap (Checker White, Headset)";
 };
 
 // Bandana
 class H_Bandanna_surfer_blk;
 class H_Bandanna_surfer_blk_headset: H_Bandanna_surfer_blk {
-    ace_hearing_hasEHP = 1;
+    ACE_HEARING_PELTOR;
 };
 class H_Bandanna_surfer_grn;
 class H_Bandanna_surfer_grn_headset: H_Bandanna_surfer_grn {
-    ace_hearing_hasEHP = 1;
+    ACE_HEARING_PELTOR;
 };
 class H_Bandanna_cbr;
 class H_Bandanna_cbr_headset: H_Bandanna_cbr {
     displayName = "Bandana (Coyote, Headset)";
-    ace_hearing_hasEHP = 1;
+    ACE_HEARING_PELTOR;
 };
 class H_Bandanna_surfer: HelmetBase {
     displayName = "Bandana (Surfer, Blue)";
 };
 class H_Bandanna_surfer_headset: H_Bandanna_surfer {
     displayName = "Bandana (Surfer, Blue, Headset)";
-    ace_hearing_hasEHP = 1;
+    ACE_HEARING_PELTOR;
 };
 class H_Bandanna_mcamo;
 class H_Bandanna_mcamo_headset: H_Bandanna_mcamo {
     displayName = "Bandana (Multicam, Headset)";
-    ace_hearing_hasEHP = 1;
+    ACE_HEARING_PELTOR;
 };
 
 // Cap
 class H_Cap_grn_BI;
 class H_Cap_grn_BI_headset: H_Cap_grn_BI {
-    ace_hearing_hasEHP = 1;
+    ACE_HEARING_PELTOR;
 };
 class H_Cap_blk;
 class H_Cap_blk_headset: H_Cap_blk {
-    ace_hearing_hasEHP = 1;
+    displayName = "Cap (Dark, Headset)";
+    ACE_HEARING_PELTOR;
 };
 class H_Cap_Black_IDAP_F;
 class H_Cap_Black_IDAP_headset: H_Cap_Black_IDAP_F {
-    ace_hearing_hasEHP = 1;
+    ACE_HEARING_PELTOR;
+    displayName = "Cap [IDAP] (Black, Headset)";
 };
 class H_Cap_blu;
 class H_Cap_blu_headset: H_Cap_blu {
-    ace_hearing_hasEHP = 1;
+    ACE_HEARING_PELTOR;
 };
 class H_Cap_blk_CMMG;
 class H_Cap_blk_CMMG_headset: H_Cap_blk_CMMG {
-    ace_hearing_hasEHP = 1;
+    ACE_HEARING_PELTOR;
+    displayName = "Cap [CMMG] (Dark, Headset)";
 };
 class H_Cap_grn;
 class H_Cap_grn_headset: H_Cap_grn {
-    ace_hearing_hasEHP = 1;
+    ACE_HEARING_PELTOR;
 };
 class H_Cap_Lyfe;
 class H_Cap_Lyfe_headset: H_Cap_Lyfe {
-    ace_hearing_hasEHP = 1;
+    ACE_HEARING_PELTOR;
+    displayName = "Cap [LYFE] (Black, Headset)";
 };
 class H_Cap_MaldenTours;
 class H_Cap_MaldenTours_headset: H_Cap_MaldenTours {
-    ace_hearing_hasEHP = 1;
+    ACE_HEARING_PELTOR;
+    displayName = "Cap [Malden Tours] (Black, Headset)";
 };
 class H_Cap_Orange_IDAP_F;
 class H_Cap_Orange_IDAP_headset: H_Cap_Orange_IDAP_F {
-    ace_hearing_hasEHP = 1;
+    ACE_HEARING_PELTOR;
+    displayName = "Cap [IDAP] (Orange, Headset)";
 };
 class H_Cap_police;
 class H_Cap_police_headset: H_Cap_police {
-    ace_hearing_hasEHP = 1;
+    ACE_HEARING_PELTOR;
+    displayName = "Cap [Police] (Navy, Headset)";
 };
 class H_Cap_press;
 class H_Cap_press_headset: H_Cap_press {
-    ace_hearing_hasEHP = 1;
+    ACE_HEARING_PELTOR;
+    displayName = "Cap [Press] (Black, Headset)";
+};
+class H_Cap_brn_SERO;
+class H_Cap_brn_SERO_headset: H_Cap_brn_SERO {
+    ACE_HEARING_PELTOR;
+    displayName = "Cap [SERO] (Brown, Headset)";
 };
 class H_Cap_red;
 class H_Cap_red_headset: H_Cap_red {
-    ace_hearing_hasEHP = 1;
+    ACE_HEARING_PELTOR;
 };
 class H_Cap_surfer;
 class H_Cap_surfer_headset: H_Cap_surfer {
-    ace_hearing_hasEHP = 1;
+    ACE_HEARING_PELTOR;
 };
 class H_Cap_tan;
 class H_Cap_tan_headset: H_Cap_tan {
-    ace_hearing_hasEHP = 1;
+    ACE_HEARING_PELTOR;
+    displayName = "Cap (Sand, Headset)";
 };
 class H_Cap_White_IDAP_F;
 class H_Cap_White_IDAP_headset: H_Cap_White_IDAP_F {
-    ace_hearing_hasEHP = 1;
+    displayName = "Cap [IDAP] (White, Headset)";
+    ACE_HEARING_PELTOR;
+};
+class H_Cap_Bandanna_F: HelmetBase {
+    scope = 1;
+    scopeArsenal = 1;
+};
+class H_Cap_brn_SPECOPS;
+class H_Cap_brn_SPECOPS_headset: H_Cap_brn_SPECOPS {
+    displayName = "Cap (Hex Arid, Headset)";
+    ACE_HEARING_PELTOR;
+    scope = 1;
+    scopeArsenal = 1;
+};
+
+// Beret
+class H_Beret_blk;
+class H_Beret_EAF_01_green: H_Beret_blk {
+    displayName = "Beret Officer [LDF] (Green)";
+};
+
+// Shemagh
+class H_Shemag_white_headset: HelmetBase {
+    scope = 1;
+    scopeArsenal = 1;
+};
+class H_Shemag_tan_headset: HelmetBase {
+    scope = 1;
+    scopeArsenal = 1;
 };

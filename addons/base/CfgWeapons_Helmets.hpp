@@ -1,12 +1,3 @@
-// Assassin Helmet
-class H_HelmetO_ocamo;
-class H_HelmetSpecO_ocamo: H_HelmetO_ocamo {
-    displayName = "Assassin Helmet (Hex Arid)";
-};
-class H_HelmetSpecO_ghex_F: H_HelmetSpecO_ocamo {
-    displayName = "Assassin Helmet (Hex Tropic)";
-};
-
 // PASGT
 class H_PASGT_basic_base_F;
 class H_PASGT_basic_black_F: H_PASGT_basic_base_F {
@@ -112,15 +103,6 @@ class H_HelmetCrew_I: H_HelmetCrew_B {
     displayName = "Crew Helmet (Olive)";
 };
 
-// Defender Helmet
-class H_HelmetLeaderO_ocamo: H_HelmetO_ocamo {
-    displayName = "Defender Helmet (Hex Arid)";
-};
-class H_HelmetLeaderO_oucamo: H_HelmetLeaderO_ocamo {
-    displayName = "Defender Helmet (Hex Urban)";
-};
-
-
 // Heli Pilot Helmet
 class H_PilotHelmetHeli_B: H_HelmetB {
     displayName = "Heli Pilot (Black, Visor)";
@@ -158,4 +140,31 @@ class H_HelmetCrew_O: H_HelmetCrew_B {
 };
 class H_HelmetCrew_O_ghex_F: H_HelmetCrew_O {
     displayName = "Crew Helmet (Hex Tropic)";
+};
+
+// Protector Helmet
+class H_HelmetO_ocamo: H_HelmetB {
+    displayName = "Protector Helmet (Hex Arid)";
+};
+class H_HelmetO_ghex_F: H_HelmetO_ocamo {
+    displayName = "Protector Helmet (Hex Tropic)";
+};
+class H_HelmetO_oucamo: H_HelmetO_ocamo {
+    displayName = "Protector Helmet (Hex Urban)";
+};
+
+// Assassin Helmet
+class H_HelmetSpecO_ocamo: H_HelmetO_ocamo {
+    displayName = "Assassin Helmet (Hex Arid)";
+};
+class H_HelmetSpecO_ghex_F: H_HelmetSpecO_ocamo {
+    displayName = "Assassin Helmet (Hex Tropic)";
+};
+
+// Defender Helmet
+class H_HelmetLeaderO_ocamo: H_HelmetO_ocamo {
+    displayName = "Defender Helmet (Hex Arid)";
+};
+class H_HelmetLeaderO_oucamo: H_HelmetLeaderO_ocamo {
+    displayName = "Defender Helmet (Hex Urban)";
 };

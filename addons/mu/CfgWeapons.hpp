@@ -55,4 +55,21 @@ class CfgWeapons {
         scope = 1;
         scopeArsenal = 1;
     };
+
+    // Beret
+    class H_Beret_Colonel;
+    class H_MU_Beret_Colonel_eagle: H_Beret_Colonel {
+        displayName = "Beret Officer [IEA] (Black, Eagle Ensign)";
+    };
+
+    // Military Cap
+    class H_MilCap_oucamo;
+    class H_MU_MilCap_blk: H_MilCap_oucamo {
+        scope = 1;
+        scopeArsenal = 1;
+    };
+    class H_MU_MilCap_cbr: H_MilCap_oucamo {
+        scope = 1;
+        scopeArsenal = 1;
+    };
 };

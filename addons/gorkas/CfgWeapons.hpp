@@ -118,7 +118,7 @@ class CfgWeapons {
     class H_Watchcap_red_hsless: H_Watchcap_blu_hsless {
         displayName = "Beanie (Bright Red)";
     };
-    class H_Watchcap_red_hs: H_Watchcap_red_hsless {
+    class H_Watchcap_red2_hs: H_Watchcap_red_hsless {
         displayName = "Beanie (Bright Red, Headset)";
         BEANIE_HEADSET;
     };
@@ -208,10 +208,11 @@ class CfgWeapons {
         BOONIEHAT_HEADSET;
     };
     class H_Booniehat_woodland: H_Booniehat_khk {
+        displayName = "Boonie Hat (Woodland Dark)";
         class ItemInfo;
     };
     class H_Booniehat_woodland_hs: H_Booniehat_woodland {
-        displayName = "Boonie Hat (Woodland, Headset)";
+        displayName = "Boonie Hat (Woodland Dark, Headset)";
         BOONIEHAT_HEADSET;
     };
 };

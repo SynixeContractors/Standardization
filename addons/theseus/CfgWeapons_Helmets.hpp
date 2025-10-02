@@ -60,23 +60,23 @@ class tacs_Helmet_Modular_Ear_RGR: H_HelmetHBK_ear_F {
 };
 class H_HelmetHBK_headset_F;
 class tacs_Helmet_Modular_Headset_AU: H_HelmetHBK_headset_F {
-    displayName = "AMH (A-TACS AU, Headset)";
+    displayName = "AMH (A-TACS AU, Headphones)";
 };
 class tacs_Helmet_Modular_Headset_FG: H_HelmetHBK_headset_F {
-    displayName = "AMH (A-TACS FG, Headset)";
+    displayName = "AMH (A-TACS FG, Headphones)";
 };
 class tacs_Helmet_Modular_Headset_Black: H_HelmetHBK_headset_F {
-    displayName = "AMH (Black, Headset)";
+    displayName = "AMH (Black, Headphones)";
 };
 class tacs_Helmet_Modular_Headset_Coyote: H_HelmetHBK_headset_F {
-    displayName = "AMH (Coyote, Headset)";
+    displayName = "AMH (Coyote, Headphones)";
 };
 class tacs_Helmet_Modular_Headset_Green: H_HelmetHBK_headset_F {
-    displayName = "AMH (Green, Headset)";
+    displayName = "AMH (Green, Headphones)";
     scope = 1;
 };
 class tacs_Helmet_Modular_Headset_RGR: H_HelmetHBK_headset_F {
-    displayName = "AMH (Ranger Green, Headset)";
+    displayName = "AMH (Ranger Green, Headphones)";
 };
 
 // Combat Helmet

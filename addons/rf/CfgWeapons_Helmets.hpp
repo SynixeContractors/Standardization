@@ -109,3 +109,12 @@ class H_PilotHelmetHeli_White_RF: H_PilotHelmetHeli_Black_RF {
 class H_PilotHelmetHeli_Yellow_RF: H_PilotHelmetHeli_Black_RF {
     displayName = "Heli Falcon (Yellow)";
 };
+
+// Protector Helmet
+class H_HelmetO_ocamo;
+class H_HelmetO_ocamo_sb_hex_RF: H_HelmetO_ocamo {
+    displayName = "Protector Helmet Shape Breaker (Hex Arid)";
+};
+class H_HelmetO_ocamo_sb_urban_RF: H_HelmetO_ocamo {
+    displayName = "Protector Helmet Shape Breaker (Hex Urban)";
+};

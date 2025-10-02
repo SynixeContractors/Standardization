@@ -10,7 +10,7 @@ class lxWS_H_bmask_ghex: lxWS_H_bmask_base {
 // PASGT
 class HelmetBase;
 class lxWS_H_PASGT_basic_UN_F: HelmetBase {
-    displayName = "PASGT [UNA] (UNA)";
+    displayName = "PASGT [UNA] (UN)";
 };
 
 // PASGT Goggles
@@ -37,5 +37,5 @@ class lxWS_H_ssh40_white: lxWS_H_ssh40_black {
     displayName = "SSh-40 (White)";
 };
 class lxWS_H_ssh40_un: lxWS_H_ssh40_black {
-    displayName = "SSh-40 [UNA] (UNA)";
+    displayName = "SSh-40 [UNA] (UN)";
 };
