@@ -42,7 +42,7 @@ class H_Cap_ghex_hs_F: H_Cap_ghex_F {
 };
 class H_Cap_brn_SPECOPS;
 class H_Cap_brn_SPECOPS_hs: H_Cap_brn_SPECOPS {
-    displayName = "Cap (Hex Arid, Headset)";
+    displayName = "Cap (Hex Ochre, Headset)";
 };
 class H_Cap_blk_ION;
 class H_Cap_blk_ION_hs: H_Cap_blk_ION {
@@ -158,10 +158,10 @@ class H_Booniehat_ghex_hs_F: H_Booniehat_ghex_F {
     displayName = "Boonie Hat (Hex Tropic, Headset)";
 };
 class H_Booniehat_ocamo: H_Booniehat_khk {
-    displayName = "Boonie Hat (Hex Arid)";
+    displayName = "Boonie Hat (Hex Ochre)";
 };
 class H_Booniehat_ocamo_hs: H_Booniehat_ocamo {
-    displayName = "Boonie Hat (Hex Arid, Headset)";
+    displayName = "Boonie Hat (Hex Ochre, Headset)";
 };
 class H_Booniehat_whex_F: H_Booniehat_khk {
     displayName = "Boonie Hat (Hex Woodland)";
@@ -326,7 +326,7 @@ class H_MilCap_whex_F: H_MilCap_ocamo {
     displayName = "Military Cap (Hex Woodland, Headset)";
 };
 class Aegis_H_Milcap_nohs_ocamo_F: Aegis_H_Milcap_nohs_base_F {
-    displayName = "Military Cap (Hex Arid)";
+    displayName = "Military Cap (Hex Ochre)";
 };
 class Aegis_H_Milcap_nohs_ghex_F: Aegis_H_Milcap_nohs_base_F {
     displayName = "Military Cap (Hex Tropic)";

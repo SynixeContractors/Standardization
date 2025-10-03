@@ -1,6 +1,8 @@
 class CfgWeapons {
     #include "CfgWeapons_Rifles.hpp"
+    #include "CfgWeapons_Headgear.hpp"
     #include "CfgWeapons_Helmets.hpp"
+    #include "CfgWeapons_Uniforms.hpp"
 
     class hgun_P07_F;
     class tacs_Walther_P99: hgun_P07_F {

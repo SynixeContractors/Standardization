@@ -5,7 +5,7 @@ class H_HelmetB_plain_sb_geo_RF: H_HelmetB_plain_mcamo {
 };
 class H_HelmetB_grass;
 class H_HelmetB_plain_sb_hex_RF: H_HelmetB_grass {
-    displayName = "CHP Shape Breaker (Hex Arid)";
+    displayName = "CHP Shape Breaker (Hex Ochre)";
 };
 class H_HelmetB_plain_sb_khaki_RF: H_HelmetB_grass {
     displayName = "CHP Shape Breaker (Khaki)";
@@ -47,13 +47,13 @@ class H_HelmetHeavy_VisorUp_GHex_RF: H_HelmetHeavy_VisorUp_Black_RF {
     displayName = "Krovnik (Hex Tropic, Visor Up)";
 };
 class H_HelmetHeavy_Hex_RF: H_HelmetHeavy_Black_RF {
-    displayName = "Krovnik (Hex Arid, Visor Down)";
+    displayName = "Krovnik (Hex Ochre, Visor Down)";
 };
 class H_HelmetHeavy_Simple_Hex_RF: H_HelmetHeavy_Simple_Black_RF {
-    displayName = "Krovnik (Hex Arid, No Visor)";
+    displayName = "Krovnik (Hex Ochre, No Visor)";
 };
 class H_HelmetHeavy_VisorUp_Hex_RF: H_HelmetHeavy_VisorUp_Black_RF {
-    displayName = "Krovnik (Hex Arid, Visor Up)";
+    displayName = "Krovnik (Hex Ochre, Visor Up)";
 };
 class H_HelmetHeavy_Olive_RF: H_HelmetHeavy_Black_RF {
     displayName = "Krovnik (Olive, Visor Down)";
@@ -113,7 +113,7 @@ class H_PilotHelmetHeli_Yellow_RF: H_PilotHelmetHeli_Black_RF {
 // Protector Helmet
 class H_HelmetO_ocamo;
 class H_HelmetO_ocamo_sb_hex_RF: H_HelmetO_ocamo {
-    displayName = "Protector Helmet Shape Breaker (Hex Arid)";
+    displayName = "Protector Helmet Shape Breaker (Hex Ochre)";
 };
 class H_HelmetO_ocamo_sb_urban_RF: H_HelmetO_ocamo {
     displayName = "Protector Helmet Shape Breaker (Hex Urban)";

@@ -1,5 +1,6 @@
 class CfgWeapons {
     #include "CfgWeapons_Headgear.hpp"
+    #include "CfgWeapons_Uniforms.hpp"
 
     class launch_RPG32_F;
     class launch_RPG32A1_hex: launch_RPG32_F {

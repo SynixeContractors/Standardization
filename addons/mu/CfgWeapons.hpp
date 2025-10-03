@@ -1,4 +1,6 @@
 class CfgWeapons {
+    #include "CfgWeapons_Uniforms.hpp"
+
     class H_HelmetLeaderO_ocamo;
     class H_MU_HelmetLeaderO_blk: H_HelmetLeaderO_ocamo {
         scope = 1;

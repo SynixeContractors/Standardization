@@ -109,7 +109,7 @@ class Aegis_H_turban_bmask_ghex_lxWS: H_turban_02_mask_black_lxws {
     displayName = "Ballistic Mask (Hex Tropic, Turban)";
 };
 class H_turban_02_mask_hex_lxws: H_turban_02_mask_black_lxws {
-    displayName = "Ballistic Mask (Hex Arid, Turban)";
+    displayName = "Ballistic Mask (Hex Ochre, Turban)";
 };
 class lxWS_H_bmask_base;
 class Aegis_lxWS_H_bmask_AAF: lxWS_H_bmask_base {
@@ -149,7 +149,7 @@ class Atlas_H_PASGT_Cover_Green_F: Atlas_H_PASGT_Cover_alt_Base_F {
     scope = 1; // Texture issues, remove if fixed
 };
 class Atlas_H_PASGT_Cover_O_Hex_F: Atlas_H_PASGT_Cover_O_Base_F {
-    displayName = "PASGT Cover (Hex Arid)";
+    displayName = "PASGT Cover (Hex Ochre)";
 };
 class Atlas_H_PASGT_Cover_base_F;
 class Atlas_H_PASGT_Cover_Olive_F: Atlas_H_PASGT_Cover_base_F {
@@ -434,7 +434,7 @@ class Atlas_H_HelmetCCH_HiCut_Cover_ghex_F: Atlas_H_HelmetCCH_HiCut_Cover_base_F
     displayName = "Intruder Cover (Hex Tropic)";
 };
 class Atlas_H_HelmetCCH_HiCut_cover_hex_F: Atlas_H_HelmetCCH_HiCut_Cover_base_F {
-    displayName = "Intruder Cover (Hex Arid)";
+    displayName = "Intruder Cover (Hex Ochre)";
 };
 class Atlas_H_HelmetCCH_HiCut_cover_mhex_F: Atlas_H_HelmetCCH_HiCut_Cover_base_F {
     displayName = "Intruder Cover (Hex Oceanic)";
@@ -479,7 +479,7 @@ class Atlas_H_HelmetCCH_Cover_ghex_F: Atlas_H_HelmetCCH_Cover_base_F {
     displayName = "Liberator Cover (Hex Tropic)";
 };
 class Atlas_H_HelmetCCH_cover_hex_F: Atlas_H_HelmetCCH_Cover_base_F {
-    displayName = "Liberator Cover (Hex Arid)";
+    displayName = "Liberator Cover (Hex Ochre)";
 };
 class Atlas_H_HelmetCCH_cover_mhex_F: Atlas_H_HelmetCCH_Cover_base_F {
     displayName = "Liberator Cover (Hex Oceanic)";
@@ -608,7 +608,7 @@ class H_HelmetLuchnik_cover_grn_F: H_HelmetLuchnik_cover_base_F {
     displayName = "Luchnik Cover (Green)";
 };
 class H_HelmetLuchnik_cover_hex_F: H_HelmetLuchnik_cover_base_F {
-    displayName = "Luchnik Cover (Hex Arid)";
+    displayName = "Luchnik Cover (Hex Ochre)";
 };
 class H_HelmetLuchnik_cover_khk_F: H_HelmetLuchnik_cover_base_F {
     displayName = "Luchnik Cover (Khaki)";
@@ -620,7 +620,7 @@ class H_HelmetLuchnik_cover_rutaiga_F: H_HelmetLuchnik_cover_base_F {
     displayName = "Luchnik Cover (Hex Taiga)";
 };
 class H_HelmetLuchnik_cover_ardi_F: H_HelmetLuchnik_cover_base_F {
-    displayName = "Luchnik Cover (Blotch Arid)";
+    displayName = "Luchnik Cover (Blotch)";
 };
 class H_HelmetLuchnik_cover_whex_F: H_HelmetLuchnik_cover_base_F {
     displayName = "Luchnik Cover (Hex Woodland)";
@@ -671,7 +671,7 @@ class H_HelmetSpecter_cover_ghex_F: H_HelmetSpecter_cover_base_F {
     displayName = "Raven Cover (Hex Tropic)";
 };
 class H_HelmetSpecter_cover_hex_F: H_HelmetSpecter_cover_base_F {
-    displayName = "Raven Cover (Hex Arid)";
+    displayName = "Raven Cover (Hex Ochre)";
 };
 class H_HelmetSpecter_cover_khaki_F: H_HelmetSpecter_cover_base_F {
     displayName = "Raven Cover (Khaki)";
@@ -758,7 +758,7 @@ class H_HelmetIA_sb_digital_RF: H_HelmetIA {
     displayName = "Modular Helmet Shape Breaker (DAP Green)";
 };
 class H_HelmetIA_sb_arid_RF: H_HelmetIA {
-    displayName = "Modular Helmet Shape Breaker (Hex Arid)";
+    displayName = "Modular Helmet Shape Breaker (Hex Ochre)";
 };
 
 // Protector Helmet

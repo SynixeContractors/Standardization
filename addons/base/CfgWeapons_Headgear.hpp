@@ -105,7 +105,7 @@ class H_Cap_blk_CMMG: H_Cap_red {
     displayName = "Cap [CMMG] (Dark)";
 };
 class H_Cap_brn_SPECOPS: H_Cap_red {
-    displayName = "Cap (Hex Arid)";
+    displayName = "Cap (Hex Ochre)";
 };
 class H_Cap_blk_ION: H_Cap_red {
     displayName = "Cap [ION] (Dark)";
@@ -156,7 +156,7 @@ class H_Cap_marshal: H_Cap_headphones {
 
 // Military Cap
 class H_MilCap_ocamo: HelmetBase {
-    displayName = "Military Cap (Hex Arid, Headset)";
+    displayName = "Military Cap (Hex Ochre, Headset)";
 };
 class lxWS_H_MilCap_desert: H_MilCap_ocamo {
     displayName = "Military Cap (Desert, Headset)";

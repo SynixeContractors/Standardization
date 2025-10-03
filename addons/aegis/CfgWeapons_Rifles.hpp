@@ -312,7 +312,7 @@ class arifle_G36_GL_Sand_F: arifle_G36_GL_base_F {
 // HK121
 class MMG_01_base_F;
 class MMG_01_hex_F: MMG_01_base_F {
-    displayName = "HK121 (Hex Arid)";
+    displayName = "HK121 (Hex Ochre)";
 };
 class MMG_01_ghex_F: MMG_01_hex_F {
     displayName = "HK121 (Hex Tropic)";
@@ -713,15 +713,15 @@ class LMG_Mk200_khk_F: LMG_Mk200_F {
 // F2000
 class arifle_Mk20_plain_F;
 class arifle_Mk20_hex_F: arifle_Mk20_plain_F {
-    displayName = "F2000 (Hex Arid)";
+    displayName = "F2000 (Hex Ochre)";
 };
 class arifle_Mk20_GL_plain_F;
 class arifle_Mk20_GL_hex_F: arifle_Mk20_GL_plain_F {
-    displayName = "F2000 GL (Hex Arid)";
+    displayName = "F2000 GL (Hex Ochre)";
 };
 class arifle_Mk20C_plain_F;
 class arifle_Mk20C_hex_F: arifle_Mk20C_plain_F {
-    displayName = "F2000 Tactical (Hex Arid)";
+    displayName = "F2000 Tactical (Hex Ochre)";
 };
 class arifle_Mk20_GL_black_F: arifle_Mk20_GL_plain_F {
     displayName = "F2000 GL (Black)";

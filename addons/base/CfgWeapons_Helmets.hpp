@@ -136,7 +136,7 @@ class H_HelmetIA: H_HelmetB {
 
 // Modular Crew Helmet
 class H_HelmetCrew_O: H_HelmetCrew_B {
-    displayName = "Crew Helmet (Hex Arid)";
+    displayName = "Crew Helmet (Hex Ochre)";
 };
 class H_HelmetCrew_O_ghex_F: H_HelmetCrew_O {
     displayName = "Crew Helmet (Hex Tropic)";
@@ -144,7 +144,7 @@ class H_HelmetCrew_O_ghex_F: H_HelmetCrew_O {
 
 // Protector Helmet
 class H_HelmetO_ocamo: H_HelmetB {
-    displayName = "Protector Helmet (Hex Arid)";
+    displayName = "Protector Helmet (Hex Ochre)";
 };
 class H_HelmetO_ghex_F: H_HelmetO_ocamo {
     displayName = "Protector Helmet (Hex Tropic)";
@@ -155,7 +155,7 @@ class H_HelmetO_oucamo: H_HelmetO_ocamo {
 
 // Assassin Helmet
 class H_HelmetSpecO_ocamo: H_HelmetO_ocamo {
-    displayName = "Assassin Helmet (Hex Arid)";
+    displayName = "Assassin Helmet (Hex Ochre)";
 };
 class H_HelmetSpecO_ghex_F: H_HelmetSpecO_ocamo {
     displayName = "Assassin Helmet (Hex Tropic)";
@@ -163,7 +163,7 @@ class H_HelmetSpecO_ghex_F: H_HelmetSpecO_ocamo {
 
 // Defender Helmet
 class H_HelmetLeaderO_ocamo: H_HelmetO_ocamo {
-    displayName = "Defender Helmet (Hex Arid)";
+    displayName = "Defender Helmet (Hex Ochre)";
 };
 class H_HelmetLeaderO_oucamo: H_HelmetLeaderO_ocamo {
     displayName = "Defender Helmet (Hex Urban)";

@@ -56,7 +56,7 @@ class glaunch_GLX_ghex_lxWS: glaunch_GLX_base_lxWS {
     displayName = "GLX 160 (Hex Tropic)";
 };
 class glaunch_GLX_hex_lxWS: glaunch_GLX_base_lxWS {
-    displayName = "GLX 160 (Hex Arid)";
+    displayName = "GLX 160 (Hex Ochre)";
 };
 
 // AA12
@@ -93,5 +93,5 @@ class LMG_S77_GHex_lxWS: LMG_S77_base_lxWS {
     displayName = "Vektor SS-77 (Hex Tropic)";
 };
 class LMG_S77_Hex_lxWS: LMG_S77_base_lxWS {
-    displayName = "Vektor SS-77 (Hex Arid)";
+    displayName = "Vektor SS-77 (Hex Ochre)";
 };

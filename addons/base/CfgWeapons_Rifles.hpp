@@ -37,7 +37,7 @@ class srifle_GM6_F: GM6_base_F {
     displayName = "GM6 Lynx (Black)";
 };
 class srifle_GM6_camo_F: srifle_GM6_F {
-    displayName = "GM6 Lynx (Hex Arid)";
+    displayName = "GM6 Lynx (Hex Ochre)";
 };
 class srifle_GM6_ghex_F: srifle_GM6_F {
     displayName = "GM6 Lynx (Hex Tropic)";
@@ -46,7 +46,7 @@ class srifle_GM6_ghex_F: srifle_GM6_F {
 // Cyrus
 class srifle_DMR_05_blk_F;
 class srifle_DMR_05_hex_F: srifle_DMR_05_blk_F {
-    displayName = "Cyrus (Hex Arid)";
+    displayName = "Cyrus (Hex Ochre)";
 };
 
 // M200 Intervention
@@ -167,5 +167,5 @@ class SMG_01_F: SMG_01_Base {
 // VS-121
 class DMR_01_base_F;
 class srifle_DMR_01_F: DMR_01_base_F {
-    displayName = "VS-121 (Hex Arid)";
+    displayName = "VS-121 (Hex Ochre)";
 };

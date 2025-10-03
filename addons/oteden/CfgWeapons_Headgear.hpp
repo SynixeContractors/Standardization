@@ -210,7 +210,7 @@ class H_Cap_Bandanna_F: HelmetBase {
 };
 class H_Cap_brn_SPECOPS;
 class H_Cap_brn_SPECOPS_headset: H_Cap_brn_SPECOPS {
-    displayName = "Cap (Hex Arid, Headset)";
+    displayName = "Cap (Hex Ochre, Headset)";
     ACE_HEARING_PELTOR;
     scope = 1;
     scopeArsenal = 1;

@@ -75,7 +75,7 @@ class srifle_DMR_07_ghex_F: DMR_07_base_F {
     displayName = "QBU-88 (Hex Tropic)";
 };
 class srifle_DMR_07_hex_F: DMR_07_base_F {
-    displayName = "QBU-88 (Hex Arid)";
+    displayName = "QBU-88 (Hex Ochre)";
 };
 // QBZ-95-1
 class arifle_CTAR_base_F;
@@ -83,21 +83,21 @@ class arifle_CTAR_ghex_F: arifle_CTAR_base_F {
     displayName = "QBZ-95-1 (Hex Tropic)";
 };
 class arifle_CTAR_hex_F: arifle_CTAR_base_F {
-    displayName = "QBZ-95-1 (Hex Arid)";
+    displayName = "QBZ-95-1 (Hex Ochre)";
 };
 class arifle_CTAR_GL_base_F;
 class arifle_CTAR_GL_ghex_F: arifle_CTAR_GL_base_F {
     displayName = "QBZ-95-1 GL (Hex Tropic)";
 };
 class arifle_CTAR_GL_hex_F: arifle_CTAR_GL_base_F {
-    displayName = "QBZ-95-1 GL (Hex Arid)";
+    displayName = "QBZ-95-1 GL (Hex Ochre)";
 };
 class arifle_CTARS_base_F;
 class arifle_CTARS_ghex_F: arifle_CTARS_base_F {
     displayName = "QBZ-95-1 LSW (Hex Tropic)";
 };
 class arifle_CTARS_hex_F: arifle_CTARS_base_F {
-    displayName = "QBZ-95-1 LSW (Hex Arid)";
+    displayName = "QBZ-95-1 LSW (Hex Ochre)";
 };
 
 // Type 115
@@ -106,5 +106,5 @@ class arifle_ARX_ghex_F: arifle_ARX_base_F {
     displayName = "Type 115 (Hex Tropic)";
 };
 class arifle_ARX_hex_F: arifle_ARX_base_F {
-    displayName = "Type 115 (Hex Arid)";
+    displayName = "Type 115 (Hex Ochre)";
 };
