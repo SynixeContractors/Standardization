@@ -78,10 +78,10 @@ class H_Beret_grn_SF: H_Beret_02 {
     scopeArsenal = 1;
 };
 class H_Beret_ocamo: H_Beret_02 {
-    displayName = "Beret Officer [CSAT] (Brown)";
+    displayName = "Beret Officer [CSP] (Brown)";
 };
 class H_Beret_CSAT_01_F: H_Beret_02 {
-    displayName = "Beret Officer [CSAT] (Red)";
+    displayName = "Beret Officer [CSP] (Red)";
 };
 class H_Beret_EAF_01_F: H_Beret_blk {
     displayName = "Beret Officer [LDF] (Navy)";
