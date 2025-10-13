@@ -195,6 +195,52 @@ class B_RadioBag_01_taiga_F: B_RadioBag_01_base_F {
     displayName = "Radio Pack (Hex Taiga)";
 };
 
+// Remote Designator
+class O_Static_Designator_02_weapon_F;
+class O_T_Static_Designator_02_weapon_F: O_Static_Designator_02_weapon_F {
+    scope = 1;
+    scopeArsenal = 1;
+};
+class B_Static_Designator_01_weapon_F;
+class B_T_Static_Designator_01_Weapon_F: B_Static_Designator_01_weapon_F {
+    scope = 1;
+    scopeArsenal = 1;
+};
+class I_Static_Designator_01_weapon_F: B_Static_Designator_01_weapon_F {
+    scope = 1;
+    scopeArsenal = 1;
+};
+class Atlas_I_I_Static_Designator_01_weapon_F: I_Static_Designator_01_weapon_F {
+    scope = 1;
+    scopeArsenal = 1;
+};
+class I_E_Static_Designator_01_weapon_F: B_Static_Designator_01_weapon_F {
+    scope = 1;
+    scopeArsenal = 1;
+};
+class O_R_Static_Designator_02_weapon_F: O_Static_Designator_02_weapon_F {
+    scope = 1;
+    scopeArsenal = 1;
+};
+
+// Rangemaster Belt
+class Bag_Base;
+class B_Rangemaster_belt: Bag_Base{
+    displayName = "Rangemaster Belt (Olive)";
+};
+
+// Tactical Backpack
+class B_TacticalPack_Base;
+class B_TacticalPack_oicamo: B_TacticalPack_Base {
+    displayName = "Tactical Backpack (Hex Desert)";
+};
+class B_TacticalPack_eaf_F: B_TacticalPack_Base {
+    displayName = "Tactical Backpack (Geo Woodland)";
+};
+class B_TacticalPack_ocamo: B_TacticalPack_Base {
+    displayName = "Tactical Backpack (Hex Ochre)";
+};
+
 // Rally Point
 class B_TacticalPack_rgr;
 class B_Respawn_RallyPoint_01_bag_grn_F: B_TacticalPack_rgr {
@@ -224,7 +270,6 @@ class I_I_Respawn_RallyPoint_01_bag_F: B_TacticalPack_sgg {
     scope = 1;
     scopeArsenal = 1;
 };
-class B_TacticalPack_eaf_F;
 class I_E_Respawn_RallyPoint_01_bag_F: B_TacticalPack_eaf_F {
     scope = 1;
     scopeArsenal = 1;
@@ -235,36 +280,30 @@ class B_Respawn_RallyPoint_01_bag_F: B_TacticalPack_mcamo {
     scopeArsenal = 1;
 };
 
-// Remote Designator
-class O_Static_Designator_02_weapon_F;
-class O_T_Static_Designator_02_weapon_F: O_Static_Designator_02_weapon_F {
-    scope = 1;
-    scopeArsenal = 1;
+// Viper
+class B_ViperHarness_base_F;
+class B_ViperHarness_oicamo_F: B_ViperHarness_base_F {
+    displayName = "Viper Harness (Hex Desert)";
 };
-class B_Static_Designator_01_weapon_F;
-class B_T_Static_Designator_01_Weapon_F: B_Static_Designator_01_weapon_F {
-    scope = 1;
-    scopeArsenal = 1;
+class B_ViperHarness_ghex_F: B_ViperHarness_base_F {
+    displayName = "Viper Harness (Hex Tropic)";
 };
-class I_Static_Designator_01_weapon_F: B_Static_Designator_01_weapon_F {
-    scope = 1;
-    scopeArsenal = 1;
+class B_ViperHarness_hex_F: B_ViperHarness_base_F {
+    displayName = "Viper Harness (Hex Ochre)";
 };
-class Atlas_I_I_Static_Designator_01_weapon_F: I_Static_Designator_01_weapon_F {
-    scope = 1;
-    scopeArsenal = 1;
+class B_ViperHarness_whex_F: B_ViperHarness_base_F {
+    displayName = "Viper Harness (Hex Woodland)";
 };
-class I_E_Static_Designator_01_weapon_F: B_Static_Designator_01_weapon_F {
-    scope = 1;
-    scopeArsenal = 1;
+class B_ViperLightHarness_base_F;
+class B_ViperLightHarness_oicamo_F: B_ViperLightHarness_base_F {
+    displayName = "Viper Light Harness (Hex Desert)";
 };
-class O_R_Static_Designator_02_weapon_F: O_Static_Designator_02_weapon_F {
-    scope = 1;
-    scopeArsenal = 1;
+class B_ViperLightHarness_ghex_F: B_ViperLightHarness_base_F {
+    displayName = "Viper Light Harness (Hex Tropic)";
 };
-
-// Tactical Backpack
-class B_TacticalPack_Base;
-class B_TacticalPack_oicamo: B_TacticalPack_Base {
-    displayName = "Tactical Backpack (Hex Desert)";
+class B_ViperLightHarness_hex_F: B_ViperLightHarness_base_F {
+    displayName = "Viper Light Harness (Hex Ochre)";
+};
+class B_ViperLightHarness_whex_F: B_ViperLightHarness_base_F {
+    displayName = "Viper Light Harness (Hex Woodland)";
 };

@@ -18,4 +18,12 @@ class CfgVehicles {
         scope = 1;
         scopeArsenal = 1;
     };
+
+    class B_Rangemaster_belt;
+    class B_Rangemaster_belt_ghex: B_Rangemaster_belt {
+        displayName = "Rangemaster Belt (Hex Tropic)";
+    };
+    class B_Rangemaster_belt_woodland: B_Rangemaster_belt {
+        displayName = "Rangemaster Belt (Woodland)";
+    };
 };

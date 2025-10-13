@@ -16,7 +16,7 @@ class CfgVehicles {
     };
 
     class B_AssaultPack_Kerry;
-    class B_MU_AssaultPack_US_digi: B_AssaultPack_Base {
+    class B_MU_AssaultPack_US_digi: B_AssaultPack_Kerry {
         displayName = "Assault Pack (DAP Green, Enhanced)";
     };
     class B_MU_AssaultPack_US_rgr: B_AssaultPack_Kerry {
