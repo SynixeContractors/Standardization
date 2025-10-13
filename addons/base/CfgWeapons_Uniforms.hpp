@@ -134,16 +134,19 @@ class U_C_Journalist: Uniform_Base {
 
 // Fatigues
 class U_O_SpecopsUniform_blk: Uniform_Base {
-    displayName = "Jackal Fatigues [CSP] (Black)";
+    displayName = "Jackal Fatigues (Black)";
 };
 class U_O_CombatUniform_ocamo: Uniform_Base {
-    displayName = "Jackal Fatigues [CSP] (Hex Ochre)";
+    displayName = "Jackal Fatigues (Hex Ochre)";
 };
 class U_O_CombatUniform_oucamo: Uniform_Base {
-    displayName = "Jackal Fatigues [CSP] (Hex Urban)";
+    displayName = "Jackal Fatigues (Hex Urban)";
 };
 class U_O_GhillieSuit: Uniform_Base {
     displayName = "Jackal Fatigues (Hex Ochre, Ghillie)";
+};
+class U_O_T_Sniper_F: Uniform_Base {
+    displayName = "Jackal Fatigues (Hex Tropic, Ghillie)";
 };
 
 // CTRG
@@ -225,4 +228,7 @@ class U_I_CombatUniform: Uniform_Base {
 };
 class U_I_CombatUniform_shortsleeve: Uniform_Base {
     displayName = "Combat Garment [AAF] (DAP Green, Rolled-Up)";
+};
+class U_I_GhillieSuit: Uniform_Base {
+    displayName = "Combat Garment [AAF] (DAP Green, Ghillie)";
 };

@@ -1,4 +1,5 @@
 class CfgWeapons {
+    #include "CfgWeapons_Gear.hpp"
     #include "CfgWeapons_Headgear.hpp"
     #include "CfgWeapons_Helmets.hpp"
     #include "CfgWeapons_Launchers.hpp"

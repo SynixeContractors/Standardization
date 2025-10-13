@@ -11,6 +11,11 @@ class B_AssaultPack_ocamo: B_AssaultPack_Base {
 class B_AssaultPack_wdl_F: B_AssaultPack_Base {
     displayName = "Assault Pack (Pantera)";
 };
+class B_AssaultPack_mcamo;
+class B_AssaultPack_Kerry: B_AssaultPack_mcamo {
+    scope = 1;
+    scopeArsenal = 1;
+};
 
 // Bergen
 class B_Bergen_Base_F;

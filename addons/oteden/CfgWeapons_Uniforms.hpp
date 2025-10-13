@@ -124,3 +124,17 @@ HIDE_UNIFORM(U_I_Wetsuit_noFins);
 HIDE_UNIFORM(U_O_Wetsuit_noFins);
 HIDE_UNIFORM(U_OI_Wetsuit_noFins);
 HIDE_UNIFORM(U_B_Wetsuit_noFins);
+
+class U_O_R_Gorka_01_sage: Uniform_Base {
+    displayName = "Gorka (Sage)";
+};
+
+class U_B_ghillieFullSuit: Uniform_Base {
+    displayName = "Ghillie Covering (Woodland)";
+};
+class U_O_ghillieFullSuit: Uniform_Base {
+    displayName = "Ghillie Covering (Desert)";
+};
+class U_I_ghillieFullSuit: Uniform_Base {
+    displayName = "Ghillie Covering (Arid)";
+};

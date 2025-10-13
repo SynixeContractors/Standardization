@@ -44,6 +44,7 @@ HIDE_UNIFORM(U_B_UBACS_vest_wdl_f);
 HIDE_UNIFORM(Atlas_U_B_CombatUniform_ffl);
 HIDE_UNIFORM(Atlas_U_B_CombatUniform_ffl_vest);
 HIDE_UNIFORM(Atlas_U_B_CombatUniform_ffl_tshirt);
+HIDE_UNIFORM(Atlas_U_I_I_GhillieSuit);
 
 // Combat Uniform
 class U_B_UBACS_tshirt_blk_f: Uniform_Base {
@@ -52,11 +53,20 @@ class U_B_UBACS_tshirt_blk_f: Uniform_Base {
 class U_B_UBACS_tshirt_mtp_f: Uniform_Base {
     displayName = "Combat Uniform (MTP, Tee)";
 };
+class U_B_GhillieSuit: Uniform_Base {
+    displayName = "Combat Uniform (MTP, Ghillie)";
+};
 class U_B_UBACS_tshirt_tna_f: Uniform_Base {
     displayName = "Combat Uniform (MTP-T, Tee)";
 };
+class U_B_T_Sniper_F: Uniform_Base {
+    displayName = "Combat Uniform (MTP-T, Ghillie)";
+};
 class U_B_UBACS_tshirt_wdl_f: Uniform_Base {
     displayName = "Combat Uniform (MTP-W, Tee)";
+};
+class U_B_GhillieSuit_wdl_f: Uniform_Base {
+    displayName = "Combat Uniform (MTP-W, Ghillie)";
 };
 class Atlas_U_B_M_CombatUniform_des: Uniform_Base {
     displayName = "Combat Uniform [Marar] (SanDig)";
@@ -69,6 +79,9 @@ class Atlas_U_B_M_CombatUniform_tee_des: Uniform_Base {
 };
 class U_B_CombatUniform_sgg_tshirt: Uniform_Base {
     displayName = "Combat Uniform (Sage, Tee Dark)";
+};
+class Aegis_U_B_Sniper_Fatigues_CTRG_F: Uniform_Base {
+    displayName = "Combat Uniform (Dazzle Dark, Ghillie)";
 };
 
 // European Combat Uniform (Hiding Flags)
@@ -153,6 +166,9 @@ HIDE_UNIFORM(Atlas_U_B_A_CombatUniform_shortsleeve_aucamo_ard);
 HIDE_UNIFORM(Atlas_U_B_A_CombatUniform_shortsleeve_aucamo);
 HIDE_UNIFORM(Atlas_U_B_A_CombatUniform_aucamo_trp);
 HIDE_UNIFORM(Atlas_U_B_A_CombatUniform_shortsleeve_aucamo_trp);
+HIDE_UNIFORM(Atlas_U_B_A_GhillieSuit);
+HIDE_UNIFORM(Atlas_U_B_A_GhillieSuit_Arid);
+HIDE_UNIFORM(Atlas_U_B_A_GhillieSuit_Tropical);
 class Atlas_U_B_H_Soldier_commando_F: Uniform_Base {
     displayName = "Combat Garment [HI] (Horizon Digital)";
 };
@@ -164,6 +180,9 @@ class Atlas_U_I_U_CombatUniform_UNO: Uniform_Base {
 };
 class Atlas_U_I_U_CombatUniform_shortsleeve_UNO: Uniform_Base {
     displayName = "Combat Garment [RSG] (SDP, Rolled-Up)";
+};
+class Atlas_U_B_K_GhillieSuit: Uniform_Base {
+    displayName = "Combat Garment [KR] (Khaybaran, Ghillie)";
 };
 
 // Light Fatigues
@@ -469,32 +488,42 @@ HIDE_UNIFORM(U_O_R_CombatUniform_arid_F);
 HIDE_UNIFORM(U_O_R_CombatUniform_taiga_F);
 HIDE_UNIFORM(Aegis_U_O_R_CombatUniform_urban_F);
 class U_O_CombatUniform_oicamo: Uniform_Base {
-    displayName = "Jackal Fatigues [CSP] (Hex Desert)";
+    displayName = "Jackal Fatigues (Hex Desert)";
 };
 class Aegis_U_O_CombatUniform_tshirt_dst_F: Uniform_Base {
-    displayName = "Jackal Fatigues [CSP] (Hex Desert, Tee)";
+    displayName = "Jackal Fatigues (Hex Desert, Tee)";
 };
 class Aegis_U_O_CombatUniform_tshirt_hex_F: Uniform_Base {
-    displayName = "Jackal Fatigues [CSP] (Hex Ochre, Tee)";
+    displayName = "Jackal Fatigues (Hex Ochre, Tee)";
 };
 class U_O_T_Soldier_F: Uniform_Base {
-    displayName = "Jackal Fatigues [CSP] (Hex Tropic)";
+    displayName = "Jackal Fatigues (Hex Tropic)";
 };
 class Aegis_U_O_CombatUniform_tshirt_ghex_F: Uniform_Base {
-    displayName = "Jackal Fatigues [CSP] (Hex Tropic, Tee)";
+    displayName = "Jackal Fatigues (Hex Tropic, Tee)";
 };
 class Atlas_U_O_CombatUniform_mhex: Uniform_Base {
-    displayName = "Jackal Fatigues [CSP] (Hex Oceanic)";
+    displayName = "Jackal Fatigues (Hex Oceanic)";
 };
 class Atlas_U_O_CombatUniform_semiarid: Uniform_Base {
-    displayName = "Jackal Fatigues [CSP] (Hex Mixed)";
+    displayName = "Jackal Fatigues (Hex Mixed)";
 };
 class Atlas_U_O_W_CombatUniform_owcamo: Uniform_Base {
-    displayName = "Jackal Fatigues [CSP] (Hex Woodland)";
+    displayName = "Jackal Fatigues (Hex Woodland)";
 };
 class U_O_R_CombatUniform_tshirt_arid_F: Uniform_Base {
     displayName = "Jackal Fatigues (Hex Arid, Tee)";
 };
+class U_O_C_D_Sniper_oicamo_F: Uniform_Base {
+    displayName = "Jackal Fatigues (Hex Desert, Ghillie)";
+};
+class U_O_R_GhillieSuit_arid_F: Uniform_Base {
+    displayName = "Jackal Fatigues (Hex Arid, Ghillie)";
+};
+class U_O_R_GhillieSuit_taiga_F: Uniform_Base {
+    displayName = "Jackal Fatigues (Hex Taiga, Ghillie)";
+};
+
 
 // Polo
 class Aegis_U_lxWS_ION_Casual_Hawaiian_F: Uniform_Base {
@@ -518,3 +547,64 @@ class U_C_Man_casual_1_F: Uniform_Base {
 
 // Guerilla
 HIDE_UNIFORM(U_BG_Guerilla1_3);
+
+// Gorka
+class Opf_U_O_S_Gorka_01_summer_F: Uniform_Base {
+    displayName = "Gorka (Green Splash)";
+};
+class Opf_U_O_S_Gorka_01_autumn_F: Uniform_Base {
+    displayName = "Gorka (Brown Splash)";
+};
+
+// Ghillie
+class U_I_FullGhillie_ard: Uniform_Base {
+    displayName = "Ghillie Suit (Olive, Arid)";
+};
+class U_I_FullGhillie_lsh: Uniform_Base {
+    displayName = "Ghillie Suit (Olive, Lush)";
+};
+class U_I_FullGhillie_sard: Uniform_Base {
+    displayName = "Ghillie Suit (Olive, Semi-Arid)";
+};
+class U_O_FullGhillie_ard: Uniform_Base {
+    displayName = "Ghillie Suit (Hex Mixed, Arid)";
+};
+class U_O_T_FullGhillie_tna_F: Uniform_Base {
+    displayName = "Ghillie Suit (Hex Tropic)";
+};
+class U_O_FullGhillie_lsh: Uniform_Base {
+    displayName = "Ghillie Suit (Hex Mixed, Lush)";
+};
+class U_O_FullGhillie_sard: Uniform_Base {
+    displayName = "Ghillie Suit (Hex Mixed, Semi-Arid)";
+};
+class U_I_E_FullGhillie_wdl_F: Uniform_Base {
+    displayName = "Ghillie Suit (Geo Woodland)";
+};
+class U_B_FullGhillie_ard: Uniform_Base {
+    displayName = "Ghillie Suit (Tan, Arid)";
+};
+class U_B_T_FullGhillie_tna_F: Uniform_Base {
+    displayName = "Ghillie Suit (Green, Tropic)";
+};
+class U_B_FullGhillie_lsh: Uniform_Base {
+    displayName = "Ghillie Suit (Tan, Lush)";
+};
+class U_B_FullGhillie_sard: Uniform_Base {
+    displayName = "Ghillie Suit (Tan, Semi-Arid)";
+};
+class U_B_W_FullGhillie_wdl_F: Uniform_Base {
+    displayName = "Ghillie Suit (Green, Woodland)";
+};
+class U_O_R_FullGhillie_ard_F: Uniform_Base {
+    displayName = "Ghillie Suit (Hex Arid, Arid)";
+};
+class U_O_R_FullGhillie_lsh_F: Uniform_Base {
+    displayName = "Ghillie Suit (Hex Arid, Lush)";
+};
+class U_O_R_FullGhillie_sard_F: Uniform_Base {
+    displayName = "Ghillie Suit (Hex Arid, Semi-Arid)";
+};
+class U_O_R_FullGhillie_wdl_F: Uniform_Base {
+    displayName = "Ghillie Suit (Hex Taiga, Woodland)";
+};

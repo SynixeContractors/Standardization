@@ -85,3 +85,12 @@ class V_PlateCarrier_Kerry: V_PlateCarrier1_rgr {
     scopeCurator = 1;
 };
 
+class V_PlateCarrierIA1_dgtl: Vest_NoCamo_Base {
+    displayName = "GA Carrier Lite (DAP Green)";
+};
+class V_PlateCarrierIA2_dgtl: V_PlateCarrierIA1_dgtl {
+    displayName = "GA Carrier Rig (DAP Green)";
+};
+class V_PlateCarrierIAGL_dgtl: V_PlateCarrierIA2_dgtl {
+    displayName = "GA Carrier GL Rig (DAP Green)";
+};

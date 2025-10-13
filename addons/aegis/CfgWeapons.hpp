@@ -1,6 +1,7 @@
 class CfgWeapons {
     class HelmetBase;
 
+    #include "CfgWeapons_Gear.hpp"
     #include "CfgWeapons_Headgear.hpp"
     #include "CfgWeapons_Helmets.hpp"
     #include "CfgWeapons_Pistols.hpp"

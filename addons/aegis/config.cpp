@@ -11,6 +11,7 @@ class CfgPatches {
             "ace_compat_aegis_realisticnames",
             "A3_Aegis_Weapons_F_Aegis",
             "A3_Atlas_Weapons_F_Atlas",
+            "A3_Atlas_Characters_F_Atlas_RF_Vests",
             // Backpacks
             "A3_Aegis_Supplies_F_Aegis_Bags",
             // Strider

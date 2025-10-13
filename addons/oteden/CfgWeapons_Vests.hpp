@@ -128,3 +128,11 @@ class V_PlateCarrier_CTRG: V_PlateCarrier_Kerry_oliveGHex {
     scope = 1;
     scopeCurator = 1;
 };
+
+class V_PlateCarrierIAGL_dgtl;
+class V_PlateCarrierIAGL_dgtlOli: V_PlateCarrierIAGL_dgtl {
+    displayName = "GA Carrier GL Rig (DAP Green, Olive)";
+};
+class V_PlateCarrierIAGL_oliDgtl: V_PlateCarrierIAGL_dgtlOli {
+    displayName = "GA Carrier GL Rig (Olive, DAP Green)";
+};

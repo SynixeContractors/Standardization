@@ -312,19 +312,33 @@ class V_TacVest_camo;
 class Atlas_Tacvest_Ard_F: V_TacVest_camo {
     displayName = "Tactical Vest (Blotch)";
 };
-class Aegis_V_TacVest_RigB_khk_RF;
-class Aegis_V_TacVest_RigB_camo_RF: Aegis_V_TacVest_RigB_khk_RF {
-    displayName = "Tactical Vest (Woodland)";
+class V_TacVest_rig_khk_RF;
+class Aegis_V_TacVest_RigB_khk_RF: V_TacVest_rig_khk_RF {
+    displayName = "Tactical Vest Rig Holster (Khaki)";
+};
+class Aegis_V_TacVest_RigB_blk_RF: Aegis_V_TacVest_RigB_khk_RF {
+    displayName = "Tactical Vest Rig Holster (Black)";
+};
+class Aegis_V_TacVest_RigB_grn_RF: Aegis_V_TacVest_RigB_khk_RF {
+    displayName = "Tactical Vest Rig Holster (Green)";
+};
+class Aegis_V_TacVest_RigB_gry_RF: Aegis_V_TacVest_RigB_khk_RF {
+    displayName = "Tactical Vest Rig Holster (Grey)";
+};
+class Aegis_V_TacVest_RigB_oli_RF: Aegis_V_TacVest_RigB_khk_RF {
+    displayName = "Tactical Vest Rig Holster (Olive)";
 };
 class Atlas_V_TacVest_RigB_ard_RF: Aegis_V_TacVest_RigB_khk_RF {
-    displayName = "Tactical Vest (Blotch)";
+    displayName = "Tactical Vest Rig Holster (Blotch)";
 };
-class V_TacVest_rig_khk_RF;
+class Aegis_V_TacVest_RigB_camo_RF: Aegis_V_TacVest_RigB_khk_RF {
+    displayName = "Tactical Vest Rig Holster (Woodland)";
+};
 class Aegis_V_TacVest_Rig_camo_RF: V_TacVest_rig_khk_RF {
-    displayName = "Tactical Vest (Woodland)";
+    displayName = "Tactical Vest Rig (Woodland)";
 };
 class Atlas_V_TacVest_Rig_ard_RF: V_TacVest_rig_khk_RF {
-    displayName = "Tactical Vest (Blotch)";
+    displayName = "Tactical Vest Rig (Blotch)";
 };
 
 // Type 25
@@ -503,54 +517,67 @@ class Aegis_V_PlateCarrier_RF_base;
 class Atlas_V_PlateCarrier_RF_aucamo_ard: Aegis_V_PlateCarrier_RF_base {
     scope = 1;
     scopeCurator = 1;
+    scopeArsenal = 1;
 };
 class Atlas_V_PlateCarrier_RF_aucamo_trp: Aegis_V_PlateCarrier_RF_base {
     scope = 1;
     scopeCurator = 1;
+    scopeArsenal = 1;
 };
 class Atlas_V_PlateCarrier_RF_aucamo: Aegis_V_PlateCarrier_RF_base {
     scope = 1;
     scopeCurator = 1;
+    scopeArsenal = 1;
 };
 class Aegis_V_PlateCarrier_RF_blk: Aegis_V_PlateCarrier_RF_base {
     scope = 1;
     scopeCurator = 1;
+    scopeArsenal = 1;
 };
 class Aegis_V_PlateCarrier_RF_cbr: Aegis_V_PlateCarrier_RF_base {
     scope = 1;
     scopeCurator = 1;
+    scopeArsenal = 1;
 };
 class Atlas_V_PlateCarrier_RF_snd: Aegis_V_PlateCarrier_RF_base {
     scope = 1;
     scopeCurator = 1;
+    scopeArsenal = 1;
 };
 class Aegis_V_PlateCarrier_RF_rgr: Aegis_V_PlateCarrier_RF_base {
     scope = 1;
     scopeCurator = 1;
+    scopeArsenal = 1;
 };
 class Aegis_V_PlateCarrier_RF_khk: Aegis_V_PlateCarrier_RF_base {
     scope = 1;
     scopeCurator = 1;
+    scopeArsenal = 1;
 };
 class Aegis_V_PlateCarrier_RF_desert: Aegis_V_PlateCarrier_RF_base {
     scope = 1;
     scopeCurator = 1;
+    scopeArsenal = 1;
 };
 class Aegis_V_PlateCarrier_RF_mtp: Aegis_V_PlateCarrier_RF_base {
     scope = 1;
     scopeCurator = 1;
+    scopeArsenal = 1;
 };
 class Aegis_V_PlateCarrier_RF_tna: Aegis_V_PlateCarrier_RF_base {
     scope = 1;
     scopeCurator = 1;
+    scopeArsenal = 1;
 };
 class Aegis_V_PlateCarrier_RF_wdl: Aegis_V_PlateCarrier_RF_base {
     scope = 1;
     scopeCurator = 1;
+    scopeArsenal = 1;
 };
 class Aegis_V_PlateCarrier_RF_oli: Aegis_V_PlateCarrier_RF_base {
     scope = 1;
     scopeCurator = 1;
+    scopeArsenal = 1;
 };
 
 class V_CF_CarrierRig_F: V_PlateCarrier1_rgr {

@@ -21,3 +21,17 @@ class U_B_CBRN_Suit_01_Wdl_F: Uniform_Base {
 class U_I_E_Uniform_01_sweater_F: Uniform_Base {
     displayName = "Combat Sweater (Geo Woodland)";
 };
+
+// Gorka
+class U_O_R_Gorka_01_black_F: Uniform_Base {
+    displayName = "Gorka (Black)";
+};
+class U_O_R_Gorka_01_F: Uniform_Base {
+    displayName = "Gorka (Olive)";
+};
+class U_O_R_Gorka_01_brown_F: Uniform_Base {
+    displayName = "Gorka (Brown)";
+};
+class U_O_R_Gorka_01_camo_F: Uniform_Base {
+    displayName = "Gorka (Hex Taiga)";
+};
