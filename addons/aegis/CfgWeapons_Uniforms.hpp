@@ -40,6 +40,37 @@ HIDE_UNIFORM(U_B_UBACS_vest_tna_f);
 HIDE_UNIFORM(U_B_UBACS_wdl_f);
 HIDE_UNIFORM(U_B_UBACS_vest_wdl_f);
 
+// Combat Uniform (Hiding Flags)
+HIDE_UNIFORM(Atlas_U_B_CombatUniform_ffl);
+HIDE_UNIFORM(Atlas_U_B_CombatUniform_ffl_vest);
+HIDE_UNIFORM(Atlas_U_B_CombatUniform_ffl_tshirt);
+
+// Combat Uniform
+class U_B_UBACS_tshirt_blk_f: Uniform_Base {
+    displayName = "Combat Uniform (Black, Tee)";
+};
+class U_B_UBACS_tshirt_mtp_f: Uniform_Base {
+    displayName = "Combat Uniform (MTP, Tee)";
+};
+class U_B_UBACS_tshirt_tna_f: Uniform_Base {
+    displayName = "Combat Uniform (MTP-T, Tee)";
+};
+class U_B_UBACS_tshirt_wdl_f: Uniform_Base {
+    displayName = "Combat Uniform (MTP-W, Tee)";
+};
+class Atlas_U_B_M_CombatUniform_des: Uniform_Base {
+    displayName = "Combat Uniform [Marar] (SanDig)";
+};
+class Atlas_U_B_M_CombatUniform_shortsleeve_des: Uniform_Base {
+    displayName = "Combat Uniform [Marar] (SanDig, Rolled-Up)";
+};
+class Atlas_U_B_M_CombatUniform_tee_des: Uniform_Base {
+    displayName = "Combat Uniform (SanDig, Tee)";
+};
+class U_B_CombatUniform_sgg_tshirt: Uniform_Base {
+    displayName = "Combat Uniform (Sage, Tee Dark)";
+};
+
 // European Combat Uniform (Hiding Flags)
 HIDE_UNIFORM(Atlas_U_CombatUniformNCU_01_multitarn_F);
 HIDE_UNIFORM(Atlas_U_CombatUniformNCU_02_multitarn_F);
@@ -100,6 +131,9 @@ class Atlas_U_B_M_Tank_Marar_F: Uniform_Base {
 class Aegis_U_I_Uniform_01_sweater_f: Uniform_Base {
     displayName = "Combat Sweater [AAF] (DAP Green)";
 };
+class Aegis_U_I_Uniform_01_sweater_02_f: Uniform_Base {
+    displayName = "Combat Sweater [AAF] (DAP Tan)";
+};
 class Opf_U_O_S_Uniform_01_sweater_flora_F: Uniform_Base {
     displayName = "Combat Sweater (Flora)";
 };
@@ -108,6 +142,28 @@ class Opf_U_O_S_Uniform_01_sweater_F: Uniform_Base {
 };
 class U_lxWS_SFIA_Tanker_O: Uniform_Base {
     displayName = "Combat Sweater (Mudwalker)";
+};
+
+// Combat Garment
+HIDE_UNIFORM(U_I_Uniform_01_tanktop_F);
+HIDE_UNIFORM(U_I_CombatUniform_tshirt);
+HIDE_UNIFORM(Atlas_U_B_A_CombatUniform_aucamo);
+HIDE_UNIFORM(Atlas_U_B_A_CombatUniform_aucamo_ard);
+HIDE_UNIFORM(Atlas_U_B_A_CombatUniform_shortsleeve_aucamo_ard);
+HIDE_UNIFORM(Atlas_U_B_A_CombatUniform_shortsleeve_aucamo);
+HIDE_UNIFORM(Atlas_U_B_A_CombatUniform_aucamo_trp);
+HIDE_UNIFORM(Atlas_U_B_A_CombatUniform_shortsleeve_aucamo_trp);
+class Atlas_U_B_H_Soldier_commando_F: Uniform_Base {
+    displayName = "Combat Garment [HI] (Horizon Digital)";
+};
+class Atlas_U_B_H_Soldier_commando_shortsleeve_F: Uniform_Base {
+    displayName = "Combat Garment [HI] (Horizon Digital, Rolled-Up)";
+};
+class Atlas_U_I_U_CombatUniform_UNO: Uniform_Base {
+    displayName = "Combat Garment [RSG] (SDP)";
+};
+class Atlas_U_I_U_CombatUniform_shortsleeve_UNO: Uniform_Base {
+    displayName = "Combat Garment [RSG] (SDP, Rolled-Up)";
 };
 
 // Light Fatigues
@@ -192,6 +248,86 @@ class Aegis_U_O_LightCombatFatigues_ruarid_F: Uniform_Base {
 };
 class Aegis_U_O_LightCombatFatigues_rutaiga_F: Uniform_Base {
     displayName = "Light Fatigues (Hex Taiga)";
+};
+class Atlas_U_I_UW_CombatUniform_UNO: Uniform_Base {
+    displayName = "Light Fatigues [CDF] (Polywood)";
+};
+class Atlas_U_I_UW_CombatUniform_shortsleeve_UNO: Uniform_Base {
+    displayName = "Light Fatigues [CDF] (Polywood, Rolled-Up)";
+};
+class Atlas_U_B_H_Soldier_F: Uniform_Base {
+    displayName = "Light Fatigues [HI] (Horizon Stripe)";
+};
+class Atlas_U_B_H_Soldier_2_F: Uniform_Base {
+    displayName = "Light Fatigues [HI] (Horizon Stripe, Rolled-Up)";
+};
+class Atlas_U_B_H_Soldier_3_F: Uniform_Base {
+    displayName = "Light Fatigues [HI] (Horizon Stripe, Tee)";
+};
+class Atlas_U_B_K_CombatUniform: Uniform_Base {
+    displayName = "Light Fatigues [KR] (Khaybaran)";
+};
+class Atlas_U_B_K_CombatUniform_shortsleeve: Uniform_Base {
+    displayName = "Light Fatigues [KR] (Khaybaran, Rolled-Up)";
+};
+class U_I_E_Uniform_01_arid_F: Uniform_Base {
+    displayName = "Light Fatigues [LDF] (Geo Arid)";
+};
+class U_I_E_Uniform_01_arid_shortsleeve_F: Uniform_Base {
+    displayName = "Light Fatigues [LDF] (Geo Arid, Rolled-Up)";
+};
+class U_I_E_Uniform_01_arid_tanktop_F: Uniform_Base {
+    displayName = "Light Fatigues [LDF] (Geo Arid, Tank Top)";
+};
+
+// Scorpion Fatigues
+class Aegis_U_O_CombatFatigues_dst_F: Uniform_Base {
+    displayName = "Scorpion Fatigues (Hex Desert)";
+};
+class Aegis_U_O_CombatFatigues_02_dst_F: Uniform_Base {
+    displayName = "Scorpion Fatigues (Hex Desert, Rolled-Up)";
+};
+class Aegis_U_O_CombatFatigues_ghex_F: Uniform_Base {
+    displayName = "Scorpion Fatigues (Hex Tropic)";
+};
+class Aegis_U_O_CombatFatigues_02_ghex_F: Uniform_Base {
+    displayName = "Scorpion Fatigues (Hex Tropic, Rolled-Up)";
+};
+class Aegis_U_O_CombatFatigues_F: Uniform_Base {
+    displayName = "Scorpion Fatigues (Hex Ochre)";
+};
+class Aegis_U_O_CombatFatigues_02_F: Uniform_Base {
+    displayName = "Scorpion Fatigues (Hex Ochre, Rolled-Up)";
+};
+class Aegis_U_O_CombatFatigues_khk_F: Uniform_Base {
+    displayName = "Scorpion Fatigues (Khaki)";
+};
+class Aegis_U_O_CombatFatigues_02_khk_F: Uniform_Base {
+    displayName = "Scorpion Fatigues (Khaki, Rolled-Up)";
+};
+class Atlas_U_O_CombatFatigues_mhex_F: Uniform_Base {
+    displayName = "Scorpion Fatigues (Hex Oceanic)";
+};
+class Atlas_U_O_CombatFatigues_mhex_02_F: Uniform_Base {
+    displayName = "Scorpion Fatigues (Hex Oceanic, Rolled-Up)";
+};
+class Aegis_U_O_CombatFatigues_oli_F: Uniform_Base {
+    displayName = "Scorpion Fatigues (Olive)";
+};
+class Aegis_U_O_CombatFatigues_02_oli_F: Uniform_Base {
+    displayName = "Scorpion Fatigues (Olive, Rolled-Up)";
+};
+class Atlas_U_O_CombatFatigues_semiarid_F: Uniform_Base {
+    displayName = "Scorpion Fatigues (Hex Mixed)";
+};
+class Atlas_U_O_CombatFatigues_02_semiarid_F: Uniform_Base {
+    displayName = "Scorpion Fatigues (Hex Mixed, Rolled-Up)";
+};
+class Atlas_U_O_CombatFatigues_whex_F: Uniform_Base {
+    displayName = "Scorpion Fatigues (Hex Woodland)";
+};
+class Atlas_U_O_CombatFatigues_02_whex_F: Uniform_Base {
+    displayName = "Scorpion Fatigues (Hex Woodland, Rolled-Up)";
 };
 
 // Luchnik
@@ -335,8 +471,17 @@ HIDE_UNIFORM(Aegis_U_O_R_CombatUniform_urban_F);
 class U_O_CombatUniform_oicamo: Uniform_Base {
     displayName = "Jackal Fatigues [CSP] (Hex Desert)";
 };
+class Aegis_U_O_CombatUniform_tshirt_dst_F: Uniform_Base {
+    displayName = "Jackal Fatigues [CSP] (Hex Desert, Tee)";
+};
+class Aegis_U_O_CombatUniform_tshirt_hex_F: Uniform_Base {
+    displayName = "Jackal Fatigues [CSP] (Hex Ochre, Tee)";
+};
 class U_O_T_Soldier_F: Uniform_Base {
     displayName = "Jackal Fatigues [CSP] (Hex Tropic)";
+};
+class Aegis_U_O_CombatUniform_tshirt_ghex_F: Uniform_Base {
+    displayName = "Jackal Fatigues [CSP] (Hex Tropic, Tee)";
 };
 class Atlas_U_O_CombatUniform_mhex: Uniform_Base {
     displayName = "Jackal Fatigues [CSP] (Hex Oceanic)";
@@ -347,6 +492,9 @@ class Atlas_U_O_CombatUniform_semiarid: Uniform_Base {
 class Atlas_U_O_W_CombatUniform_owcamo: Uniform_Base {
     displayName = "Jackal Fatigues [CSP] (Hex Woodland)";
 };
+class U_O_R_CombatUniform_tshirt_arid_F: Uniform_Base {
+    displayName = "Jackal Fatigues (Hex Arid, Tee)";
+};
 
 // Polo
 class Aegis_U_lxWS_ION_Casual_Hawaiian_F: Uniform_Base {
@@ -355,3 +503,18 @@ class Aegis_U_lxWS_ION_Casual_Hawaiian_F: Uniform_Base {
 class Aegis_U_lxWS_ION_Casual_Hawaiian_2_F: Uniform_Base {
     displayName = "Polo Shirt (Hawaiian Red, Pants, Gloves)";
 };
+class U_C_Man_casual_8_F: Uniform_Base {
+    displayName = "Polo (Brown, Pants)";
+};
+class U_C_Man_casual_7_F: Uniform_Base {
+    displayName = "Polo (Grey, Pants)";
+};
+class U_C_Man_casual_9_F: Uniform_Base {
+    displayName = "Polo [Larkin] (Stripes)";
+};
+class U_C_Man_casual_1_F: Uniform_Base {
+    displayName = "Polo (Blue Stripe, Pants)";
+};
+
+// Guerilla
+HIDE_UNIFORM(U_BG_Guerilla1_3);

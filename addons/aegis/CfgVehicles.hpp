@@ -1,4 +1,6 @@
 class CfgVehicles {
+    #include "CfgVehicles_Backpacks.hpp"
+
     // M-ATV
     class MRAP_03_base_F;
     class Atlas_B_A_MRAP_03_F: MRAP_03_base_F {

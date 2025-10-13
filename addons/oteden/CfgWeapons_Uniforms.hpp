@@ -42,6 +42,8 @@ class U_C_ManSweater_01_red: Uniform_Base {
 // Fatigues
 HIDE_UNIFORM(U_O_RUS_Soldier_F);
 HIDE_UNIFORM(U_O_ParamilitaryUniform_F);
+HIDE_UNIFORM(U_B_CombatUniform_wdl_worn);
+HIDE_UNIFORM(U_B_CombatUniformRoll_wdl_vest);
 
 // Light Fatigues
 HIDE_UNIFORM(Atlas_U_I_I_CombatUniform_olive);
@@ -64,15 +66,6 @@ class Atlas_U_B_K_CombatUniform: Uniform_Base {
 };
 class Atlas_U_B_K_CombatUniform_shortsleeve: Uniform_Base {
     displayName = "Light Fatigues [KR] (Khaybaran, Rolled-Up)";
-};
-class U_I_E_Uniform_01_arid_F: Uniform_Base {
-    displayName = "Light Fatigues [LDF] (Geo Arid)";
-};
-class U_I_E_Uniform_01_arid_shortsleeve_F: Uniform_Base {
-    displayName = "Light Fatigues [LDF] (Geo Arid, Rolled-Up)";
-};
-class U_I_E_Uniform_01_arid_tanktop_F: Uniform_Base {
-    displayName = "Light Fatigues [LDF] (Geo Arid, Tank Top)";
 };
 class Atlas_U_B_M_CombatUniform_des: Uniform_Base {
     displayName = "Light Fatigues [Marar] (SanDig)";
@@ -101,3 +94,33 @@ class U_lxWS_UN_Camo2: Uniform_Base {
 class U_lxWS_UN_Camo3: Uniform_Base {
     displayName = "Light Fatigues (Desert Stripe, Rolled-Up)";
 };
+
+// Fins
+HIDE_UNIFORM(U_B_CombatUniform_mcam_tshirt_Diver);
+HIDE_UNIFORM(U_B_CombatUniform_mcam_tshirt_Diver_noPop);
+HIDE_UNIFORM(U_B_CombatUniform_mcam_tshirt_Diver_noFins);
+HIDE_UNIFORM(U_B_CombatUniform_mcam_worn_tshirt);
+HIDE_UNIFORM(U_B_CombatUniform_mcam_worn_tshirt_noPop);
+HIDE_UNIFORM(U_B_CombatUniform_mcam_worn_tshirt_noFins);
+HIDE_UNIFORM(U_B_T_Diver);
+HIDE_UNIFORM(U_B_T_Diver_noFins);
+HIDE_UNIFORM(U_B_T_Diver_noPop);
+HIDE_UNIFORM(U_B_CombatUniform_tshirt_mcam_wdL_Diver);
+HIDE_UNIFORM(U_B_CombatUniform_tshirt_mcam_wdL_Diver_noFins);
+HIDE_UNIFORM(U_B_CombatUniform_tshirt_mcam_wdL_Diver_noPop);
+HIDE_UNIFORM(U_B_CTRG_Diver);
+HIDE_UNIFORM(U_B_CTRG_Diver_noPop);
+HIDE_UNIFORM(U_B_CTRG_Diver_noFins);
+HIDE_UNIFORM(U_B_CTRG_arid_Diver);
+HIDE_UNIFORM(U_B_CTRG_arid_Diver_noPop);
+HIDE_UNIFORM(U_B_CTRG_arid_Diver_noFins);
+HIDE_UNIFORM(U_B_CTRG_camo_Diver);
+HIDE_UNIFORM(U_B_CTRG_camo_Diver_noPop);
+HIDE_UNIFORM(U_B_CTRG_camo_Diver_noFins);
+HIDE_UNIFORM(U_B_CTRG_urb_Diver);
+HIDE_UNIFORM(U_B_CTRG_urb_Diver_noPop);
+HIDE_UNIFORM(U_B_CTRG_urb_Diver_noFins);
+HIDE_UNIFORM(U_I_Wetsuit_noFins);
+HIDE_UNIFORM(U_O_Wetsuit_noFins);
+HIDE_UNIFORM(U_OI_Wetsuit_noFins);
+HIDE_UNIFORM(U_B_Wetsuit_noFins);

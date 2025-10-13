@@ -8,13 +8,11 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "synixe_standardization_main",
-            "tacs_weapons",
-            "tacs_headgear"
+            "WSLV_Exp_Uniform_Config",
         };
         skipWhenMissingDependencies = 1;
         VERSION_CONFIG;
     };
 };
 
-#include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"

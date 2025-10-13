@@ -25,6 +25,11 @@ class U_lxWS_SFIA_pilot_O: Uniform_Base {
     displayName = "TODO";
 };
 
+// Combat Uniform
+class U_lxWS_B_CombatUniform_desert_tshirt: Uniform_Base {
+    displayName = "Combat Uniform (Desert, Tee)";
+};
+
 // Djellaba
 class U_lxWS_C_Djella_03: Uniform_Base {
     displayName = "Djellaba (Black)";
@@ -89,7 +94,4 @@ class U_lxWS_Tak_01_A: Uniform_Base {
 // Polo
 class U_lxWS_ION_Casual3: Uniform_Base {
     displayName = "Polo (Black, Pants Tan, Gloves)";
-};
-class Aegis_U_lxWS_ION_Casual_Hawaiian_F: Uniform_Base {
-    displayName = "Hawaiian Shirt (Red, Shorts)";
 };

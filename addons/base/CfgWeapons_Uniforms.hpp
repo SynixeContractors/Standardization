@@ -114,10 +114,22 @@ class U_C_IDAP_Man_casual_F: Uniform_Base {
     displayName = "Polo [IDAP] (Black, Pants)";
 };
 class U_C_IDAP_Man_shorts_F: Uniform_Base {
-    displayName = "Polo [IDAP] (Blue, Shorts)";
+    displayName = "Polo [IDAP] (White, Shorts)";
 };
 class U_I_C_Soldier_Bandit_1_F: Uniform_Base {
     displayName = "Polo (Green, Shorts, Barefoot)";
+};
+class U_C_Man_casual_3_F: Uniform_Base {
+    displayName = "Polo (Green Stripes, Pants)";
+};
+class U_Rangemaster: Uniform_Base {
+    displayName = "Polo (Rangemaster, Pants)";
+};
+class U_Competitor: Uniform_Base {
+    displayName = "Polo [ION] (Yellow Black, Pants)";
+};
+class U_C_Journalist: Uniform_Base {
+    displayName = "Polo [AAN] (Black, Pants)";
 };
 
 // Fatigues
@@ -165,3 +177,52 @@ class U_I_E_Uniform_01_tanktop_F: Uniform_Base {
 
 // Commoner Clothes
 HIDE_UNIFORM(U_C_Commoner1_2);
+
+// Combat Fatigues
+HIDE_UNIFORM(U_I_G_resistanceLeader_F);
+HIDE_UNIFORM(U_B_CombatUniform_sgg);
+HIDE_UNIFORM(U_B_CombatUniform_sgg_vest);
+class U_B_CTRG_Soldier_Arid_F: Uniform_Base {
+    displayName = "Combat Uniform (Dazzle Light)";
+};
+class U_B_CTRG_2: Uniform_Base {
+    displayName = "Combat Uniform (Dazzle Light, Tee Light)";
+};
+class U_B_CTRG_Soldier_2_Arid_F: Uniform_Base {
+    displayName = "Combat Uniform (Dazzle Light, Tee Dark)";
+};
+class U_B_CTRG_Soldier_Black_F: Uniform_Base {
+    displayName = "Combat Uniform (Light Black)";
+};
+class U_B_CTRG_Soldier_3_Black_F: Uniform_Base {
+    displayName = "Combat Uniform (Light Black, Rolled-Up)";
+};
+class U_B_CTRG_Soldier_2_Black_F: Uniform_Base {
+    displayName = "Combat Uniform (Light Black, Tee)";
+};
+class U_B_CTRG_Soldier_F: Uniform_Base {
+    displayName = "Combat Uniform (Dazzle Dark)";
+};
+class U_B_CTRG_Soldier_3_F: Uniform_Base {
+    displayName = "Combat Uniform (Dazzle Dark, Rolled-Up)";
+};
+class U_B_CTRG_Soldier_2_F: Uniform_Base {
+    displayName = "Combat Uniform (Dazzle Dark, Tee)";
+};
+class U_B_CTRG_Soldier_urb_1_F: Uniform_Base {
+    displayName = "Combat Uniform (Dazzle Urban)";
+};
+class U_B_CTRG_Soldier_urb_3_F: Uniform_Base {
+    displayName = "Combat Uniform (Dazzle Urban, Rolled-Up)";
+};
+class U_B_CTRG_Soldier_urb_2_F: Uniform_Base {
+    displayName = "Combat Uniform (Dazzle Urban, Tee)";
+};
+
+// Combat Garment
+class U_I_CombatUniform: Uniform_Base {
+    displayName = "Combat Garment [AAF] (DAP Green)";
+};
+class U_I_CombatUniform_shortsleeve: Uniform_Base {
+    displayName = "Combat Garment [AAF] (DAP Green, Rolled-Up)";
+};

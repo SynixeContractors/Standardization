@@ -8,7 +8,7 @@ class CfgWeapons {
     class casual_polo_black_denim_uniform: Uniform_Base {
         displayName = "Polo (Dark, Pants Denim)";
     };
-    class casual_polo_black_gray_uniformcasual_polo_black_gray_uniform: Uniform_Base {
+    class casual_polo_black_gray_uniform: Uniform_Base {
         displayName = "Polo (Dark, Pants Grey)";
     };
     class casual_polo_black_khaki_uniform: Uniform_Base {
