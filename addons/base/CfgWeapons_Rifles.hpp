@@ -80,7 +80,9 @@ class arifle_MX_GL_khk_F: arifle_MX_GL_Black_F {
 class arifle_MX_SW_F: arifle_MX_Base_F {
     displayName = "MX SW (Sand)";
 };
-class arifle_MX_SW_Black_F;
+class arifle_MX_SW_Black_F: arifle_MX_SW_F {
+    displayName = "MX SW (Black)";
+};
 class arifle_MX_SW_khk_F: arifle_MX_SW_Black_F {
     displayName = "MX SW (Olive)";
 };

@@ -43,6 +43,9 @@ class arifle_SLR_V_GL_lxWS: arifle_SLR_V_lxWS {
 class arifle_SLR_Para_lxWS: arifle_SLR_lxWS {
     displayName = "FN FAL 50.41 (Black)";
 };
+class arifle_SLR_Para_snake_lxWS: arifle_SLR_Para_lxWS {
+    displayName = "FN FAL 50.41 (Snake)";
+};
 
 // GLX 160
 class glaunch_GLX_base_lxWS;
