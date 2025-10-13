@@ -6,4 +6,5 @@ class CfgWeapons {
     #include "CfgWeapons_Pistols.hpp"
     #include "CfgWeapons_Rifles.hpp"
     #include "CfgWeapons_Uniforms.hpp"
+    #include "CfgWeapons_Vests.hpp"
 };

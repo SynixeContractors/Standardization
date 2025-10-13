@@ -73,148 +73,148 @@ class CfgWeapons {
         displayName = "Djellaba Combat (Yellow, Brown)";
     };
     class WSLV_CTRGA_gn_black_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (ight, Black & Gold, Dazzle)";
+        displayName = "Djellaba Combat (Black & Gold, Dazzle Light)";
     };
     class WSLV_CTRGA_black_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (ight, Black, Dazzle)";
+        displayName = "Djellaba Combat (Black, Dazzle Light)";
     };
     class WSLV_CTRGA_blue_stripes_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (ight, Blue Striped, Dazzle)";
+        displayName = "Djellaba Combat (Blue Striped, Dazzle Light)";
     };
     class WSLV_CTRGA_blue_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (ight, Blue, Dazzle)";
+        displayName = "Djellaba Combat (Blue, Dazzle Light)";
     };
     class WSLV_CTRGA_brown_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (ight, Brown, Dazzle)";
+        displayName = "Djellaba Combat (Brown, Dazzle Light)";
     };
     class WSLV_CTRGA_gn_green_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (ight, Emerald, Dazzle)";
+        displayName = "Djellaba Combat (Emerald, Dazzle Light)";
     };
     class WSLV_CTRGA_green_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (ight, Green, Dazzle)";
+        displayName = "Djellaba Combat (Green, Dazzle Light)";
     };
     class WSLV_CTRGA_grey_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (ight, Grey, Dazzle)";
+        displayName = "Djellaba Combat (Grey, Dazzle Light)";
     };
     class WSLV_CTRGA_sand_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (ight, Sand, Dazzle)";
+        displayName = "Djellaba Combat (Sand, Dazzle Light)";
     };
     class WSLV_CTRGA_white_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (ight, White, Dazzle)";
+        displayName = "Djellaba Combat (White, Dazzle Light)";
     };
     class WSLV_CTRGA_gn_wine_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (ight, Wine, Dazzle)";
+        displayName = "Djellaba Combat (Wine, Dazzle Light)";
     };
     class WSLV_CTRGA_yellow_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (ight, Yellow, Dazzle)";
+        displayName = "Djellaba Combat (Yellow, Dazzle Light)";
     };
     class WSLV_CTRGU_gn_black_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (rban, Black & Gold, Dazzle)";
+        displayName = "Djellaba Combat (Black & Gold, Dazzle Urban)";
     };
     class WSLV_CTRGU_black_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (rban, Black, Dazzle)";
+        displayName = "Djellaba Combat (Black, Dazzle Urban)";
     };
     class WSLV_CTRGU_blue_stripes_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (rban, Blue Striped, Dazzle)";
+        displayName = "Djellaba Combat (Blue Striped, Dazzle Urban)";
     };
     class WSLV_CTRGU_blue_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (rban, Blue, Dazzle)";
+        displayName = "Djellaba Combat (Blue, Dazzle Urban)";
     };
     class WSLV_CTRGU_brown_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (rban, Brown, Dazzle)";
+        displayName = "Djellaba Combat (Brown, Dazzle Urban)";
     };
     class WSLV_CTRGU_gn_green_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (rban, Emerald, Dazzle)";
+        displayName = "Djellaba Combat (Emerald, Dazzle Urban)";
     };
     class WSLV_CTRGU_green_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (rban, Green, Dazzle)";
+        displayName = "Djellaba Combat (Green, Dazzle Urban)";
     };
     class WSLV_CTRGU_grey_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (rban, Grey, Dazzle)";
+        displayName = "Djellaba Combat (Grey, Dazzle Urban)";
     };
     class WSLV_CTRGU_sand_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (rban, Sand, Dazzle)";
+        displayName = "Djellaba Combat (Sand, Dazzle Urban)";
     };
     class WSLV_CTRGU_white_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (rban, White, Dazzle)";
+        displayName = "Djellaba Combat (White, Dazzle Urban)";
     };
     class WSLV_CTRGU_gn_wine_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (rban, Wine, Dazzle)";
+        displayName = "Djellaba Combat (Wine, Dazzle Urban)";
     };
     class WSLV_CTRGU_yellow_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (rban, Yellow, Dazzle)";
+        displayName = "Djellaba Combat (Yellow, Dazzle Urban)";
     };
     class WSLV_MTPD_gn_black_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Black & Gold, MTP)";
+        displayName = "Djellaba Combat (Black & Gold, MTP)";
     };
     class WSLV_MTPD_black_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Black, MTP)";
+        displayName = "Djellaba Combat (Black, MTP)";
     };
     class WSLV_MTPD_blue_stripes_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Blue Striped, MTP)";
+        displayName = "Djellaba Combat (Blue Striped, MTP)";
     };
     class WSLV_MTPD_blue_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Blue, MTP)";
+        displayName = "Djellaba Combat (Blue, MTP)";
     };
     class WSLV_MTPD_brown_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Brown, MTP)";
+        displayName = "Djellaba Combat (Brown, MTP)";
     };
     class WSLV_MTPD_gn_green_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Emerald, MTP)";
+        displayName = "Djellaba Combat (Emerald, MTP)";
     };
     class WSLV_MTPD_green_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Green, MTP)";
+        displayName = "Djellaba Combat (Green, MTP)";
     };
     class WSLV_MTPD_grey_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Grey, MTP)";
+        displayName = "Djellaba Combat (Grey, MTP)";
     };
     class WSLV_MTPD_sand_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Sand, MTP)";
+        displayName = "Djellaba Combat (Sand, MTP)";
     };
     class WSLV_MTPD_white_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, White, MTP)";
+        displayName = "Djellaba Combat (White, MTP)";
     };
     class WSLV_MTPD_gn_wine_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Wine, MTP)";
+        displayName = "Djellaba Combat (Wine, MTP)";
     };
     class WSLV_MTPD_yellow_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Yellow, MTP)";
+        displayName = "Djellaba Combat (Yellow, MTP)";
     };
     class WSLV_MTPW_gn_black_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Black & Gold, MTP)";
+        displayName = "Djellaba Combat (Black & Gold, MTP)";
     };
     class WSLV_MTPW_black_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Black, MTP)";
+        displayName = "Djellaba Combat (Black, MTP)";
     };
     class WSLV_MTPW_blue_stripes_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Blue Striped, MTP)";
+        displayName = "Djellaba Combat (Blue Striped, MTP)";
     };
     class WSLV_MTPW_blue_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Blue, MTP)";
+        displayName = "Djellaba Combat (Blue, MTP)";
     };
     class WSLV_MTPW_brown_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Brown, MTP)";
+        displayName = "Djellaba Combat (Brown, MTP)";
     };
     class WSLV_MTPW_gn_green_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Emerald, MTP)";
+        displayName = "Djellaba Combat (Emerald, MTP)";
     };
     class WSLV_MTPW_green_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Green, MTP)";
+        displayName = "Djellaba Combat (Green, MTP)";
     };
     class WSLV_MTPW_grey_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Grey, MTP)";
+        displayName = "Djellaba Combat (Grey, MTP)";
     };
     class WSLV_MTPW_sand_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Sand, MTP)";
+        displayName = "Djellaba Combat (Sand, MTP)";
     };
     class WSLV_MTPW_white_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, White, MTP)";
+        displayName = "Djellaba Combat (White, MTP)";
     };
     class WSLV_MTPW_gn_wine_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Wine, MTP)";
+        displayName = "Djellaba Combat (Wine, MTP)";
     };
     class WSLV_MTPW_yellow_Camo: Uniform_Base {
-        displayName = "Djellaba Combat (, Yellow, MTP)";
+        displayName = "Djellaba Combat (Yellow, MTP)";
     };
     class WSLV_MTP_gn_black_Camo: Uniform_Base {
         displayName = "Djellaba Combat (Black & Gold, MTP)";

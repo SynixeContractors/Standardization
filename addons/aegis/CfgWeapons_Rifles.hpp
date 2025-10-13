@@ -680,7 +680,7 @@ class Aegis_SMG_Gepard_blk_F: Aegis_SMG_Gepard_Base_F {
 // TNG-7
 class LMG_Zafir_black_F;
 class Atlas_LMG_Negev_black_F: LMG_Zafir_black_F {
-    displayName = "TNG-7 (Black)";
+    displayName = "Negev TNG-7 (Black)";
 };
 
 // RFL
