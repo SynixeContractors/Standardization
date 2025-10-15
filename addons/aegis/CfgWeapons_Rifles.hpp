@@ -1,3 +1,8 @@
+class Rifle;
+class Rifle_Base_F: Rifle {
+    class WeaponSlotsInfo;
+};
+
 // AA12
 class sgun_aa40_base_lxWS;
 class Aegis_sgun_AA40_khk_lxWS: sgun_aa40_base_lxWS {
@@ -212,7 +217,6 @@ class arifle_AUG_C_black_F: arifle_AUG_C_black_base_F {
 };
 
 // BK-153
-class Rifle_Base_F;
 class sgun_Mp153_black_F: Rifle_Base_F {
     displayName = "BK-153 (Black)";
 };
@@ -380,7 +384,15 @@ class Aegis_MMG_FNMAG_240_F: Aegis_MMG_FNMAG_Base {
 };
 
 // M16E4
-class Aegis_arifle_M16A4_base_F;
+class Aegis_arifle_M16A4_base_F: Rifle_Base_F {
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        class CowsSlot: asdg_OpticRail1913 {
+            class compatibleItems: compatibleItems {
+                #include "IncompatibleScopes.hpp"
+            };
+        };
+    };
+};
 class Aegis_arifle_M16A4_F: Aegis_arifle_M16A4_base_F {
     displayName = "M16E4";
 };
@@ -413,7 +425,15 @@ class sgun_M4_F: Rifle_Short_Base_F {
 };
 
 // M4A1
-class Aegis_arifle_M4A1_base_F;
+class Aegis_arifle_M4A1_base_F: Rifle_Base_F {
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        class CowsSlot: asdg_OpticRail1913 {
+            class compatibleItems: compatibleItems {
+                #include "IncompatibleScopes.hpp"
+            };
+        };
+    };
+};
 class Aegis_arifle_M4A1_F: Aegis_arifle_M4A1_base_F {
     displayName = "M4A1 (Black)";
 };

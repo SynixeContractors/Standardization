@@ -135,13 +135,15 @@ class H_Booniehat_blk: H_Booniehat_khk {
 };
 class H_Booniehat_blk_hs: H_Booniehat_blk {
     displayName = "Boonie Hat (Black, Headset)";
-    BEANIE_HEADSET;
+    BOONIEHAT_HEADSET;
 };
 class H_Booniehat_oicamo: H_Booniehat_khk {
     displayName = "Boonie Hat (Hex Desert)";
+    class ItemInfo;
 };
 class H_Booniehat_oicamo_hs: H_Booniehat_oicamo {
     displayName = "Boonie Hat (Hex Desert, Headset)";
+    BOONIEHAT_HEADSET;
 };
 class H_Booniehat_flecktarn: H_Booniehat_khk {
     displayName = "Boonie Hat (Flecktarn)";
@@ -149,19 +151,23 @@ class H_Booniehat_flecktarn: H_Booniehat_khk {
 };
 class H_Booniehat_flecktarn_hs: H_Booniehat_flecktarn {
     displayName = "Boonie Hat (Flecktarn, Headset)";
-    BEANIE_HEADSET;
+    BOONIEHAT_HEADSET;
 };
 class H_Booniehat_ghex_F: H_Booniehat_khk {
     displayName = "Boonie Hat (Hex Tropic)";
+    class ItemInfo;
 };
 class H_Booniehat_ghex_hs_F: H_Booniehat_ghex_F {
     displayName = "Boonie Hat (Hex Tropic, Headset)";
+    BOONIEHAT_HEADSET;
 };
 class H_Booniehat_ocamo: H_Booniehat_khk {
     displayName = "Boonie Hat (Hex Ochre)";
+    class ItemInfo;
 };
 class H_Booniehat_ocamo_hs: H_Booniehat_ocamo {
     displayName = "Boonie Hat (Hex Ochre, Headset)";
+    BOONIEHAT_HEADSET;
 };
 class H_Booniehat_whex_F: H_Booniehat_khk {
     displayName = "Boonie Hat (Hex Woodland)";
@@ -223,21 +229,27 @@ class H_Booniehat_aucamo_trp_hs_F: H_Booniehat_aucamo_trp_F {
 };
 class H_Booniehat_jungle: H_Booniehat_khk {
     displayName = "Boonie Hat (Horizon Stripe)";
+    class ItemInfo;
 };
 class H_Booniehat_jungle_hs: H_Booniehat_jungle {
     displayName = "Boonie Hat (Horizon Stripe, Headset)";
+    BOONIEHAT_HEADSET;
 };
 class H_Booniehat_eaf_arid: H_Booniehat_khk {
     displayName = "Boonie Hat (Geo Arid)";
+    class ItemInfo;
 };
 class H_Booniehat_eaf_arid_hs: H_Booniehat_eaf_arid {
     displayName = "Boonie Hat (Geo Arid, Headset)";
+    BOONIEHAT_HEADSET;
 };
 class Aegis_H_Booniehat_UNO_F: H_Booniehat_khk {
     displayName = "Boonie Hat (UNO)";
+    class ItemInfo;
 };
 class Aegis_H_Booniehat_UNO_hs_F: Aegis_H_Booniehat_UNO_F {
     displayName = "Boonie Hat (UNO, Headset)";
+    BOONIEHAT_HEADSET;
 };
 
 // Beret
@@ -387,7 +399,9 @@ class Aegis_H_MilCap_UNO: H_MilCap_ocamo {
 };
 
 // Military Cap, Headphones
-class Aegis_H_Milcap_tachs_base_F;
+class Aegis_H_Milcap_tachs_base_F: HelmetBase {
+    ACE_HEARING_PELTOR;
+};
 class Aegis_H_MilCap_tachs_blk_F: Aegis_H_Milcap_tachs_base_F {
     displayName = "Military Cap (Black, Headphones)";
 };
@@ -456,6 +470,7 @@ class H_HeadSet_sand_F: H_HeadSet_base_F {
 // Military Headphones
 class H_Headset_Tactical: HelmetBase {
     displayName = "Military Headphones (Black)";
+    ACE_HEARING_PELTOR;
 };
 class H_Headset_Tactical_grn: H_Headset_Tactical {
     displayName = "Military Headphones (Green)";
@@ -466,4 +481,5 @@ class H_Headset_Tactical_khk: H_Headset_Tactical {
 
 class H_Headset_light: HelmetBase {
     displayName = "Headset";
+    ACE_HEARING_PELTOR;
 };

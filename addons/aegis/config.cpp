@@ -27,6 +27,7 @@ class CfgPatches {
     };
 };
 
+#include "CfgAmmo.hpp"
 #include "CfgGlasses.hpp"
 #include "CfgWeapons.hpp"
 #include "CfgVehicles.hpp"
