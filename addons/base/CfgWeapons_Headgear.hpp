@@ -217,7 +217,7 @@ class H_Shemag_olive: H_Shemag_khk {
 class H_Shemag_olive_hs: H_Shemag_olive {
     displayName = "Shemagh (Olive, Headset)";
 };
-class H_ShemagOpen_tan: HelmetBase {
+class H_ShemagOpen_tan: H_Shemag_khk {
     displayName = "Shemagh (Tan)";
 };
 class H_ShemagOpen_khk: H_ShemagOpen_tan {

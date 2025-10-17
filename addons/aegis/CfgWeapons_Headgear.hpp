@@ -451,11 +451,11 @@ class H_Shemag_red_hs: H_Shemag_red {
 };
 class H_ShemagOpen_tan;
 class H_ShemagOpen_tan_hs: H_ShemagOpen_tan {
-    displayName = "Shemagh Open (Tan, Headset)";
+    displayName = "Shemagh (Tan, Headset)";
 };
 class H_ShemagOpen_khk;
 class H_ShemagOpen_khk_hs: H_ShemagOpen_khk {
-    displayName = "Shemagh Open (White, Headset)";
+    displayName = "Shemagh (White, Headset)";
 };
 
 // Headphones
