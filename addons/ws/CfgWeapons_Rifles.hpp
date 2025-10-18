@@ -10,7 +10,7 @@ class arifle_XMS_khk_lxWS: arifle_XMS_Base_khk_lxWS {
 class arifle_XMS_GL_lxWS: arifle_XMS_Base_lxWS {
     displayName = "XMS GL (Black)";
 };
-class arifle_XMS_GL_khk_lxWS: arifle_XMS_Base_khk_lxWS {
+class arifle_XMS_GL_khk_lxWS: arifle_XMS_GL_lxWS {
     displayName = "XMS GL (Olive)";
 };
 class arifle_XMS_Shot_lxWS: arifle_XMS_Base_lxWS {
