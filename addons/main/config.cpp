@@ -8,6 +8,6 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"cba_main"};
         author = "Synixe Contractors";
-        VERSION_CONFIG;
+        addonRootClass = "A3_Characters_F";
     };
 };

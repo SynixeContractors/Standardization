@@ -11,7 +11,7 @@ class CfgPatches {
             "Weapons_Globe_Lauchers",
         };
         skipWhenMissingDependencies = 1;
-        VERSION_CONFIG;
+        addonRootClass = "A3_Characters_F";
     };
 };
 

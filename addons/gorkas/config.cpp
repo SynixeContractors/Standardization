@@ -11,7 +11,7 @@ class CfgPatches {
             "eo_gear"
         };
         skipWhenMissingDependencies = 1;
-        VERSION_CONFIG;
+        addonRootClass = "A3_Characters_F";
     };
 };
 

@@ -10,6 +10,7 @@ class CfgPatches {
             "synixe_standardization_main",
         };
         VERSION_CONFIG;
+        addonRootClass = "A3_Characters_F";
     };
 };
 

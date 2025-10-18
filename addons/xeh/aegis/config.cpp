@@ -12,6 +12,6 @@ class CfgPatches {
             "A3_Atlas_Weapons_F_Atlas",
             "A3_Atlas_Characters_F_Atlas",
         };
-        VERSION_CONFIG;
+        addonRootClass = "A3_Characters_F";
     };
 };

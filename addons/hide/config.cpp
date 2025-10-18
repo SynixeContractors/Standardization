@@ -25,7 +25,7 @@ class CfgPatches {
         };
         skipWhenMissingDependencies = 1;
         author = "Synixe Contractors";
-        VERSION_CONFIG;
+        addonRootClass = "A3_Characters_F";
     };
 };
 
