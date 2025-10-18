@@ -11,6 +11,7 @@ class CfgPatches {
             "MU_asset"
         };
         skipWhenMissingDependencies = 1;
+        VERSION_CONFIG;
         addonRootClass = "A3_Characters_F";
     };
 };

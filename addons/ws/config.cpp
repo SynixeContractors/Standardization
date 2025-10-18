@@ -12,6 +12,7 @@ class CfgPatches {
             "data_f_lxWS_Loadorder",
         };
         skipWhenMissingDependencies = 1;
+        VERSION_CONFIG;
         addonRootClass = "A3_Characters_F";
     };
 };

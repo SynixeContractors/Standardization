@@ -23,6 +23,7 @@ class CfgPatches {
             "A3_Aegis_Soft_F_Aegis_RF_Pickup_01",
         };
         skipWhenMissingDependencies = 1;
+        VERSION_CONFIG;
         addonRootClass = "A3_Characters_F";
     };
 };

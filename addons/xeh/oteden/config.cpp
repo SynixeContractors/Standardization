@@ -16,6 +16,7 @@ class CfgPatches {
             "Props_Globe_Humanitarian_Supplies",
             "Props_Globe_Items_Electronics",
         };
+        VERSION_CONFIG;
         addonRootClass = "A3_Characters_F";
     };
 };

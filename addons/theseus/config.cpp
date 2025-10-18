@@ -12,6 +12,7 @@ class CfgPatches {
             "tacs_headgear"
         };
         skipWhenMissingDependencies = 1;
+        VERSION_CONFIG;
         addonRootClass = "A3_Characters_F";
     };
 };
