@@ -1,16 +1,16 @@
-// RP57
+// Ruger-57
 class Pistol_Base_F;
 class Aegis_hgun_Pistol_R57_F: Pistol_Base_F {
-    displayName = "RP57 (Black)";
+    displayName = "Ruger-57 (Black)";
 };
 class Aegis_hgun_Pistol_R57_olive_F: Aegis_hgun_Pistol_R57_F {
-    displayName = "RP57 (Olive)";
+    displayName = "Ruger-57 (Olive)";
 };
 class Aegis_hgun_Pistol_R57_sand_F: Aegis_hgun_Pistol_R57_F {
-    displayName = "RP57 (Sand)";
+    displayName = "Ruger-57 (Sand)";
 };
 class Aegis_hgun_Pistol_R57_silver_F: Aegis_hgun_Pistol_R57_F {
-    displayName = "RP57 (Silver)";
+    displayName = "Ruger-57 (Silver)";
 };
 
 // P320

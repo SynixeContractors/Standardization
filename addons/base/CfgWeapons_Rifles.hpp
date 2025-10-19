@@ -7,7 +7,7 @@ class arifle_TRG21_F: Tavor_base_F {
     displayName = "TAR-21 (Olive)";
 };
 class arifle_TRG21_GL_F: arifle_TRG21_F {
-    displayName = "GTAR-21 (Olive)";
+    displayName = "TAR-21 GL (Olive)";
 };
 
 // F2000
