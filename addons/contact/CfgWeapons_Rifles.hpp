@@ -1,7 +1,7 @@
-// AK-12
+// AK-15
 class arifle_AK12U_base_F;
 class arifle_AK12U_F: arifle_AK12U_base_F {
-    displayName = "AK-12K (Black)";
+    displayName = "AK-15K (Black)";
 };
 
 // M14
