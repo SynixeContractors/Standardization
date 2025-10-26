@@ -178,19 +178,20 @@ class arifle_AKSM_alt_F: arifle_AKSM_F {
     displayName = "AKS-74MU (Plum)";
 };
 
-// AKU-12
+// AK-12K
+// https://en.wikipedia.org/wiki/AK-12#AK-12K
 class arifle_AK12U_545_base_F;
 class arifle_AK12U_545_F: arifle_AK12U_545_base_F {
-    displayName = "AKU-12 (Black)";
+    displayName = "AK-12K (Black)";
 };
 class arifle_AK12U_545_arid_F: arifle_AK12U_545_base_F {
-    displayName = "AKU-12 (Arid)";
+    displayName = "AK-12K (Arid)";
 };
 class arifle_AK12U_545_lush_F: arifle_AK12U_545_base_F {
-    displayName = "AKU-12 (Lush)";
+    displayName = "AK-12K (Lush)";
 };
 class arifle_AK12U_545_tan_F: arifle_AK12U_545_F {
-    displayName = "AKU-12 (Sand)";
+    displayName = "AK-12K (Sand)";
 };
 
 // AUR 90
