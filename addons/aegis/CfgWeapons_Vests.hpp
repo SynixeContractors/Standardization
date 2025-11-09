@@ -183,11 +183,11 @@ class Aegis_V_ChestrigEast_ghex_F: Aegis_V_ChestrigEast_RUtaiga_F {
 class Aegis_V_ChestrigEast_hex_F: Aegis_V_ChestrigEast_RUtaiga_F {
     displayName = "Lifchik-M Rig (Hex Ochre)";
 };
-class Atlas_V_ChestRigEast_semiarid_F: Vest_Camo_Base {
-    displayName = "Lifchik-R Rig (Hex Mixed)";
+class Atlas_V_ChestRigEast_semiarid_F: Aegis_V_ChestrigEast_RUtaiga_F {
+    displayName = "Lifchik-M Rig (Hex Mixed)";
 };
-class Atlas_V_ChestRigEast_whex_F: Vest_Camo_Base {
-    displayName = "Lifchik-R Rig (Hex Woodland)";
+class Atlas_V_ChestRigEast_whex_F: Aegis_V_ChestrigEast_RUtaiga_F {
+    displayName = "Lifchik-M Rig (Hex Woodland)";
 };
 class Aegis_V_OCarrierLuchnik_F: V_PlateCarrier1_rgr {
     displayName = "Luchnik Vest (Hex Taiga)";
