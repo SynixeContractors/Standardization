@@ -93,6 +93,18 @@ HIDE_UNIFORM(Atlas_U_CombatUniformEURO_01_multitarn_F);
 HIDE_UNIFORM(Atlas_U_CombatUniformEURO_02_multitarn_F);
 HIDE_UNIFORM(Atlas_U_CombatUniformEURO_01_F);
 HIDE_UNIFORM(Atlas_U_CombatUniformEURO_02_F);
+class Atlas_U_E_SF_CombatUniformNCU_01_F: Uniform_Base {
+    displayName = "European Combat Uniform [LDF] (Geo Woodland)";
+};
+class Atlas_U_E_SF_CombatUniformNCU_02_F: Uniform_Base {
+    displayName = "European Combat Uniform [LDF] (Geo Woodland, Rolled-Up)";
+};
+class Atlas_U_E_SF_CombatUniformNCU_01_ard_F: Uniform_Base {
+    displayName = "European Combat Uniform [LDF] (Geo Arid)";
+};
+class Atlas_U_E_SF_CombatUniformNCU_02_ard_F: Uniform_Base {
+    displayName = "European Combat Uniform [LDF] (Geo Arid, Rolled-Up)";
+};
 
 // Field Uniform (Hiding Flags)
 HIDE_UNIFORM(Atlas_U_B_G_CombatUniform_arid);

@@ -58,7 +58,6 @@ class optic_MRD: ItemCore {
 };
 
 // MOS
-class ItemCore;
 class optic_SOS: ItemCore {
     displayName = "MOS (Black)";
 };

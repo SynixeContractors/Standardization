@@ -1,4 +1,6 @@
 class CfgWeapons {
+    class ItemCore;
+
     #include "CfgWeapons_Attachments.hpp"
     #include "CfgWeapons_Gear.hpp"
     #include "CfgWeapons_Headgear.hpp"

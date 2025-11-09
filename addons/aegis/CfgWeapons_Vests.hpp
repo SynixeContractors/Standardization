@@ -274,10 +274,10 @@ class Aegis_V_CarrierRigKBT_01_recon_EAF_F: Aegis_V_CarrierRigKBT_01_recon_base_
     displayName = "Modular Carrier Recon Rig (Geo Woodland)";
 };
 class Aegis_V_CarrierRigKBT_01_recon_CTRG_ard_F: Aegis_V_CarrierRigKBT_01_recon_base_F {
-    displayName = "Modular Carrier Recon Rig (Dark Light)";
+    displayName = "Modular Carrier Recon Rig (Dazzle Light)";
 };
 class Aegis_V_CarrierRigKBT_01_recon_CTRG_trp_F: Aegis_V_CarrierRigKBT_01_recon_base_F {
-    displayName = "Modular Carrier Recon Rig (Dark Tropic)";
+    displayName = "Modular Carrier Recon Rig (Dazzle Dark)";
 };
 class Atlas_V_CarrierRigKBT_01_recon_idfsf_F: Aegis_V_CarrierRigKBT_01_recon_base_F {
     scope = 1;
