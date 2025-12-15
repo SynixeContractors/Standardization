@@ -26,14 +26,17 @@ class glaunch_GLX_olive_lxWS: glaunch_GLX_base_lxWS {
 
 // M110
 class Aegis_arifle_SR25_base_F;
+// https://en.wikipedia.org/wiki/SR-25
+// the difference between Mk11 and M110 are different stock and foregrip
+// i think we should fold them
 class Aegis_arifle_SR25_MR_blk_F: Aegis_arifle_SR25_base_F {
-    displayName = "M110 (Black)";
+    displayName = "SR25 FG (Black)";
 };
 class Aegis_arifle_SR25_MR_khk_F: Aegis_arifle_SR25_MR_blk_F {
-    displayName = "M110 (Olive)";
+    displayName = "SR25 FG (Olive)";
 };
 class Aegis_arifle_SR25_MR_snd_F: Aegis_arifle_SR25_MR_blk_F {
-    displayName = "M110 (Sand)";
+    displayName = "SR25 FG (Sand)";
 };
 
 // ACOG
@@ -175,19 +178,20 @@ class arifle_AKSM_alt_F: arifle_AKSM_F {
     displayName = "AKS-74MU (Plum)";
 };
 
-// AKU-12
+// AK-12K
+// https://en.wikipedia.org/wiki/AK-12#AK-12K
 class arifle_AK12U_545_base_F;
 class arifle_AK12U_545_F: arifle_AK12U_545_base_F {
-    displayName = "AKU-12 (Black)";
+    displayName = "AK-12K (Black)";
 };
 class arifle_AK12U_545_arid_F: arifle_AK12U_545_base_F {
-    displayName = "AKU-12 (Arid)";
+    displayName = "AK-12K (Arid)";
 };
 class arifle_AK12U_545_lush_F: arifle_AK12U_545_base_F {
-    displayName = "AKU-12 (Lush)";
+    displayName = "AK-12K (Lush)";
 };
 class arifle_AK12U_545_tan_F: arifle_AK12U_545_F {
-    displayName = "AKU-12 (Sand)";
+    displayName = "AK-12K (Sand)";
 };
 
 // AUR 90
@@ -287,7 +291,7 @@ class arifle_FORT652_GL_F: arifle_TRG21_GL_F {
     displayName = "Fort-652 GL";
 };
 class arifle_TRG21_GL_black_F: arifle_TRG21_GL_F {
-    displayName = "GTAR-21 (Black)";
+    displayName = "TAR-21 GL (Black)";
 };
 
 // G36
@@ -346,23 +350,23 @@ class arifle_SA80_C_snd_F: arifle_SA80_C_base_F {
 // L85A3
 class arifle_SA80_base_F;
 class arifle_SA80_blk_F: arifle_SA80_base_F {
-    displayName = "L85A3 (Black)";
+    displayName = "L85A4 (Black)";
 };
 class arifle_SA80_khk_F: arifle_SA80_base_F {
-    displayName = "L85A3 (Olive)";
+    displayName = "L85A4 (Olive)";
 };
 class arifle_SA80_snd_F: arifle_SA80_base_F {
-    displayName = "L85A3 (Sand)";
+    displayName = "L85A4 (Sand)";
 };
 class arifle_SA80_GL_base_F;
 class arifle_SA80_GL_blk_F: arifle_SA80_GL_base_F {
-    displayName = "L85A3 GL (Black)";
+    displayName = "L85A4 GL (Black)";
 };
 class arifle_SA80_GL_khk_F: arifle_SA80_GL_base_F {
-    displayName = "L85A3 GL (Olive)";
+    displayName = "L85A4 GL (Olive)";
 };
 class arifle_SA80_GL_snd_F: arifle_SA80_GL_base_F {
-    displayName = "L85A3 GL (Sand)";
+    displayName = "L85A4 GL (Sand)";
 };
 
 // LWMMG
@@ -475,14 +479,17 @@ class Aegis_arifle_M4A1_short_sand_F: Aegis_arifle_M4A1_short_base_F {
 };
 
 // Mk11
+// https://en.wikipedia.org/wiki/SR-25
+// the difference between Mk11 and M110 are different stock and foregrip
+// i think we should fold them
 class Aegis_arifle_SR25_blk_F: Aegis_arifle_SR25_base_F {
-    displayName = "Mk11 (Black)";
+    displayName = "SR25 (Black)";
 };
 class Aegis_arifle_SR25_khk_F: Aegis_arifle_SR25_base_F {
-    displayName = "Mk11 (Olive)";
+    displayName = "SR25 (Olive)";
 };
 class Aegis_arifle_SR25_snd_F: Aegis_arifle_SR25_base_F {
-    displayName = "Mk11 (Sand)";
+    displayName = "SR25 (Sand)";
 };
 
 // Mk14 Mod 1 EBR

@@ -7,10 +7,6 @@ class arifle_AK12_GL_base_F;
 class arifle_AK12_GL_F: arifle_AK12_GL_base_F {
     displayName = "AK-15 GL (Black)";
 };
-class arifle_AK12U_base_F;
-class arifle_AK12U_F: arifle_AK12U_base_F {
-    displayName = "AK-15K (Black)";
-};
 
 // AKM
 class arifle_AKM_base_F;

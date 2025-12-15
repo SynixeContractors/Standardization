@@ -40,11 +40,12 @@ class arifle_SLR_V_lxWS: arifle_SLR_lxWS {
 class arifle_SLR_V_GL_lxWS: arifle_SLR_V_lxWS {
     displayName = "FN FAL 50.00 GL (Black)";
 };
+// https://en.wikipedia.org/wiki/FN_FAL#DSA_SA58_FAL
 class arifle_SLR_Para_lxWS: arifle_SLR_lxWS {
-    displayName = "FN FAL 50.41 (Black)";
+    displayName = "FN FAL SA58 OSW (Black)";
 };
 class arifle_SLR_Para_snake_lxWS: arifle_SLR_Para_lxWS {
-    displayName = "FN FAL 50.41 (Snake)";
+    displayName = "FN FAL SA58 OSW (Snake)";
 };
 
 // GLX 160
