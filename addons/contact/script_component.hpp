@@ -1,4 +1,4 @@
-#define COMPONENT apex
+#define COMPONENT contact
 
 #include "..\main\script_mod.hpp"
 #include "..\main\script_macros.hpp"
