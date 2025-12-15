@@ -8,6 +8,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "cba_main",
+            "A3_Air_F",
             "A3_Characters_F_Exp",
             "A3_Opf_Characters_F_Opf",
             "A3_Atlas_Characters_F_Atlas",
@@ -24,7 +25,7 @@ class CfgPatches {
         skipWhenMissingDependencies = 1;
         author = "Synixe Contractors";
         VERSION_CONFIG;
-        addonRootClass = "A3_Characters_F";
+        addonRootClass = "A3_Data_F";
     };
 };
 
