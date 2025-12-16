@@ -470,6 +470,9 @@ class Atlas_U_O_Afghanka_02_khk_F: Uniform_Base {
 class Atlas_U_O_Afghanka_01_semiarid_F: Uniform_Base {
     displayName = "Gora Fatigues (Hex Mixed)";
 };
+class Atlas_U_O_Afghanka_02_semiarid_F: Uniform_Base {
+    displayName = "Gora Fatigues (Hex Mixed, Rolled-Up)";
+};
 class Atlas_U_I_Afghanka_01_ardi_full_F: Uniform_Base {
     displayName = "Gora Fatigues (Blotch, Full)";
 };
@@ -493,6 +496,12 @@ class Atlas_U_O_Afghanka_01_rutaiga_F: Uniform_Base {
 };
 class Atlas_U_O_Afghanka_02_rutaiga_F: Uniform_Base {
     displayName = "Gora Fatigues (Hex Taiga, Rolled-Up)";
+};
+class Atlas_U_O_Afghanka_01_whex_F: Uniform_Base {
+    displayName = "Gora Fatigues (Hex Woodland)";
+};
+class Atlas_U_O_Afghanka_02_whex_F: Uniform_Base {
+    displayName = "Gora Fatigues (Hex Woodland, Rolled-Up)";
 };
 
 // Fatigues
@@ -619,4 +628,18 @@ class U_O_R_FullGhillie_sard_F: Uniform_Base {
 };
 class U_O_R_FullGhillie_wdl_F: Uniform_Base {
     displayName = "Ghillie Suit (Hex Taiga, Woodland)";
+};
+
+// Special Purpose Suit
+class U_O_V_Soldier_Viper_hex_F: Uniform_Base {
+    displayName = "Operations Suit [CSP] (Hex Ochre)";
+};
+class Atlas_U_O_V_Soldier_Viper_whex_F: Uniform_Base {
+    displayName = "Operations Suit [CSP] (Hex Woodland)";
+};
+class U_O_V_Soldier_Viper_F: Uniform_Base {
+    displayName = "Operations Suit [CSP] (Hex Tropic)";
+};
+class U_O_V_Soldier_Viper_oicamo_F: Uniform_Base {
+    displayName = "Operations Suit [CSP] (Hex Desert)";
 };
