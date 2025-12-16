@@ -1,12 +1,12 @@
 class NVGoggles;
 class O_NVGoggles_hex_F: NVGoggles {
-    displayName = "NV Goggles (Hex Ochre)";
+    displayName = "Compact NVG (Hex Ochre)";
 };
 class O_NVGoggles_ghex_F: O_NVGoggles_hex_F {
-    displayName = "NV Goggles (Hex Tropic)";
+    displayName = "Compact NVG (Hex Tropic)";
 };
 class O_NVGoggles_urb_F: O_NVGoggles_hex_F {
-    displayName = "NV Goggles (Hex Urban)";
+    displayName = "Compact NVG (Hex Urban)";
 };
 
 class NVGoggles_tna_F: NVGoggles {

@@ -244,11 +244,11 @@ class H_Booniehat_eaf_arid_hs: H_Booniehat_eaf_arid {
     BOONIEHAT_HEADSET;
 };
 class Aegis_H_Booniehat_UNO_F: H_Booniehat_khk {
-    displayName = "Boonie Hat (UNO)";
+    displayName = "Boonie Hat (UN)";
     class ItemInfo;
 };
 class Aegis_H_Booniehat_UNO_hs_F: Aegis_H_Booniehat_UNO_F {
-    displayName = "Boonie Hat (UNO, Headset)";
+    displayName = "Boonie Hat (UN, Headset)";
     BOONIEHAT_HEADSET;
 };
 
