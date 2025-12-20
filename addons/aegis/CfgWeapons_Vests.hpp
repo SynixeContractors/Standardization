@@ -235,7 +235,7 @@ class Atlas_V_CarrierRigKBT_01_CQB_france_F: Aegis_V_CarrierRigKBT_01_cqb_base_F
     displayName = "Modular Carrier CQB Rig (Jig Woodland)";
 };
 class Atlas_V_CarrierRigKBT_01_CQB_RACS_F: Aegis_V_CarrierRigKBT_01_cqb_base_F {
-    displayName = "Modular Carrier CQB Rig (Sahrani)";
+    displayName = "Modular Carrier CQB Rig (SDP)";
 };
 class Atlas_V_CarrierRigKBT_01_CQB_CDF_F: Aegis_V_CarrierRigKBT_01_cqb_base_F {
     displayName = "Modular Carrier CQB Rig (Polywood)";
@@ -251,10 +251,10 @@ class V_CarrierRigKBT_01_heavy_CDF_F: V_CarrierRigKBT_01_heavy_base_F {
     displayName = "Modular Carrier GL Rig (Polywood)";
 };
 class Atlas_V_CarrierRigKBT_01_heavy_RACS_F: V_CarrierRigKBT_01_heavy_base_F {
-    displayName = "Modular Carrier GL Rig (Sahrani)";
+    displayName = "Modular Carrier GL Rig (SDP)";
 };
 class Atlas_V_CarrierRigKBT_01_heavy_UNRACS_F: V_CarrierRigKBT_01_heavy_base_F {
-    displayName = "Modular Carrier GL Rig (Sahrani, UN)";
+    displayName = "Modular Carrier GL Rig (SDP, UN)";
 };
 class V_CarrierRigKBT_01_light_base_F;
 class V_CarrierRigKBT_01_light_EAF_F: V_CarrierRigKBT_01_light_base_F {
@@ -267,7 +267,7 @@ class V_CarrierRigKBT_01_light_CDF_F: V_CarrierRigKBT_01_light_base_F {
     displayName = "Modular Carrier Lite (Polywood)";
 };
 class Atlas_V_CarrierRigKBT_01_light_RACS_F: V_CarrierRigKBT_01_light_base_F {
-    displayName = "Modular Carrier Lite (Sahrani)";
+    displayName = "Modular Carrier Lite (SDP)";
 };
 class Aegis_V_CarrierRigKBT_01_recon_base_F;
 class Aegis_V_CarrierRigKBT_01_recon_EAF_F: Aegis_V_CarrierRigKBT_01_recon_base_F {
@@ -285,7 +285,7 @@ class Atlas_V_CarrierRigKBT_01_recon_idfsf_F: Aegis_V_CarrierRigKBT_01_recon_bas
 };
 class Aegis_V_CarrierRigKBT_01_tactical_base_F;
 class Atlas_V_CarrierRigKBT_01_tac_UNRACS_F: Aegis_V_CarrierRigKBT_01_tactical_base_F {
-    displayName = "Modular Carrier Tactical Rig (Sahrani, UN)";
+    displayName = "Modular Carrier Tactical Rig (SDP, UN)";
 };
 class V_CarrierRigKBT_01_base_F;
 class V_CarrierRigKBT_01_EAF_F: V_CarrierRigKBT_01_base_F {
@@ -298,7 +298,7 @@ class V_CarrierRigKBT_01_CDF_F: V_CarrierRigKBT_01_base_F {
     displayName = "Modular Carrier Rig (Polywood)";
 };
 class Atlas_V_CarrierRigKBT_01_RACS_F: V_CarrierRigKBT_01_base_F {
-    displayName = "Modular Carrier Rig (Sahrani)";
+    displayName = "Modular Carrier Rig (SDP)";
 };
 
 // Slash Bandolier
