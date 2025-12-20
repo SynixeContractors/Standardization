@@ -749,7 +749,7 @@ class H_O_Helmet_canvas_owcamo: H_HelmetIA {
     displayName = "Modular Helmet (Hex Woodland)";
 };
 class H_O_Helmet_canvas_RACS: H_HelmetIA {
-    displayName = "Modular Helmet (Sahrani)";
+    displayName = "Modular Helmet (SDP)";
 };
 class H_I_Helmet_canvas_UN_F: H_HelmetIA {
     displayName = "Modular Helmet [UN] (UN)";
