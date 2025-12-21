@@ -788,6 +788,12 @@ class LMG_03_khk_F: LMG_03_base_F {
     displayName = "FN Minimi SPW (Olive)";
 };
 
+// Cyrus
+class srifle_DMR_05_blk_F;
+class srifle_DMR_05_ghex_F: srifle_DMR_05_blk_F {
+    displayName = "Cyrus (Hex Tropic)";
+};
+
 // Sound Suppressor
 class muzzle_snds_460: ItemCore {
     displayName = "Sound Suppressor (4.6 mm, Black)";
