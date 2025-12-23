@@ -5,6 +5,8 @@ class V_PlateCarrier1_rgr: Vest_NoCamo_Base {
 };
 class V_PlateCarrier1_rgr_noflag_F: V_PlateCarrier1_rgr {
     displayName = "Carrier Lite (Green)";
+    scope = 2;
+    scopeCurator = 2;
 };
 class V_PlateCarrier1_tna_F: V_PlateCarrier1_rgr {
     scope = 1;
@@ -21,6 +23,8 @@ class V_PlateCarrier2_rgr: V_PlateCarrier1_rgr {
 };
 class V_PlateCarrier2_rgr_noflag_F: V_PlateCarrier2_rgr {
     displayName = "Carrier Rig (Green)";
+    scope = 2;
+    scopeCurator = 2;
 };
 class V_PlateCarrier2_wdl: V_PlateCarrier2_rgr {
     scope = 1;

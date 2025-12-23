@@ -5,6 +5,11 @@ class U_C_ArtTShirt_01_isntArt: Uniform_Base {
     displayName = "Casual Clothes (Artiste)";
 };
 
+class U_B_CombatUniform_mcam_worn_vest: Uniform_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+
 // Worker Coveralls
 class U_C_WorkerCoverallsGloves: Uniform_Base {
     displayName = "Worker Coveralls (Grey, Gloves)";
