@@ -197,32 +197,32 @@ class arifle_AK12U_545_tan_F: arifle_AK12U_545_F {
 // AUR 90
 class arifle_AUG_base_F;
 class arifle_AUG_F: arifle_AUG_base_F {
-    displayName = "AUR 90 (Sand)";
+    displayName = "AUG A3 (Sand)";
 };
 class arifle_AUG_black_base_F;
 class arifle_AUG_black_F: arifle_AUG_black_base_F {
-    displayName = "AUR 90 (Black)";
+    displayName = "AUG A3 (Black)";
 };
 class arifle_AUG_GL_base_F;
 class arifle_AUG_GL_F: arifle_AUG_GL_base_F {
-    displayName = "AUR 90 GL (Sand)";
+    displayName = "AUG A3 GL (Sand)";
 };
 class arifle_AUG_GL_black_base_F;
 class arifle_AUG_GL_black_F: arifle_AUG_GL_black_base_F {
-    displayName = "AUR 90 GL (Black)";
+    displayName = "AUG A3 GL (Black)";
 };
 class arifle_AUG_C_base_F;
 class arifle_AUG_C_F: arifle_AUG_C_base_F {
-    displayName = "AUR 90C (Sand)";
+    displayName = "AUG A3-CQC (Sand)";
 };
 class arifle_AUG_C_black_base_F;
 class arifle_AUG_C_black_F: arifle_AUG_C_black_base_F {
-    displayName = "AUR 90C (Black)";
+    displayName = "AUG A3-CQC (Black)";
 };
 
 // BK-153
 class sgun_Mp153_black_F: Rifle_Base_F {
-    displayName = "BK-153 (Black)";
+    displayName = "BK-153 (Short, Black)";
 };
 class sgun_Mp153_classic_F: sgun_Mp153_black_F {
     displayName = "BK-153 (Classic)";
@@ -231,10 +231,10 @@ class sgun_Mp153_classic_F: sgun_Mp153_black_F {
 // Bulldog
 class Rifle_Short_Base_F;
 class sgun_KSG_F: Rifle_Short_Base_F {
-    displayName = "Bulldog (Olive)";
+    displayName = "KSG (Olive)";
 };
 class Aegis_sgun_KSG_black_F: sgun_KSG_F {
-    displayName = "Bulldog (Black)";
+    displayName = "KSG (Black)";
 };
 
 // FAMAS
@@ -243,11 +243,11 @@ class atlas_arifle_famasF1_F: Atlas_ARifle_FamasF1_Base {
     displayName = "FAMAS F1";
 };
 class atlas_arifle_famasF1_Grip_F: Atlas_ARifle_FamasF1_Base {
-    displayName = "FAMAS F1 FG";
+    displayName = "FAMAS F1 RIS FG";
 };
 class Atlas_Arifle_Famas_M203_base;
 class Atlas_arifle_famasF1_GL_F: Atlas_Arifle_Famas_M203_base {
-    displayName = "FAMAS F1 GL";
+    displayName = "FAMAS F1 RIS GL";
 };
 class atlas_arifle_famasF1_RIS_F: Atlas_ARifle_FamasF1_Base {
     displayName = "FAMAS F1 RIS";
@@ -273,7 +273,7 @@ class Atlas_Arifle_famasG4_GL_F: Atlas_Arifle_Famas_M203_base {
 // Fort-65 / TAR-21
 class arifle_TRG20_F;
 class arifle_FORT651_F: arifle_TRG20_F {
-    displayName = "Fort-651";
+    displayName = "Fort-652C";
 };
 class arifle_TRG21_F;
 class arifle_FORT652_F: arifle_TRG21_F {
@@ -384,7 +384,7 @@ class Aegis_MMG_FNMAG_old_F: Aegis_MMG_FNMAG_Base {
     displayName = "M240";
 };
 class Aegis_MMG_FNMAG_240_F: Aegis_MMG_FNMAG_Base {
-    displayName = "M240G";
+    displayName = "M240L";
 };
 
 // M16E4
