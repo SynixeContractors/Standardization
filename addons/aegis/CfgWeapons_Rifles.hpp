@@ -617,21 +617,24 @@ class SMG_04_snd_F: SMG_04_base_F {
 };
 
 // NCAR
+// 5.8mm AK could be
+// Type 87 (redisgned Type 56 AK)
+// or more modern Type 03 which is Type87 in modern furniture
 class arifle_AK12_F;
 class arifle_NCAR15_F: arifle_AK12_F {
-    displayName = "NCAR-15";
+    displayName = "QBZ-03";
 };
 class arifle_AK12_GL_F;
 class arifle_NCAR15_GL_F: arifle_AK12_GL_F {
-    displayName = "NCAR-15 GL";
+    displayName = "QBZ-03 GL";
 };
 class arifle_RPK12_F;
 class arifle_NCAR15_MG_F: arifle_RPK12_F {
-    displayName = "NCAR-15-1";
+    displayName = "QBZ-03 LSW";
 };
 class arifle_AK12U_F;
 class arifle_NCAR15B_F: arifle_AK12U_F {
-    displayName = "NCAR-15B";
+    displayName = "QBZ-03B";
 };
 
 // Punisher 25mm
