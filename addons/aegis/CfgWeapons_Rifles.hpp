@@ -469,13 +469,13 @@ class Aegis_arifle_M4A1_GL_sand_F: Aegis_arifle_M4A1_GL_base_F {
 };
 class Aegis_arifle_M4A1_short_base_F;
 class Aegis_arifle_M4A1_short_F: Aegis_arifle_M4A1_short_base_F {
-    displayName = "M4A1 SBR (Black)";
+    displayName = "M4A1 CQBR (Black)";
 };
 class Aegis_arifle_M4A1_short_khaki_F: Aegis_arifle_M4A1_short_base_F {
-    displayName = "M4A1 SBR (Olive)";
+    displayName = "M4A1 CQBR (Olive)";
 };
 class Aegis_arifle_M4A1_short_sand_F: Aegis_arifle_M4A1_short_base_F {
-    displayName = "M4A1 SBR (Sand)";
+    displayName = "M4A1 CQBR (Sand)";
 };
 
 // Mk11
