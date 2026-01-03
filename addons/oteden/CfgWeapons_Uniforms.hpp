@@ -82,10 +82,10 @@ class Atlas_U_B_M_CombatUniform_tee_des: Uniform_Base {
     displayName = "Light Fatigues [Marar] (SanDig, Tank Top)";
 };
 class Atlas_U_I_U_CombatUniform_UNO: Uniform_Base {
-    displayName = "Light Fatigues [RACS] (Sahrani)";
+    displayName = "Light Fatigues [RACS] (SDP)";
 };
 class Atlas_U_I_U_CombatUniform_shortsleeve_UNO: Uniform_Base {
-    displayName = "Light Fatigues [RACS] (Sahrani, Rolled-Up)";
+    displayName = "Light Fatigues [RACS] (SDP, Rolled-Up)";
 };
 class U_lxWS_SFIA_soldier_2_O: Uniform_Base {
     displayName = "Light Fatigues (Mudwalker)";
