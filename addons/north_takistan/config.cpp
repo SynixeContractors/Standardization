@@ -95,8 +95,8 @@ class CfgWorlds {
             WaterGrid = 50;
             MaxTide = 0;
             MaxWave = 0.25;
-            SeaWaveXScale = "2.0/50";
-            SeaWaveZScale = "1.0/50";
+            SeaWaveXScale = 0.04;
+            SeaWaveZScale = 0.02;
             SeaWaveHScale = 1;
             SeaWaveXDuration = 5000;
             SeaWaveZDuration = 10000;
@@ -122,10 +122,10 @@ class CfgWorlds {
         };
         class WaterExPars: WaterExPars {
             fogDensity = 0.25;
-            fogColor[] = {"0.197*0.25", "0.25*0.25", "0.08*0.25"};
+            fogColor[] = {0.04925, 0.0625, 0.02};
             fogColorExtinctionSpeed[] = {0.3, 0.3, 0.0511};
-            ligtExtinctionSpeed[] = {"0.02+0.3", "0.02+0.3", "0.02+0.0511"};
-            diffuseLigtExtinctionSpeed[] = {"0.82+0.3", "0.52+0.3", "1.32+0.0511"};
+            ligtExtinctionSpeed[] = {0.32, 0.32, 0.0711};
+            diffuseLigtExtinctionSpeed[] = {1.12, 0.82, 1.3711};
             fogGradientCoefs[] = {0.35, 1, 1.7};
             fogColorLightInfluence[] = {0.8, 0.2, 1};
             shadowIntensity = 0;

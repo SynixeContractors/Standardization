@@ -102,18 +102,6 @@ class lxWS_H_turban_03_sand: lxWS_H_turban_03_black {
 class lxWS_H_turban_04_sand: lxWS_H_turban_04_black {
     displayName = "Keffiyeh (Brown, Imamah)";
 };
-class lxWS_H_turban_01_grey: lxWS_H_turban_01_black {
-    displayName = "Keffiyeh (Grey, Turban)";
-};
-class lxWS_H_turban_02_grey: lxWS_H_turban_02_black {
-    displayName = "Keffiyeh (Grey, Litham Down)";
-};
-class lxWS_H_turban_03_grey: lxWS_H_turban_03_black {
-    displayName = "Keffiyeh (Grey, Litham Up)";
-};
-class lxWS_H_turban_04_grey: lxWS_H_turban_04_black {
-    displayName = "Keffiyeh (Grey, Imamah)";
-};
 class lxWS_H_turban_01_yellow: lxWS_H_turban_01_black {
     displayName = "Keffiyeh (Yellow, Turban)";
 };
@@ -139,9 +127,13 @@ class lxWS_H_turban_04_gray: lxWS_H_turban_04_black {
     displayName = "Keffiyeh (White, Imamah)";
 };
 class lxWS_H_turban_03_green_pattern: lxWS_H_turban_03_black {
+    scope = 1;
+    scopeArsenal = 1;
     displayName = "Keffiyeh (Green Pattern, Litham Up)";
 };
 class lxWS_H_turban_02_green_pattern: lxWS_H_turban_02_black {
+    scope = 1;
+    scopeArsenal = 1;
     displayName = "Keffiyeh (Green Pattern, Litham Down)";
 };
 class lxWS_H_turban_03_orange: lxWS_H_turban_03_black {
@@ -149,4 +141,14 @@ class lxWS_H_turban_03_orange: lxWS_H_turban_03_black {
 };
 class lxWS_H_turban_02_orange: lxWS_H_turban_02_black {
     displayName = "Keffiyeh (Orange, Litham Down)";
+};
+class lxWS_H_turban_01_orange: lxWS_H_turban_01_black {
+    displayName = "Keffiyeh (Orange, Turban)";
+    hiddenSelectionsTextures[] = {"lxws\characters_f_lxws\headgear\turban\data\turban_01_orange_co.paa"};
+    picture = "\lxws\characters_f_lxws\headgear\turban\data\UI\icon_H_turban_01_orange_ca.paa";
+};
+class lxWS_H_turban_04_orange: lxWS_H_turban_04_black {
+    displayName = "Keffiyeh (Orange, Imamah)";
+    hiddenSelectionsTextures[] = {"lxws\characters_f_lxws\headgear\turban\data\turban_01_orange_co.paa"};
+    picture = "\lxws\characters_f_lxws\headgear\turban\data\UI\icon_H_turban_04_orange_ca.paa";
 };
