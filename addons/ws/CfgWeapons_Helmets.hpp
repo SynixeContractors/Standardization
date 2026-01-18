@@ -3,7 +3,7 @@ class lxWS_H_bmask_base;
 class lxWS_H_bmask_hex: lxWS_H_bmask_base {
     displayName = "Ballistic Mask (Hex Ochre)";
 };
-class lxWS_H_bmask_ghex: lxWS_H_bmask_base {
+class lxWS_H_bmask_ghex: lxWS_H_bmask_hex {
     displayName = "Ballistic Mask (Hex Tropic)";
 };
 

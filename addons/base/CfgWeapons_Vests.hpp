@@ -8,11 +8,12 @@ class V_PlateCarrier1_rgr_noflag_F: V_PlateCarrier1_rgr {
     scope = 2;
     scopeCurator = 2;
 };
-class V_PlateCarrier1_tna_F: V_PlateCarrier1_rgr {
+class V_PlateCarrier1_blk;
+class V_PlateCarrier1_tna_F: V_PlateCarrier1_blk {
     scope = 1;
     scopeCurator = 1;
 };
-class V_PlateCarrier1_wdl: V_PlateCarrier1_rgr {
+class V_PlateCarrier1_wdl: V_PlateCarrier1_blk {
     scope = 1;
     scopeCurator = 1;
 };
@@ -26,11 +27,12 @@ class V_PlateCarrier2_rgr_noflag_F: V_PlateCarrier2_rgr {
     scope = 2;
     scopeCurator = 2;
 };
-class V_PlateCarrier2_wdl: V_PlateCarrier2_rgr {
+class V_PlateCarrier2_blk;
+class V_PlateCarrier2_wdl: V_PlateCarrier2_blk {
     scope = 1;
     scopeCurator = 1;
 };
-class V_PlateCarrier2_tna_F: V_PlateCarrier2_rgr {
+class V_PlateCarrier2_tna_F: V_PlateCarrier2_blk {
     scope = 1;
     scopeCurator = 1;
 };

@@ -130,20 +130,6 @@ class V_ChestrigF_oli: V_ChestrigF_khk {
     displayName = "Chest Rig (Olive, Light)";
 };
 
-class V_HarnessOSpec_brn;
-class V_HarnessOSpec_ghex_F: V_HarnessOSpec_brn {
-    displayName = "ELBV Harness (Hex Tropic)";
-};
-class V_HarnessOSpec_oicamo: V_HarnessOSpec_brn {
-    displayName = "ELBV Harness (Hex Taiga)";
-};
-class V_HarnessOSpec_gry: V_HarnessOSpec_brn {
-    displayName = "ELBV Harness (Hex Urban)";
-};
-class V_HarnessOSpec_whex_F: V_HarnessOSpec_brn {
-    displayName = "ELBV Harness (Coyote)";
-};
-
 // Gora Rig
 class Atlas_V_OCarrierGora_CQB_base_F;
 class Atlas_V_OCarrierGora_CQB_ardi_F: Atlas_V_OCarrierGora_CQB_base_F {
@@ -165,6 +151,20 @@ class V_HarnessOGL_whex_F: V_HarnessOGL_brn {
 class V_HarnessO_gry;
 class V_HarnessO_whex_F: V_HarnessO_gry {
     displayName = "LBV Harness (Coyote)";
+};
+
+class V_HarnessOSpec_brn;
+class V_HarnessOSpec_ghex_F: V_HarnessOSpec_brn {
+    displayName = "ELBV Harness (Hex Tropic)";
+};
+class V_HarnessOSpec_oicamo: V_HarnessOSpec_brn {
+    displayName = "ELBV Harness (Hex Taiga)";
+};
+class V_HarnessOSpec_gry: V_HarnessO_gry {
+    displayName = "ELBV Harness (Hex Urban)";
+};
+class V_HarnessOSpec_whex_F: V_HarnessOSpec_brn {
+    displayName = "ELBV Harness (Coyote)";
 };
 
 // Lifchik

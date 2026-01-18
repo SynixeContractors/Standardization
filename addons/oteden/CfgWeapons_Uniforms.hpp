@@ -87,10 +87,12 @@ class Atlas_U_I_U_CombatUniform_UNO: Uniform_Base {
 class Atlas_U_I_U_CombatUniform_shortsleeve_UNO: Uniform_Base {
     displayName = "Light Fatigues [RACS] (SDP, Rolled-Up)";
 };
-class U_lxWS_SFIA_soldier_2_O: Uniform_Base {
+class U_lxWS_SFIA_soldier_2;
+class U_lxWS_SFIA_soldier_2_O: U_lxWS_SFIA_soldier_2 {
     displayName = "Light Fatigues (Mudwalker)";
 };
-class U_lxWS_SFIA_soldier_1_O: Uniform_Base {
+class U_lxWS_SFIA_soldier_1;
+class U_lxWS_SFIA_soldier_1_O: U_lxWS_SFIA_soldier_1 {
     displayName = "Light Fatigues (Mudwalker, Rolled-Up)";
 };
 class U_lxWS_UN_Camo2: Uniform_Base {
@@ -101,34 +103,9 @@ class U_lxWS_UN_Camo3: Uniform_Base {
 };
 
 // Fins
-HIDE_UNIFORM(U_B_CombatUniform_mcam_tshirt_Diver);
-HIDE_UNIFORM(U_B_CombatUniform_mcam_tshirt_Diver_noPop);
-HIDE_UNIFORM(U_B_CombatUniform_mcam_tshirt_Diver_noFins);
-HIDE_UNIFORM(U_B_CombatUniform_mcam_worn_tshirt);
-HIDE_UNIFORM(U_B_CombatUniform_mcam_worn_tshirt_noPop);
-HIDE_UNIFORM(U_B_CombatUniform_mcam_worn_tshirt_noFins);
-HIDE_UNIFORM(U_B_T_Diver);
-HIDE_UNIFORM(U_B_T_Diver_noFins);
-HIDE_UNIFORM(U_B_T_Diver_noPop);
-HIDE_UNIFORM(U_B_CombatUniform_tshirt_mcam_wdL_Diver);
-HIDE_UNIFORM(U_B_CombatUniform_tshirt_mcam_wdL_Diver_noFins);
-HIDE_UNIFORM(U_B_CombatUniform_tshirt_mcam_wdL_Diver_noPop);
 HIDE_UNIFORM(U_B_CTRG_Diver);
 HIDE_UNIFORM(U_B_CTRG_Diver_noPop);
 HIDE_UNIFORM(U_B_CTRG_Diver_noFins);
-HIDE_UNIFORM(U_B_CTRG_arid_Diver);
-HIDE_UNIFORM(U_B_CTRG_arid_Diver_noPop);
-HIDE_UNIFORM(U_B_CTRG_arid_Diver_noFins);
-HIDE_UNIFORM(U_B_CTRG_camo_Diver);
-HIDE_UNIFORM(U_B_CTRG_camo_Diver_noPop);
-HIDE_UNIFORM(U_B_CTRG_camo_Diver_noFins);
-HIDE_UNIFORM(U_B_CTRG_urb_Diver);
-HIDE_UNIFORM(U_B_CTRG_urb_Diver_noPop);
-HIDE_UNIFORM(U_B_CTRG_urb_Diver_noFins);
-HIDE_UNIFORM(U_I_Wetsuit_noFins);
-HIDE_UNIFORM(U_O_Wetsuit_noFins);
-HIDE_UNIFORM(U_OI_Wetsuit_noFins);
-HIDE_UNIFORM(U_B_Wetsuit_noFins);
 
 class U_O_R_Gorka_01_sage: Uniform_Base {
     displayName = "Gorka (Sage)";

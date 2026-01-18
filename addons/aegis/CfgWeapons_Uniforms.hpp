@@ -165,7 +165,8 @@ class Opf_U_O_S_Uniform_01_sweater_flora_F: Uniform_Base {
 class Opf_U_O_S_Uniform_01_sweater_F: Uniform_Base {
     displayName = "Combat Sweater (Olive)";
 };
-class U_lxWS_SFIA_Tanker_O: Uniform_Base {
+class U_lxWS_SFIA_Tanker;
+class U_lxWS_SFIA_Tanker_O: U_lxWS_SFIA_Tanker {
     displayName = "Combat Sweater (Mudwalker)";
 };
 

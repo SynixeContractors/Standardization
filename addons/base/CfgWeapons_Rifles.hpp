@@ -148,7 +148,8 @@ class SMG_03_TR_black;
 class SMG_03_TR_camo: SMG_03_TR_black {
     displayName = "PS90 TR (DAP Green)";
 };
-class SMG_03_TR_hex: SMG_03_TR_black {
+class SMG_03_TR_BASE;
+class SMG_03_TR_hex: SMG_03_TR_BASE {
     displayName = "PS90 TR (Hex Grey)";
 };
 class SMG_03_TR_khaki: SMG_03_TR_black {

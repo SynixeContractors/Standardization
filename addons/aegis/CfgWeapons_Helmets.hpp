@@ -144,14 +144,14 @@ class Atlas_H_PASGT_Cover_O_DHex_F: Atlas_H_PASGT_Cover_O_Base_F {
 class Atlas_H_PASGT_Cover_O_GHex_F: Atlas_H_PASGT_Cover_O_Base_F {
     displayName = "PASGT Cover (Hex Tropic)";
 };
-class Atlas_H_PASGT_Cover_Green_F: Atlas_H_PASGT_Cover_alt_Base_F {
+class Atlas_H_PASGT_Cover_base_F;
+class Atlas_H_PASGT_Cover_Green_F: Atlas_H_PASGT_Cover_base_F {
     displayName = "PASGT Cover (Green)";
     scope = 1; // Texture issues, remove if fixed
 };
 class Atlas_H_PASGT_Cover_O_Hex_F: Atlas_H_PASGT_Cover_O_Base_F {
     displayName = "PASGT Cover (Hex Ochre)";
 };
-class Atlas_H_PASGT_Cover_base_F;
 class Atlas_H_PASGT_Cover_Olive_F: Atlas_H_PASGT_Cover_base_F {
     displayName = "PASGT Cover (Olive)";
 };
@@ -290,10 +290,10 @@ class Atlas_H_FieldCap_flecktarn: HelmetBase {
 class Atlas_H_FieldCap_hs_flecktarn: HelmetBase {
     scope = 1;
 };
-class Atlas_H_FieldCap_hs_multitarn: HelmetBase {
+class Atlas_H_FieldCap_hs_multitarn: Atlas_H_FieldCap_hs_flecktarn {
     scope = 1;
 };
-class Atlas_H_FieldCap_multitarn: HelmetBase {
+class Atlas_H_FieldCap_multitarn: Atlas_H_FieldCap_flecktarn {
     scope = 1;
 };
 class Atlas_H_FieldCap_kzg: Atlas_H_FieldCap_flecktarn {

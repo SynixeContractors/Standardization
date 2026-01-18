@@ -221,7 +221,8 @@ class arifle_AUG_C_black_F: arifle_AUG_C_black_base_F {
 };
 
 // BK-153
-class sgun_Mp153_black_F: Rifle_Base_F {
+class Rifle_Short_Base_F;
+class sgun_Mp153_black_F: Rifle_Short_Base_F {
     displayName = "BK-153 (Short, Black)";
 };
 class sgun_Mp153_classic_F: sgun_Mp153_black_F {
@@ -229,7 +230,6 @@ class sgun_Mp153_classic_F: sgun_Mp153_black_F {
 };
 
 // Bulldog
-class Rifle_Short_Base_F;
 class sgun_KSG_F: Rifle_Short_Base_F {
     displayName = "KSG (Olive)";
 };

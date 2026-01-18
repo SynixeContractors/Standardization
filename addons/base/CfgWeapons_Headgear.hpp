@@ -80,7 +80,7 @@ class H_Beret_grn_SF: H_Beret_02 {
 class H_Beret_ocamo: H_Beret_02 {
     displayName = "Beret Officer [CSP] (Brown)";
 };
-class H_Beret_CSAT_01_F: H_Beret_02 {
+class H_Beret_CSAT_01_F: H_Beret_blk {
     displayName = "Beret Officer [CSP] (Red)";
 };
 class H_Beret_EAF_01_F: H_Beret_blk {
@@ -110,7 +110,7 @@ class H_Cap_brn_SPECOPS: H_Cap_red {
 class H_Cap_blk_ION: H_Cap_red {
     displayName = "Cap [ION] (Dark)";
 };
-class H_Cap_Lyfe: H_Cap_red {
+class H_Cap_Lyfe: H_Cap_blk {
     displayName = "Cap [LYFE] (Black)";
 };
 class H_Cap_police: H_Cap_red {
@@ -164,7 +164,10 @@ class lxWS_H_MilCap_desert: H_MilCap_ocamo {
 class H_MilCap_gen_F: H_MilCap_ocamo {
     displayName = "Military Cap (Gendarmerie, Headset)";
 };
-class H_MilCap_blue: H_MilCap_ocamo {
+class H_MilCap_oucamo: H_MilCap_ocamo {
+    displayName = "Military Cap (Hex Urban, Headset)";
+};
+class H_MilCap_blue: H_MilCap_oucamo {
     displayName = "Military Cap (Navy, Headset)";
 };
 class H_MilCap_ghex_F: H_MilCap_ocamo {
@@ -173,7 +176,7 @@ class H_MilCap_ghex_F: H_MilCap_ocamo {
 class H_MilCap_grn: H_MilCap_ocamo {
     displayName = "Military Cap (Green, Headset)";
 };
-class H_MilCap_gry: H_MilCap_ocamo {
+class H_MilCap_gry: H_MilCap_oucamo {
     displayName = "Military Cap (Grey, Headset)";
 };
 class H_MilCap_mcamo: H_MilCap_ocamo {
@@ -184,9 +187,6 @@ class H_MilCap_taiga: H_MilCap_ocamo {
 };
 class H_MilCap_tna_F: H_MilCap_ocamo {
     displayName = "Military Cap (Tropic, Headset)";
-};
-class H_MilCap_oucamo: H_MilCap_ocamo {
-    displayName = "Military Cap (Hex Urban, Headset)";
 };
 class H_MilCap_wdl: H_MilCap_ocamo {
     displayName = "Military Cap (Pantera, Headset)";
@@ -217,11 +217,11 @@ class H_Shemag_olive: H_Shemag_khk {
 class H_Shemag_olive_hs: H_Shemag_olive {
     displayName = "Shemagh (Olive, Headset)";
 };
-class H_ShemagOpen_tan: H_Shemag_khk {
-    displayName = "Shemagh (Tan)";
-};
-class H_ShemagOpen_khk: H_ShemagOpen_tan {
+class H_ShemagOpen_khk: HelmetBase {
     displayName = "Shemagh (White)";
+};
+class H_ShemagOpen_tan: H_ShemagOpen_khk {
+    displayName = "Shemagh (Tan)";
 };
 
 // Straw Hat

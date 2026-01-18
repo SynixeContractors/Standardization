@@ -17,7 +17,7 @@ class Vest_Camo_Base;
 class V_SmershVest_01_black_F: Vest_Camo_Base {
     displayName = "Kipchak Vest (Black)";
 };
-class V_SmershVest_01_urban_F: V_SmershVest_01_black_F {
+class V_SmershVest_01_urban_F: Vest_Camo_Base {
     displayName = "Kipchak Vest (LHU)";
 };
 class V_SmershVest_01_radio_urban_F: Vest_Camo_Base {

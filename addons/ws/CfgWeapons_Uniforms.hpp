@@ -5,7 +5,8 @@ class U_lxWS_B_CombatUniform_desert: Uniform_Base {
 };
 
 // Officer Fatigues
-class U_lxWS_SFIA_Officer_1_O: Uniform_Base {
+class U_lxWS_SFIA_Officer_1;
+class U_lxWS_SFIA_Officer_1_O: U_lxWS_SFIA_Officer_1 {
     displayName = "Light Fatigues (Mudwalker, Officer)";
 };
 class U_lxWS_UN_Camo1: Uniform_Base {
@@ -21,7 +22,8 @@ class U_lxWS_UN_Pilot: Uniform_Base {
 };
 
 // Combat Something
-class U_lxWS_SFIA_pilot_O: Uniform_Base {
+class U_lxWS_SFIA_pilot;
+class U_lxWS_SFIA_pilot_O: U_lxWS_SFIA_pilot {
     displayName = "TODO";
 };
 

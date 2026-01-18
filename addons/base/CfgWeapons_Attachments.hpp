@@ -16,19 +16,19 @@ class bipod_02_F_blk: bipod_01_F_snd {
     displayName = "MSU-46 (Black)";
     descriptionShort = "Modular Shooting Unit";
 };
-class bipod_02_F_hex: bipod_01_F_snd {
+class bipod_02_F_hex: bipod_02_F_blk {
     displayName = "MSU-46 (Hex)";
     descriptionShort = "Modular Shooting Unit";
 };
-class bipod_02_F_lush: bipod_01_F_snd {
+class bipod_02_F_lush: bipod_02_F_blk {
     displayName = "MSU-46 (Lush)";
     descriptionShort = "Modular Shooting Unit";
 };
-class bipod_02_F_arid: bipod_01_F_snd {
+class bipod_02_F_arid: bipod_02_F_blk {
     displayName = "MSU-46 (Arid)";
     descriptionShort = "Modular Shooting Unit";
 };
-class bipod_02_F_tan: bipod_01_F_snd {
+class bipod_02_F_tan: bipod_02_F_blk {
     displayName = "MSU-46 (Tan)";
     descriptionShort = "Modular Shooting Unit";
 };
@@ -36,7 +36,7 @@ class bipod_03_F_blk: bipod_01_F_snd {
     displayName = "FSB-1 (Black)";
     descriptionShort = "Field Support Brace";
 };
-class bipod_03_F_oli: bipod_01_F_snd {
+class bipod_03_F_oli: bipod_03_F_blk {
     displayName = "FSB-1 (Olive)";
     descriptionShort = "Field Support Brace";
 };

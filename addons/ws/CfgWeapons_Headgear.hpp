@@ -131,7 +131,7 @@ class lxWS_H_turban_03_green_pattern: lxWS_H_turban_03_black {
     scopeArsenal = 1;
     displayName = "Keffiyeh (Green Pattern, Litham Up)";
 };
-class lxWS_H_turban_02_green_pattern: lxWS_H_turban_02_black {
+class lxWS_H_turban_02_green_pattern: lxWS_H_turban_02_green {
     scope = 1;
     scopeArsenal = 1;
     displayName = "Keffiyeh (Green Pattern, Litham Down)";

@@ -21,6 +21,6 @@ class Laserdesignator: Binocular {
 class Laserdesignator_02: Laserdesignator {
     displayName = "R3 Designator (Hex Arid)";
 };
-class Laserdesignator_02_ghex_F: Laserdesignator {
+class Laserdesignator_02_ghex_F: Laserdesignator_02 {
     displayName = "R3 Designator (Hex Tropic)";
 };

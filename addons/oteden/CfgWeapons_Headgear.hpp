@@ -94,10 +94,10 @@ class H_Bandanna_gry_headset: H_Bandanna_gry {
 class H_MilCap_checker: H_MilCap_ocamo {
     displayName = "Military Cap (Checker Green, Headset)";
 };
-class H_MilCap_checker_tan: H_MilCap_checker {
+class H_MilCap_checker_tan: H_MilCap_ocamo {
     displayName = "Military Cap (Checker Orange, Headset)";
 };
-class H_MilCap_checker_white: H_MilCap_checker {
+class H_MilCap_checker_white: H_MilCap_ocamo {
     displayName = "Military Cap (Checker White, Headset)";
 };
 

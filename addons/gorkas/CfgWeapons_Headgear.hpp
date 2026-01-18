@@ -28,7 +28,7 @@ class H_Watchcap_black_hs: H_Watchcap_black_hsless {
     displayName = "Beanie (Black, Headset)";
     BEANIE_HEADSET;
 };
-class H_Watchcap_blackred_hsless: H_Watchcap_black_hsless {
+class H_Watchcap_blackred_hsless: H_Watchcap_blu_hsless {
     displayName = "Beanie (Black / Red)";
     class ItemInfo;
 };
@@ -36,7 +36,7 @@ class H_Watchcap_blackred_hs: H_Watchcap_blackred_hsless {
     displayName = "Beanie (Black / Red, Headset)";
     BEANIE_HEADSET;
 };
-class H_Watchcap_blackyellow_hsless: H_Watchcap_black_hsless {
+class H_Watchcap_blackyellow_hsless: H_Watchcap_blu_hsless {
     displayName = "Beanie (Black / Yellow)";
     class ItemInfo;
 };

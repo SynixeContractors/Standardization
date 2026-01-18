@@ -19,7 +19,8 @@ class arifle_XMS_Shot_lxWS: arifle_XMS_Base_lxWS {
 class arifle_XMS_Shot_khk_lxWS: arifle_XMS_Shot_lxWS {
     displayName = "XMS SG (Olive)";
 };
-class arifle_XMS_M_lxWS: arifle_XMS_Base_lxWS {
+class arifle_XMS_lxWS;
+class arifle_XMS_M_lxWS: arifle_XMS_lxWS {
     displayName = "XMS SW (Black)";
 };
 class arifle_XMS_M_khk_lxWS: arifle_XMS_M_lxWS {
@@ -41,7 +42,7 @@ class arifle_SLR_V_GL_lxWS: arifle_SLR_V_lxWS {
     displayName = "FN FAL 50.00 GL (Black)";
 };
 // https://en.wikipedia.org/wiki/FN_FAL#DSA_SA58_FAL
-class arifle_SLR_Para_lxWS: arifle_SLR_lxWS {
+class arifle_SLR_Para_lxWS: arifle_SLR_V_lxWS {
     displayName = "FN FAL SA58 OSW (Black)";
 };
 class arifle_SLR_Para_snake_lxWS: arifle_SLR_Para_lxWS {
