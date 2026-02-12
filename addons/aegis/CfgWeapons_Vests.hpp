@@ -289,16 +289,16 @@ class Atlas_V_CarrierRigKBT_01_tac_UNRACS_F: Aegis_V_CarrierRigKBT_01_tactical_b
 };
 class V_CarrierRigKBT_01_base_F;
 class V_CarrierRigKBT_01_EAF_F: V_CarrierRigKBT_01_base_F {
-    displayName = "Modular Carrier Rig (Geo Woodland)";
+    displayName = "Modular Carrier Vest (Geo Woodland)";
 };
 class V_CarrierRigKBT_01_france_F: V_CarrierRigKBT_01_base_F {
-    displayName = "Modular Carrier Rig (Jig Woodland)";
+    displayName = "Modular Carrier Vest (Jig Woodland)";
 };
 class V_CarrierRigKBT_01_CDF_F: V_CarrierRigKBT_01_base_F {
-    displayName = "Modular Carrier Rig (Polywood)";
+    displayName = "Modular Carrier Vest (Polywood)";
 };
 class Atlas_V_CarrierRigKBT_01_RACS_F: V_CarrierRigKBT_01_base_F {
-    displayName = "Modular Carrier Rig (SDP)";
+    displayName = "Modular Carrier Vest (SDP)";
 };
 
 // Slash Bandolier

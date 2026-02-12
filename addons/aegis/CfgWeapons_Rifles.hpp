@@ -398,15 +398,15 @@ class Aegis_arifle_M16A4_base_F: Rifle_Base_F {
     };
 };
 class Aegis_arifle_M16A4_F: Aegis_arifle_M16A4_base_F {
-    displayName = "M16E4";
+    displayName = "M16A4";
 };
 class Aegis_arifle_M16A4_FG_base_F;
 class Aegis_arifle_M16A4_FG_F: Aegis_arifle_M16A4_FG_base_F {
-    displayName = "M16E4 FG";
+    displayName = "M16A4 FG";
 };
 class Aegis_arifle_M16A4_GL_base_F;
 class Aegis_arifle_M16A4_GL_F: Aegis_arifle_M16A4_GL_base_F {
-    displayName = "M16E4 GL";
+    displayName = "M16A4 GL";
 };
 
 // M200 Intervention
