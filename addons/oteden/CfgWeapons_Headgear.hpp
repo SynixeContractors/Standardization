@@ -79,10 +79,6 @@ class H_MilCap_ocamo;
 class H_MilCap_black: H_MilCap_ocamo {
     scope = 1;
 };
-class HelmetBase;
-class H_HeadSetMilitary: HelmetBase {
-    scope = 1;
-};
 
 // Duplicated with WS
 class H_Bandanna_gry;
@@ -115,6 +111,7 @@ class H_Bandanna_cbr_headset: H_Bandanna_cbr {
     displayName = "Bandana (Coyote, Headset)";
     ACE_HEARING_PELTOR;
 };
+class HelmetBase;
 class H_Bandanna_surfer: HelmetBase {
     displayName = "Bandana (Surfer, Blue)";
 };

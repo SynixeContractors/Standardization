@@ -13,4 +13,10 @@
 #define BOONIEHAT_HEADSET model = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";ACE_HEARING_PELTOR;class ItemInfo: ItemInfo {uniformModel = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";}
 #define RANGEMASTER_REVERSED model = "\lxws\characters_f_lxws\headgear\a3\capb_headphones_lxWS.p3d";ACE_HEARING_PELTOR;class ItemInfo: ItemInfo {uniformModel = "\lxws\characters_f_lxws\headgear\a3\capb_headphones_lxWS.p3d";}
 
+#define TINT_SHADES  ACE_Resistance = 1;ACE_TintAmount = 16.0
+#define TINT_TACTICAL \
+    ACE_Resistance = 1; \
+    ACE_TintAmount = 8.0; \
+    ACE_Color[] = {0, 0, -1.5}
+
 #define HIDE_UNIFORM(CLASS) class CLASS: Uniform_Base { scope = 1; scopeArsenal = 1; }

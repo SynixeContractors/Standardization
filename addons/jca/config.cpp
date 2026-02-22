@@ -7,6 +7,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "synixe_standardization_main",
+
             "Weapons_F_JCA_IA_LongRangeRifles_M107",
             "Weapons_F_JCA_IA_Rifles_HK433",
             "Weapons_F_JCA_IA_Rifles_HK437",
@@ -16,6 +17,9 @@ class CfgPatches {
             "Weapons_F_JCA_IA_Rifles_SR25",
             "Weapons_F_JCA_IA_SMGs_MP5",
             "Weapons_F_JCA_IA_SMGs_UMP",
+
+            "Headwear_F_JCA_IE",
+            "Facewear_F_JCA_IE",
         };
         skipWhenMissingDependencies = 1;
         authors[] = {"Synixe Contractors"};
@@ -24,4 +28,5 @@ class CfgPatches {
     };
 };
 
+#include "CfgGlasses.hpp"
 #include "CfgWeapons.hpp"
