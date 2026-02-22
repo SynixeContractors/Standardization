@@ -13,38 +13,43 @@ workshop = [
     "synixe:@ace_realisticdispersion",
     "synixe:@ace_tracers",
     "synixe:@ace",
-    "synixe:@aegis_atlas",
-    "synixe:@aegis_opposing_forces",
-    "synixe:@aegis",
     "synixe:@cba_a3",
     "synixe:@cba_rf",
     "synixe:@cba_ws",
     "synixe:@generic_civilian_clothing",
     "synixe:@gorkas",
-    "synixe:@jca_m72a7",
-    "synixe:@jca_mp5a5",
-    "synixe:@jca_ump45",
     "synixe:@low_visibility_attir",
     "synixe:@mu",
     "synixe:@oteden",
     "synixe:@rf",
     "synixe:@synixe_armoury",
     "synixe:@synixe_mgp",
-    "synixe:@synixe_factions",
     "synixe:@theseus_services",
     "synixe:@toh_characters",
     "synixe:@ws",
+    "3333302397", # JCA Weapons
+    "3473383676", # JCA Equipment
+    # "3661907264", # JCA CERA
+]
 
-    # Maps
+[hemtt.launch.jca]
+extends = "default"
+workshop = [
+    "synixe:@jca_m72a7",
+    "synixe:@jca_mp5a5",
+    "synixe:@jca_ump45",
+]
+
+[hemtt.launch.maps]
+extends = "default"
+workshop = [
     "synixe:@al_salman",
     "synixe:@aliabad_region",
-    "synixe:@anizay",
     "synixe:@anizay",
     "synixe:@archipelago",
     "synixe:@cup_terrains_core",
     "synixe:@cup_terrains_maps",
     "synixe:@dariyah",
-    "synixe:@drakovac",
     "synixe:@drakovac",
     "synixe:@garmanda",
     "synixe:@gunkizli",
@@ -63,5 +68,18 @@ workshop = [
     "synixe:@suonkomarsahav",
     "synixe:@vinjesvingen",
     "synixe:@virolahti_valtatie_7",
-    "synixe:@ws",
+]
+
+[hemtt.launch.factions]
+extends = "default"
+workshop = [
+    "synixe:@aegis_factions",
+]
+
+[hemtt.launch.aegis]
+extends = "default"
+workshop = [
+    "synixe:@aegis",
+    "synixe:@aegis_atlas",
+    "synixe:@aegis_opposing_forces",
 ]
