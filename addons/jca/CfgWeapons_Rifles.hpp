@@ -203,23 +203,23 @@ class JCA_muzzle_snds_SR25_sand: JCA_muzzle_snds_SR25_base {
 
 class JCA_smg_MP5_FL_base_F;
 class JCA_smg_MP5_FL_black_F: JCA_smg_MP5_FL_base_F {
-    displayName = "MP5A5 (Black)";
+    displayName = "MP5A5 Bare (Black)";
 };
 class JCA_smg_MP5_FL_olive_F: JCA_smg_MP5_FL_base_F {
-    displayName = "MP5A5 (Olive)";
+    displayName = "MP5A5 Bare (Olive)";
 };
 class JCA_smg_MP5_FL_sand_F: JCA_smg_MP5_FL_base_F {
-    displayName = "MP5A5 (Sand)";
+    displayName = "MP5A5 Bare (Sand)";
 };
 class JCA_smg_MP5_AFG_base_F;
 class JCA_smg_MP5_AFG_black_F: JCA_smg_MP5_AFG_base_F {
-    displayName = "MP5A5 AFG (Black)";
+    displayName = "MP5A5 (Black)";
 };
 class JCA_smg_MP5_AFG_olive_F: JCA_smg_MP5_AFG_base_F {
-    displayName = "MP5A5 AFG (Olive)";
+    displayName = "MP5A5 (Olive)";
 };
 class JCA_smg_MP5_AFG_sand_F: JCA_smg_MP5_AFG_base_F {
-    displayName = "MP5A5 AFG (Sand)";
+    displayName = "MP5A5 (Sand)";
 };
 class JCA_smg_MP5_VFG_base_F;
 class JCA_smg_MP5_VFG_black_F: JCA_smg_MP5_VFG_base_F {
@@ -232,15 +232,18 @@ class JCA_smg_MP5_VFG_sand_F: JCA_smg_MP5_VFG_base_F {
     displayName = "MP5A5 VFG (Sand)";
 };
 
+class JCA_arifle_SR10_base_F: Rifle_Base_F {
+    magazineWell[] += {"CBA_762x51_HK417","CBA_762x51_HK417_L","CBA_762x51_HK417_XL"};
+};
 class JCA_arifle_SR10_AFG_base_F;
 class JCA_arifle_SR10_AFG_black_F: JCA_arifle_SR10_AFG_base_F {
-    displayName = "SR10 AFG (Black)";
+    displayName = "SR10 (Black)";
 };
 class JCA_arifle_SR10_AFG_olive_F: JCA_arifle_SR10_AFG_base_F {
-    displayName = "SR10 AFG (Olive)";
+    displayName = "SR10 (Olive)";
 };
 class JCA_arifle_SR10_AFG_sand_F: JCA_arifle_SR10_AFG_base_F {
-    displayName = "SR10 AFG (Sand)";
+    displayName = "SR10 (Sand)";
 };
 class JCA_arifle_SR10_VFG_base_F;
 class JCA_arifle_SR10_VFG_black_F: JCA_arifle_SR10_VFG_base_F {
@@ -255,23 +258,23 @@ class JCA_arifle_SR10_VFG_sand_F: JCA_arifle_SR10_VFG_base_F {
 
 class JCA_smg_UMP_base_F;
 class JCA_smg_UMP_black_F: JCA_smg_UMP_base_F {
-    displayName = "UMP45 (Black)";
+    displayName = "UMP45 Bare (Black)";
 };
 class JCA_smg_UMP_olive_F: JCA_smg_UMP_base_F {
-    displayName = "UMP45 (Olive)";
+    displayName = "UMP45 Bare (Olive)";
 };
 class JCA_smg_UMP_sand_F: JCA_smg_UMP_base_F {
-    displayName = "UMP45 (Sand)";
+    displayName = "UMP45 Bare (Sand)";
 };
 class JCA_smg_UMP_AFG_base_F;
 class JCA_smg_UMP_AFG_black_F: JCA_smg_UMP_AFG_base_F {
-    displayName = "UMP45 AFG (Black)";
+    displayName = "UMP45 (Black)";
 };
 class JCA_smg_UMP_AFG_olive_F: JCA_smg_UMP_AFG_base_F {
-    displayName = "UMP45 AFG (Olive)";
+    displayName = "UMP45 (Olive)";
 };
 class JCA_smg_UMP_AFG_sand_F: JCA_smg_UMP_AFG_base_F {
-    displayName = "UMP45 AFG (Sand)";
+    displayName = "UMP45 (Sand)";
 };
 class JCA_smg_UMP_VFG_base_F;
 class JCA_smg_UMP_VFG_black_F: JCA_smg_UMP_VFG_base_F {

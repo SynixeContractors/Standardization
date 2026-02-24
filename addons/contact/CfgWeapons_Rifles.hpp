@@ -37,11 +37,11 @@ class arifle_MSBS65_Mark_camo_F: arifle_MSBS65_Mark_base_camo_F {
 };
 class arifle_MSBS65_UBS_base_F;
 class arifle_MSBS65_UBS_F: arifle_MSBS65_UBS_base_F {
-    displayName = "MSBS Grot SH (Olive)";
+    displayName = "MSBS Grot SG (Olive)";
 };
 class arifle_MSBS65_UBS_base_camo_F;
 class arifle_MSBS65_UBS_camo_F: arifle_MSBS65_UBS_base_camo_F {
-    displayName = "MSBS Grot SH (Geo Woodland)";
+    displayName = "MSBS Grot SG (Geo Woodland)";
 };
 
 // RPK-12

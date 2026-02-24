@@ -18,6 +18,8 @@ workshop = [
     "synixe:@cba_ws",
     "synixe:@generic_civilian_clothing",
     "synixe:@gorkas",
+    "synixe:@jca_ia",
+    "synixe:@jca_ie",
     "synixe:@low_visibility_attir",
     "synixe:@mu",
     "synixe:@oteden",
@@ -27,17 +29,10 @@ workshop = [
     "synixe:@theseus_services",
     "synixe:@toh_characters",
     "synixe:@ws",
-    "3333302397", # JCA Weapons
-    "3473383676", # JCA Equipment
     # "3661907264", # JCA CERA
-]
-
-[hemtt.launch.jca]
-extends = "default"
-workshop = [
-    "synixe:@jca_m72a7",
-    "synixe:@jca_mp5a5",
-    "synixe:@jca_ump45",
+    "3345739516", # JCA SCAR
+    "2585862092", # JCA MX
+    "2928582359", # JCA SPAR
 ]
 
 [hemtt.launch.maps]
@@ -51,7 +46,6 @@ workshop = [
     "synixe:@cup_terrains_maps",
     "synixe:@dariyah",
     "synixe:@drakovac",
-    "synixe:@garmanda",
     "synixe:@gunkizli",
     "synixe:@hellanmaa",
     "synixe:@ihantala",
