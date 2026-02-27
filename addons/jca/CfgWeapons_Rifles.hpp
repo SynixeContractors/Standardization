@@ -66,10 +66,7 @@ class JCA_srifle_AWM_sand_F: JCA_srifle_AWM_base_F {
     displayName = "M115A3 (Sand)";
 };
 
-class asdg_OpticRail;
-class asdg_OpticRail1913: asdg_OpticRail {
-    class compatibleItems;
-};
+
 class JCA_arifle_M16A4_base_F: Rifle_Base_F {
     MAGS_556;
     class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -112,6 +109,13 @@ class JCA_arifle_M16A4_GL_sand_F: JCA_arifle_M16A4_GL_base_F {
 
 class JCA_arifle_M4A1_base_F: Rifle_Base_F {
     MAGS_556;
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        class CowsSlot: asdg_OpticRail1913 {
+            class compatibleItems: compatibleItems {
+                #include "IncompatibleScopes.hpp"
+            };
+        };
+    };
 };
 class JCA_arifle_M4A1_black_F: JCA_arifle_M4A1_base_F {
     displayName = "M4A1 (Black)";
