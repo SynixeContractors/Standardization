@@ -1,6 +1,7 @@
 optic_ERCO_blk_F = 0;
 optic_ERCO_khk_F = 0;
 optic_ERCO_snd_F = 0;
+optic_rds_RF = 0;
 optic_r1_low_arid_lxWS = 0;
 optic_r1_low_khaki_lxWS = 0;
 optic_r1_low_lush_lxWS = 0;
