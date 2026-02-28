@@ -13,6 +13,6 @@ class CfgWeapons {
     #include "CfgWeapons_Helmets.hpp"
     #include "CfgWeapons_Pistols.hpp"
     #include "CfgWeapons_Rifles.hpp"
-    #include "CfgWeapons_Vests.hpp"
     #include "CfgWeapons_Sights.hpp"
+    #include "CfgWeapons_Vests.hpp"
 };
