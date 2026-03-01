@@ -172,3 +172,9 @@ class DMR_01_base_F;
 class srifle_DMR_01_F: DMR_01_base_F {
     displayName = "VS-121 (Hex Ochre)";
 };
+
+/// MP5K
+class SMG_05_base_F;
+class SMG_05_F: SMG_05_base_F {
+    descriptionShort = "Submachine Gun<br />Caliber: 9x19 mm";
+};

@@ -208,32 +208,41 @@ class JCA_muzzle_snds_SR25_sand: JCA_muzzle_snds_SR25_base {
 class JCA_smg_MP5_FL_base_F;
 class JCA_smg_MP5_FL_black_F: JCA_smg_MP5_FL_base_F {
     displayName = "MP5A5 Bare (Black)";
+    descriptionShort = "Submachine Gun<br />Caliber: 9x19 mm";
 };
 class JCA_smg_MP5_FL_olive_F: JCA_smg_MP5_FL_base_F {
     displayName = "MP5A5 Bare (Olive)";
+    descriptionShort = "Submachine Gun<br />Caliber: 9x19 mm";
 };
 class JCA_smg_MP5_FL_sand_F: JCA_smg_MP5_FL_base_F {
     displayName = "MP5A5 Bare (Sand)";
+    descriptionShort = "Submachine Gun<br />Caliber: 9x19 mm";
 };
 class JCA_smg_MP5_AFG_base_F;
 class JCA_smg_MP5_AFG_black_F: JCA_smg_MP5_AFG_base_F {
     displayName = "MP5A5 (Black)";
+    descriptionShort = "Submachine Gun<br />Caliber: 9x19 mm";
 };
 class JCA_smg_MP5_AFG_olive_F: JCA_smg_MP5_AFG_base_F {
     displayName = "MP5A5 (Olive)";
+    descriptionShort = "Submachine Gun<br />Caliber: 9x19 mm";
 };
 class JCA_smg_MP5_AFG_sand_F: JCA_smg_MP5_AFG_base_F {
     displayName = "MP5A5 (Sand)";
+    descriptionShort = "Submachine Gun<br />Caliber: 9x19 mm";
 };
 class JCA_smg_MP5_VFG_base_F;
 class JCA_smg_MP5_VFG_black_F: JCA_smg_MP5_VFG_base_F {
     displayName = "MP5A5 VFG (Black)";
+    descriptionShort = "Submachine Gun<br />Caliber: 9x19 mm";
 };
 class JCA_smg_MP5_VFG_olive_F: JCA_smg_MP5_VFG_base_F {
     displayName = "MP5A5 VFG (Olive)";
+    descriptionShort = "Submachine Gun<br />Caliber: 9x19 mm";
 };
 class JCA_smg_MP5_VFG_sand_F: JCA_smg_MP5_VFG_base_F {
     displayName = "MP5A5 VFG (Sand)";
+    descriptionShort = "Submachine Gun<br />Caliber: 9x19 mm";
 };
 
 class JCA_arifle_SR10_base_F: Rifle_Base_F {
