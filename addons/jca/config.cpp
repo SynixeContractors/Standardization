@@ -28,5 +28,6 @@ class CfgPatches {
     };
 };
 
+#include "ACE_Wardrobe.hpp"
 #include "CfgGlasses.hpp"
 #include "CfgWeapons.hpp"
