@@ -26,6 +26,12 @@ for world in worlds {
     if (world[0] != "") {
         name = `description = "${world[0]}";`;
     }
+
+    let extra = "";
+    if (world.len() >= 5) {
+        extra += "\n" + `plateFormat = "${world[4]}";`;
+    }
+
     config.write(`
 #include "script_component.hpp"
 class CfgPatches {
@@ -48,6 +54,7 @@ class CfgWorlds {
     class ${world[1]}: ${world[2]} {
         ${name}
         loadingTexts[] = {${tips}};
+        ${extra}
     };
 };`);
     let script_component = dir.join("script_component.hpp").create_file();
