@@ -370,9 +370,13 @@ class arifle_SA80_GL_snd_F: arifle_SA80_GL_base_F {
 };
 
 // LWMMG
-class MMG_02_black_F;
+class MMG_02_camo_F;
+class MMG_02_black_F: MMG_02_camo_F {
+    class LinkedItems;
+};
 class MMG_02_khaki_F: MMG_02_black_F {
     displayName = "LWMMG (Olive)";
+    REMOVE_LINKED;
 };
 
 // M240B / GPMG

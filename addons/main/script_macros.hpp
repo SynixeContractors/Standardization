@@ -20,3 +20,5 @@
     ACE_Color[] = {0, 0, -1.5}
 
 #define HIDE_UNIFORM(CLASS) class CLASS: Uniform_Base { scope = 1; scopeArsenal = 1; }
+
+#define REMOVE_LINKED class LinkedItems: LinkedItems { delete LinkedItemsUnder; }
