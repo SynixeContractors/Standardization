@@ -62,7 +62,10 @@ class srifle_EBR_F: EBR_base_F {
 };
 
 // MX
-class arifle_MX_Base_F;
+class Rifle_Base_F;
+class arifle_MX_Base_F: Rifle_Base_F {
+    class LinkedItems;
+};
 class arifle_MX_F: arifle_MX_Base_F {
     displayName = "MX (Sand)";
 };
@@ -79,12 +82,15 @@ class arifle_MX_GL_khk_F: arifle_MX_GL_Black_F {
 };
 class arifle_MX_SW_F: arifle_MX_Base_F {
     displayName = "MX SW (Sand)";
+    REMOVE_LINKED;
 };
 class arifle_MX_SW_Black_F: arifle_MX_SW_F {
     displayName = "MX SW (Black)";
+    REMOVE_LINKED;
 };
 class arifle_MX_SW_khk_F: arifle_MX_SW_Black_F {
     displayName = "MX SW (Olive)";
+    REMOVE_LINKED;
 };
 class arifle_MXC_F: arifle_MX_Base_F {
     displayName = "MXC (Sand)";
@@ -177,4 +183,20 @@ class srifle_DMR_01_F: DMR_01_base_F {
 class SMG_05_base_F;
 class SMG_05_F: SMG_05_base_F {
     descriptionShort = "Submachine Gun<br />Caliber: 9x19 mm";
+};
+
+// LWMMG
+class MMG_02_base_F: Rifle_Long_Base_F {
+    class LinkedItems;
+};
+class MMG_02_camo_F: MMG_02_base_F {
+    class LinkedItems: LinkedItems {
+      class LinkedItemsUnder {};
+    };
+};
+class MMG_02_black_F: MMG_02_camo_F {
+    REMOVE_LINKED;
+};
+class MMG_02_sand_F: MMG_02_camo_F {
+    REMOVE_LINKED;
 };

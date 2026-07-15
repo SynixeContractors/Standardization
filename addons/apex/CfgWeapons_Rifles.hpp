@@ -44,15 +44,21 @@ class arifle_SPAR_01_GL_snd_F: arifle_SPAR_01_GL_base_F {
 class arifle_SPAR_01_GL_khk_F: arifle_SPAR_01_GL_base_F {
     displayName = "HK416A5C GL (Olive)";
 };
-class arifle_SPAR_02_base_F;
+class Rifle_Base_F;
+class arifle_SPAR_02_base_F: Rifle_Base_F {
+    class LinkedItems;
+};
 class arifle_SPAR_02_blk_F: arifle_SPAR_02_base_F {
     displayName = "HK416A5 (Black)";
+    REMOVE_LINKED;
 };
 class arifle_SPAR_02_snd_F: arifle_SPAR_02_base_F {
     displayName = "HK416A5 (Sand)";
+    REMOVE_LINKED;
 };
 class arifle_SPAR_02_khk_F: arifle_SPAR_02_base_F {
     displayName = "HK416A5 (Olive)";
+    REMOVE_LINKED;
 };
 class arifle_SPAR_03_base_F;
 class arifle_SPAR_03_blk_F: arifle_SPAR_03_base_F {
