@@ -110,12 +110,6 @@ class JCA_optic_MRO_base;
 class JCA_optic_MRO_black: JCA_optic_MRO_base {
     displayName = "C-More RTS2 (Black)";
 };
-class JCA_optic_MRO_olive: JCA_optic_MRO_base {
-    displayName = "C-More RTS2 (Olive)";
-};
-class JCA_optic_MRO_sand: JCA_optic_MRO_base {
-    displayName = "C-More RTS2 (Sand)";
-};
 
 // MROS -> Sig Sauer Romeo 5T
 class JCA_optic_MROS_base;
@@ -138,4 +132,17 @@ class JCA_optic_MROS_olive_magnifier: JCA_optic_MROS_base_magnifier {
 };
 class JCA_optic_MROS_sand_magnifier: JCA_optic_MROS_base_magnifier {
     displayName = "SIG Sauer Romeo 5T (Sand, Magnifier)";
+};
+
+// CRO -> Monstrum Ghost CRS
+// i can't find exact match but this is close enough
+class JCA_optic_CRO_base;
+class JCA_optic_CRO_black: JCA_optic_CRO_base {
+    displayName = "Monstrum Ghost CRS (Black)";
+};
+class JCA_optic_CRO_olive: JCA_optic_CRO_base {
+    displayName = "Monstrum Ghost CRS (Olive)";
+};
+class JCA_optic_CRO_sand: JCA_optic_CRO_base {
+    displayName = "Monstrum Ghost CRS (Sand)";
 };
