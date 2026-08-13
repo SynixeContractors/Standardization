@@ -10,7 +10,7 @@ class asdg_PistolOpticRail1913: asdg_OpticRail {
         optic_MRD_khk_RF = 1;
         optic_MRD = 1;
         optic_MRD_tan_RF = 1;
-  };
+    };
 };
 
 class CfgWeapons {
