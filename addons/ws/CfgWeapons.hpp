@@ -1,3 +1,14 @@
+class asdg_SlotInfo;
+class asdg_OpticRail: asdg_SlotInfo {
+    class compatibleItems;
+};
+
+// Add the low mount VRCO to normal rails
+class asdg_OpticRail1913: asdg_OpticRail {
+    class compatibleItems: compatibleItems {
+        optic_VRCO_pistol_RF = 1;
+    };
+};
 class CfgWeapons {
     #include "CfgWeapons_Headgear.hpp"
     #include "CfgWeapons_Helmets.hpp"
@@ -29,5 +40,10 @@ class CfgWeapons {
     };
     class muzzle_snds_12Gauge_lxWS: muzzle_snds_H {
         displayName = "Sound Suppressor (12 Gauge, Black)";
+    };
+    // Low mount "Pistol" Vortex
+    class optic_VRCO_RF;
+    class optic_VRCO_pistol_RF: optic_VRCO_RF {
+        displayName = "Vortex Spitfire Prism (Low, Black)";
     };
 };
