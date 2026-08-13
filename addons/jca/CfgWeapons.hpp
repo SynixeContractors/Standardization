@@ -22,6 +22,7 @@ class asdg_PistolOpticRail1913: asdg_OpticRail {
         JCA_optic_ARO_black = 1;
         JCA_optic_ARO_olive = 1;
         JCA_optic_ARO_sand = 1;
+        JCA_optic_MRO_black = 1;
     };
 };
 
