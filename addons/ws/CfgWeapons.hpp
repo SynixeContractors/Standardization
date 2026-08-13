@@ -9,6 +9,7 @@ class asdg_OpticRail1913: asdg_OpticRail {
         optic_VRCO_pistol_RF = 1;
     };
 };
+
 class CfgWeapons {
     #include "CfgWeapons_Headgear.hpp"
     #include "CfgWeapons_Helmets.hpp"

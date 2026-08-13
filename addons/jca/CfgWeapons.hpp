@@ -10,6 +10,18 @@ class asdg_OpticRailJCA: asdg_OpticRail {
     };
 };
 
+// add small JCA sights to railed pistols
+class asdg_PistolOpticRail1913: asdg_OpticRail {
+    class compatibleItems: compatibleItems {
+        JCA_optic_CRO_black = 1;
+        JCA_optic_CRO_olive = 1;
+        JCA_optic_CRO_sand = 1;
+        JCA_optic_ARO_black = 1;
+        JCA_optic_ARO_olive = 1;
+        JCA_optic_ARO_sand = 1;
+    };
+};
+
 class CfgWeapons {
     class Rifle;
     class Rifle_Base_F: Rifle {
