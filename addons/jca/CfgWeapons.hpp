@@ -1,6 +1,9 @@
-class asdg_OpticRail;
-class asdg_OpticRail1913: asdg_OpticRail {
+class asdg_SlotInfo;
+class asdg_OpticRail: asdg_SlotInfo {
     class compatibleItems;
+};
+class asdg_OpticRail1913: asdg_OpticRail {
+    class compatibleItems: compatibleItems {};
 };
 
 class asdg_OpticRailJCA: asdg_OpticRail {
