@@ -7,6 +7,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "synixe_standardization_main",
+	    "synixe_standardization_rename_ws",
 
             "Weapons_F_JCA_IA_LongRangeRifles_M107",
             "Weapons_F_JCA_IA_Rifles_HK433",
