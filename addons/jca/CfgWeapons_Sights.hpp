@@ -80,3 +80,56 @@ class JCA_optic_IHO_olive_magnifier: JCA_optic_IHO_base_magnifier {
 class JCA_optic_IHO_sand_magnifier: JCA_optic_IHO_base_magnifier {
     displayName = "Eotech EXPS3 (Sand, Magnifier)";
 };
+
+// MRCS -> Hensoldt ZO 4x30i
+class JCA_optic_MRCS_base;
+class JCA_optic_MRCS_black: JCA_optic_MRCS_base {
+    displayName = "Hensoldt ZO 4x30i (Black)";
+};
+class JCA_optic_MRCS_olive: JCA_optic_MRCS_base {
+    displayName = "Hensoldt ZO 4x30i (Olive)";
+};
+class JCA_optic_MRCS_sand: JCA_optic_MRCS_base {
+    displayName = "Hensoldt ZO 4x30i (Sand)";
+};
+
+// ARO -> Holosun 510C
+class JCA_optic_ARO_base;
+class JCA_optic_ARO_black: JCA_optic_ARO_base {
+    displayName = "Holosun HS510C (Black)";
+};
+class JCA_optic_ARO_olive: JCA_optic_ARO_base {
+    displayName = "Holosun HS510C (Olive)";
+};
+class JCA_optic_ARO_sand: JCA_optic_ARO_base {
+    displayName = "Holosun HS510C (Sand)";
+};
+
+// MRO -> C-more RTS2
+class JCA_optic_MRO_base;
+class JCA_optic_MRO_black: JCA_optic_MRO_base {
+    displayName = "C-More RTS2 (Black)";
+};
+
+// MROS -> Sig Sauer Romeo 5T
+class JCA_optic_MROS_base;
+class JCA_optic_MROS_black: JCA_optic_MROS_base {
+    displayName = "SIG Sauer Romeo 5T (Black)";
+};
+class JCA_optic_MROS_olive: JCA_optic_MROS_base {
+    displayName = "SIG Sauer Romeo 5T (Olive)";
+};
+class JCA_optic_MROS_sand: JCA_optic_MROS_base {
+    displayName = "SIG Sauer Romeo 5T (Sand)";
+};
+
+class JCA_optic_MROS_base_magnifier;
+class JCA_optic_MROS_black_magnifier: JCA_optic_MROS_base_magnifier {
+    displayName = "SIG Sauer Romeo 5T (Black, Magnifier)";
+};
+class JCA_optic_MROS_olive_magnifier: JCA_optic_MROS_base_magnifier {
+    displayName = "SIG Sauer Romeo 5T (Olive, Magnifier)";
+};
+class JCA_optic_MROS_sand_magnifier: JCA_optic_MROS_base_magnifier {
+    displayName = "SIG Sauer Romeo 5T (Sand, Magnifier)";
+};
