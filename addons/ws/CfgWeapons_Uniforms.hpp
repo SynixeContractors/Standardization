@@ -43,16 +43,16 @@ class U_lxWS_C_Djella_07: Uniform_Base {
     displayName = "Djellaba (Teal)";
 };
 class U_lxWS_Djella_03_Green: Uniform_Base {
-    displayName = "Djeballa (Green)";
+    displayName = "Djellaba (Green)";
 };
 class U_lxWS_Djella_02_Sand: Uniform_Base {
-    displayName = "Djeballa Combat (Tan, Tan)";
+    displayName = "Djellaba Combat (Tan, Tan)";
 };
 class U_lxWS_Djella_02_Grey: Uniform_Base {
-    displayName = "Djeballa Combat (Grey, Tan)";
+    displayName = "Djellaba Combat (Grey, Tan)";
 };
 class U_lxWS_Djella_02_Brown: Uniform_Base {
-    displayName = "Djeballa Combat (Brown, Black)";
+    displayName = "Djellaba Combat (Brown, Black)";
 };
 
 // Djellaba Barefoot
