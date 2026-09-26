@@ -20,7 +20,11 @@ class JCA_hgun_Mk23_sand_F: JCA_hgun_Mk23_base_F {
     displayName = "Mk23 (Sand)";
 };
 
-class JCA_hgun_P226_base_F;
+class JCA_hgun_P226_base_F: Pistol_Base_F {
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        class CowsSlot: asdg_OpticRailJCA {};
+    };
+};
 class JCA_hgun_P226_black_F: JCA_hgun_P226_base_F {
     displayName = "P226 (Black)";
 };
@@ -31,7 +35,11 @@ class JCA_hgun_P226_sand_F: JCA_hgun_P226_base_F {
     displayName = "P226 (Sand)";
 };
 
-class JCA_hgun_P320_base_F;
+class JCA_hgun_P320_base_F: Pistol_Base_F {
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        class CowsSlot: asdg_OpticRailJCA {};
+    };
+};
 class JCA_hgun_P320_black_F: JCA_hgun_P320_base_F {
     displayName = "P320 (Black)";
 };
