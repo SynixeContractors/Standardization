@@ -245,6 +245,37 @@ class JCA_smg_MP5_VFG_sand_F: JCA_smg_MP5_VFG_base_F {
     descriptionShort = "Submachine Gun<br />Caliber: 9x19 mm";
 };
 
+class JCA_smg_MP7_base_F;
+class JCA_smg_MP7_black_F: JCA_smg_MP7_base_F {
+    displayName = "MP7A2 Bare (Black)";
+};
+class JCA_smg_MP7_olive_F: JCA_smg_MP7_base_F {
+    displayName = "MP7A2 Bare (Olive)";
+};
+class JCA_smg_MP7_sand_F: JCA_smg_MP7_base_F {
+    displayName = "MP7A2 Bare (Sand)";
+};
+class JCA_smg_MP7_AFG_base_F;
+class JCA_smg_MP7_AFG_black_F: JCA_smg_MP7_AFG_base_F {
+    displayName = "MP7A2 (Black)";
+};
+class JCA_smg_MP7_AFG_olive_F: JCA_smg_MP7_AFG_base_F {
+    displayName = "MP7A2 (Olive)";
+};
+class JCA_smg_MP7_AFG_sand_F: JCA_smg_MP7_AFG_base_F {
+    displayName = "MP7A2 (Sand)";
+};
+class JCA_smg_MP7_VFG_base_F;
+class JCA_smg_MP7_VFG_black_F: JCA_smg_MP7_VFG_base_F {
+    displayName = "MP7A2 VFG (Black)";
+};
+class JCA_smg_MP7_VFG_olive_F: JCA_smg_MP7_VFG_base_F {
+    displayName = "MP7A2 VFG (Olive)";
+};
+class JCA_smg_MP7_VFG_sand_F: JCA_smg_MP7_VFG_base_F {
+    displayName = "MP7A2 VFG (Sand)";
+};
+
 class JCA_arifle_SR10_base_F: Rifle_Base_F {
     magazineWell[] += {"CBA_762x51_HK417","CBA_762x51_HK417_L","CBA_762x51_HK417_XL"};
 };
@@ -298,4 +329,66 @@ class JCA_smg_UMP_VFG_olive_F: JCA_smg_UMP_VFG_base_F {
 };
 class JCA_smg_UMP_VFG_sand_F: JCA_smg_UMP_VFG_base_F {
     displayName = "UMP45 VFG (Sand)";
+};
+
+class JCA_arifle_SCAR_H_base_F;
+class JCA_arifle_SCAR_H_black_F: JCA_arifle_SCAR_H_base_F {
+    displayName = "SCAR-H (Black)";
+};
+class JCA_arifle_SCAR_H_olive_F: JCA_arifle_SCAR_H_base_F {
+    displayName = "SCAR-H (Olive)";
+};
+class JCA_arifle_SCAR_H_sand_F: JCA_arifle_SCAR_H_base_F {
+    displayName = "SCAR-H (Sand)";
+};
+class JCA_arifle_SCAR_H_short_base_F;
+class JCA_arifle_SCAR_H_short_black_F: JCA_arifle_SCAR_H_short_base_F {
+    displayName = "SCAR-H CQB (Black)";
+};
+class JCA_arifle_SCAR_H_short_olive_F: JCA_arifle_SCAR_H_short_base_F {
+    displayName = "SCAR-H CQB (Olive)";
+};
+class JCA_arifle_SCAR_H_short_sand_F: JCA_arifle_SCAR_H_short_base_F {
+    displayName = "SCAR-H CQB (Sand)";
+};
+class JCA_arifle_SCAR_H_GL_base_F;
+class JCA_arifle_SCAR_H_GL_black_F: JCA_arifle_SCAR_H_GL_base_F {
+    displayName = "SCAR-H GL (Black)";
+};
+class JCA_arifle_SCAR_H_GL_olive_F: JCA_arifle_SCAR_H_GL_base_F {
+    displayName = "SCAR-H GL (Olive)";
+};
+class JCA_arifle_SCAR_H_GL_sand_F: JCA_arifle_SCAR_H_GL_base_F {
+    displayName = "SCAR-H GL (Sand)";
+};
+
+class JCA_arifle_SCAR_L_base_F;
+class JCA_arifle_SCAR_L_black_F: JCA_arifle_SCAR_L_base_F {
+    displayName = "SCAR-L (Black)";
+};
+class JCA_arifle_SCAR_L_olive_F: JCA_arifle_SCAR_L_base_F {
+    displayName = "SCAR-L (Olive)";
+};
+class JCA_arifle_SCAR_L_sand_F: JCA_arifle_SCAR_L_base_F {
+    displayName = "SCAR-L (Sand)";
+};
+class JCA_arifle_SCAR_L_short_base_F;
+class JCA_arifle_SCAR_L_short_black_F: JCA_arifle_SCAR_L_short_base_F {
+    displayName = "SCAR-L CQB (Black)";
+};
+class JCA_arifle_SCAR_L_short_olive_F: JCA_arifle_SCAR_L_short_base_F {
+    displayName = "SCAR-L CQB (Olive)";
+};
+class JCA_arifle_SCAR_L_short_sand_F: JCA_arifle_SCAR_L_short_base_F {
+    displayName = "SCAR-L CQB (Sand)";
+};
+class JCA_arifle_SCAR_L_GL_base_F;
+class JCA_arifle_SCAR_L_GL_black_F: JCA_arifle_SCAR_L_GL_base_F {
+    displayName = "SCAR-L GL (Black)";
+};
+class JCA_arifle_SCAR_L_GL_olive_F: JCA_arifle_SCAR_L_GL_base_F {
+    displayName = "SCAR-L GL (Olive)";
+};
+class JCA_arifle_SCAR_L_GL_sand_F: JCA_arifle_SCAR_L_GL_base_F {
+    displayName = "SCAR-L GL (Sand)";
 };

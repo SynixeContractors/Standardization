@@ -9,6 +9,27 @@ class JCA_H_Headset_Combat_01_sand_F: JCA_H_Headset_Combat_01_base_F {
     ACE_HEARING_PELTOR;
 };
 
+class JCA_H_Beanie_01_headset_base_F;
+class JCA_H_Beanie_01_headset_black_F: JCA_H_Beanie_01_headset_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_Beanie_01_headset_olive_F: JCA_H_Beanie_01_headset_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_Beanie_01_headset_sand_F: JCA_H_Beanie_01_headset_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_Beanie_01_headset_goggles_base_F;
+class JCA_H_Beanie_01_headset_goggles_black_F: JCA_H_Beanie_01_headset_goggles_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_Beanie_01_headset_goggles_olive_F: JCA_H_Beanie_01_headset_goggles_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_Beanie_01_headset_goggles_sand_F: JCA_H_Beanie_01_headset_goggles_base_F {
+    ACE_HEARING_PELTOR;
+};
+
 class JCA_H_Beret_01_headset_base_F;
 class JCA_H_Beret_01_headset_black_F: JCA_H_Beret_01_headset_base_F {
     ACE_HEARING_PELTOR;
@@ -17,6 +38,102 @@ class JCA_H_Beret_01_headset_olive_F: JCA_H_Beret_01_headset_base_F {
     ACE_HEARING_PELTOR;
 };
 class JCA_H_Beret_01_headset_sand_F: JCA_H_Beret_01_headset_base_F {
+    ACE_HEARING_PELTOR;
+};
+
+class JCA_H_Boonie_01_headset_base_F;
+class JCA_H_Boonie_01_headset_black_F: JCA_H_Boonie_01_headset_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_Boonie_01_headset_olive_F: JCA_H_Boonie_01_headset_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_Boonie_01_headset_sand_F: JCA_H_Boonie_01_headset_base_F {
+    ACE_HEARING_PELTOR;
+};
+
+class JCA_H_Cap_01_headset_base_F;
+class JCA_H_Cap_01_headset_black_F: JCA_H_Cap_01_headset_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_Cap_01_headset_olive_F: JCA_H_Cap_01_headset_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_Cap_01_headset_sand_F: JCA_H_Cap_01_headset_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_Cap_01_headset_goggles_base_F;
+class JCA_H_Cap_01_headset_goggles_black_F: JCA_H_Cap_01_headset_goggles_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_Cap_01_headset_goggles_olive_F: JCA_H_Cap_01_headset_goggles_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_Cap_01_headset_goggles_sand_F: JCA_H_Cap_01_headset_goggles_base_F {
+    ACE_HEARING_PELTOR;
+};
+
+class JCA_H_Cap_Military_01_headset_base_F;
+class JCA_H_Cap_Military_01_headset_black_F: JCA_H_Cap_Military_01_headset_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_Cap_Military_01_headset_olive_F: JCA_H_Cap_Military_01_headset_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_Cap_Military_01_headset_sand_F: JCA_H_Cap_Military_01_headset_base_F {
+    ACE_HEARING_PELTOR;
+};
+
+class JCA_H_shemagh_01_headset_goggles_base_F;
+class JCA_H_shemagh_01_headset_goggles_black_F: JCA_H_shemagh_01_headset_goggles_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_shemagh_01_headset_goggles_olive_F: JCA_H_shemagh_01_headset_goggles_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_shemagh_01_headset_goggles_sand_F: JCA_H_shemagh_01_headset_goggles_base_F {
+    ACE_HEARING_PELTOR;
+};
+
+class JCA_H_balaclava_01_headset_goggles_base_F;
+class JCA_H_balaclava_01_headset_goggles_black_F: JCA_H_balaclava_01_headset_goggles_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_balaclava_01_headset_goggles_olive_F: JCA_H_balaclava_01_headset_goggles_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_balaclava_01_headset_goggles_sand_F: JCA_H_balaclava_01_headset_goggles_base_F {
+    ACE_HEARING_PELTOR;
+};
+
+class JCA_H_FaceMask_01_headset_base_F;
+class JCA_H_FaceMask_01_headset_black_F: JCA_H_FaceMask_01_headset_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_FaceMask_01_headset_olive_F: JCA_H_FaceMask_01_headset_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_FaceMask_01_headset_sand_F: JCA_H_FaceMask_01_headset_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_FaceMask_01_headset_glasses_base_F;
+class JCA_H_FaceMask_01_headset_glasses_black_F: JCA_H_FaceMask_01_headset_glasses_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_FaceMask_01_headset_glasses_olive_F: JCA_H_FaceMask_01_headset_glasses_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_FaceMask_01_headset_glasses_sand_F: JCA_H_FaceMask_01_headset_glasses_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_FaceMask_01_headset_goggles_base_F;
+class JCA_H_FaceMask_01_headset_goggles_black_F: JCA_H_FaceMask_01_headset_goggles_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_FaceMask_01_headset_goggles_olive_F: JCA_H_FaceMask_01_headset_goggles_base_F {
+    ACE_HEARING_PELTOR;
+};
+class JCA_H_FaceMask_01_headset_goggles_sand_F: JCA_H_FaceMask_01_headset_goggles_base_F {
     ACE_HEARING_PELTOR;
 };
 

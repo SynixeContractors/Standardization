@@ -49,3 +49,14 @@ class JCA_hgun_P320_olive_F: JCA_hgun_P320_base_F {
 class JCA_hgun_P320_sand_F: JCA_hgun_P320_base_F {
     displayName = "P320 (Sand)";
 };
+
+class JCA_hgun_G17_base_F;
+class JCA_hgun_G17_black_F: JCA_hgun_G17_base_F {
+    displayName = "G17 (Black)";
+};
+class JCA_hgun_G17_olive_F: JCA_hgun_G17_base_F {
+    displayName = "G17 (Olive)";
+};
+class JCA_hgun_G17_sand_F: JCA_hgun_G17_base_F {
+    displayName = "G17 (Sand)";
+};
