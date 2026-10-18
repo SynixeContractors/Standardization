@@ -331,7 +331,9 @@ class JCA_smg_UMP_VFG_sand_F: JCA_smg_UMP_VFG_base_F {
     displayName = "UMP45 VFG (Sand)";
 };
 
-class JCA_arifle_SCAR_H_base_F;
+class JCA_arifle_SCAR_H_base_F: Rifle_Base_F {
+    magazineWell[] += {"CBA_762x51_HK417","CBA_762x51_HK417_L","CBA_762x51_HK417_XL"};
+};
 class JCA_arifle_SCAR_H_black_F: JCA_arifle_SCAR_H_base_F {
     displayName = "SCAR-H (Black)";
 };
@@ -362,7 +364,9 @@ class JCA_arifle_SCAR_H_GL_sand_F: JCA_arifle_SCAR_H_GL_base_F {
     displayName = "SCAR-H GL (Sand)";
 };
 
-class JCA_arifle_SCAR_L_base_F;
+class JCA_arifle_SCAR_L_base_F: Rifle_Base_F {
+    MAGS_556;
+};
 class JCA_arifle_SCAR_L_black_F: JCA_arifle_SCAR_L_base_F {
     displayName = "SCAR-L (Black)";
 };
