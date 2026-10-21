@@ -35,8 +35,8 @@ class CfgAmmo
     class BulletBase;
     class B_338_Ball;
     class GrenadeHand;
-    // JCA Bullets inherited from vanilla class B_9x19_Ball. To avoid all conflict with other mod, all JCA bullets with JCA as prefixe.
-    // class B_9x19_Ball: BulletBase official BI tool All-in-one Config Arma3 2.17.152041 https://community.bistudio.com/wiki/Arma:_All-in-one_Config
+    // JCA Bullets inherited from vanilla class B_9x21_Ball. To avoid all conflict with other mod, all JCA bullets with JCA as prefixe.
+    // class B_9x21_Ball: BulletBase official BI tool All-in-one Config Arma3 2.17.152041 https://community.bistudio.com/wiki/Arma:_All-in-one_Config
     class JCA_B_9x19_Ball_P320C_FMJ: BulletBase // M1152 Sig Sauer 9x19mm 115gr Full Metal Jacket FMJ https://cdn.bfldr.com/EN1VTHA0/at/k4vxwr73g8mj5bt485mh8bcz/2024_DSG_CATALOG__6-3-24_SL.pdf#page=57
     {
         ACE_caliber=9.03; // 0.356" CIP diameter https://bobp.cip-bobp.org/uploads/tdcc/tab-iv/tabivcal-en-page28.pdf
@@ -49,7 +49,7 @@ class CfgAmmo
         ACE_dragModel=1;
         ACE_muzzleVelocities[]={362}; // Muzzle Velocities 70°F (21°C) +1m/s, 361m/s (1185fps, 3.9") ICAO conditions (15°C, 1013.25hPa, 0%) according to JCA_P320 initSpeed, 1185fps barrel length 4.0" ± 1/16" (± 3.9375", 4.0625") https://www.sigsauer.com/9mm-115gr-elite-ball-fmj.html
         ACE_barrelLengths[]={99}; // 3.9" P320 Compact barrel length https://www.sigsauer.com/p320-compact.html
-        hit=4.4; // Full Metal Jacket, 486 Joules, B_9x19_Ball 5
+        hit=4.4; // Full Metal Jacket, 486 Joules, B_9x21_Ball 5
         indirectHit=0;
         indirectHitRange=0;
         cartridge="FxCartridge_9mm";
@@ -63,7 +63,7 @@ class CfgAmmo
         tracerScale=0.5;
         tracerStartTime=0.05;
         tracerEndTime=1;
-        nvgOnly=0; // B_9x19_Ball 1
+        nvgOnly=0; // B_9x21_Ball 1
         audibleFire=30;
         aiAmmoUsageFlags=64;
         dangerRadiusBulletClose=4;
@@ -77,16 +77,16 @@ class CfgAmmo
         ACE_bulletMass=9.525; // 147gr
         ACE_ballisticCoefficients[]={0.176}; // ICAO G1 BC from exterior ballistic app "EBC V2" based on Sig Sauer 2024 datas https://cdn.bfldr.com/EN1VTHA0/at/k4vxwr73g8mj5bt485mh8bcz/2024_DSG_CATALOG__6-3-24_SL.pdf#page=57
         ACE_muzzleVelocities[]={301}; // Muzzle Velocities 70°F (21°C) +1m/s, 300m/s (985fps, 3.9") ICAO conditions (15°C, 1013.25hPa, 0%) according to JCA_P320 initSpeed, 985fps barrel length 4.0" ± 1/16" (± 3.9375", 4.0625") https://www.sigsauer.com/9mm-147gr-elite-v-crown-jhp-20ct.html
-        hit=6.9; // Jacketed Hollow Point, 429 Joules, B_9x19_Ball 5
+        hit=6.9; // Jacketed Hollow Point, 429 Joules, B_9x21_Ball 5
         typicalSpeed=300; // JCA_15Rnd_9x19_P320C_JHP_Mag initSpeed
         airFriction=-0.00115136; // ICAO conditions (15°C, 1013.25hPa, 0%), airFrictionAnalysis.txt in docs folder
-        caliber=0.72; // Jacketed Hollow Point, B_9x19_Ball 1.2
+        caliber=0.72; // Jacketed Hollow Point, B_9x21_Ball 1.2
         visibleFire=1; // Subsonic, B_127x54_Ball, BulletBase 3
-        audibleFire=5; // Subsonic, B_127x54_Ball, B_9x19_Ball 30
+        audibleFire=5; // Subsonic, B_127x54_Ball, B_9x21_Ball 30
     };
     class JCA_B_9x19_Ball_P320C_Tracer_Green: JCA_B_9x19_Ball_P320C_FMJ
     {
-        visibleFire=5; // B_9x19_Ball 3, B_762x51_Ball 3, B_762x51_Minigun_Tracer_Red 5
+        visibleFire=5; // B_9x21_Ball 3, B_762x51_Ball 3, B_762x51_Minigun_Tracer_Red 5
         model="\A3\Weapons_f\Data\bullettracer\tracer_green";
     };
     class JCA_B_9x19_Ball_P320C_Tracer_Red: JCA_B_9x19_Ball_P320C_Tracer_Green
@@ -113,7 +113,7 @@ class CfgAmmo
         ACE_dragModel=1;
         ACE_barrelLengths[]={101.6,127,228.6}; // default ACE3 4", 5", 9" barrel lengths
         ACE_muzzleVelocities[]={366,398,430}; // Muzzle Velocities 70°F (21°C) +1m/s, 378m/s (1240fps) 4.4" (112mm) ICAO conditions (15°C, 1013.25hPa, 0%) according to JCA_P226 initSpeed
-        hit=4.8; // Full Metal Jacket, 574 Joules, B_9x19_Ball 5
+        hit=4.8; // Full Metal Jacket, 574 Joules, B_9x21_Ball 5
         indirectHit=0;
         indirectHitRange=0;
         cartridge="FxCartridge_9mm";
@@ -127,7 +127,7 @@ class CfgAmmo
         tracerScale=0.5;
         tracerStartTime=0.05;
         tracerEndTime=1;
-        nvgOnly=0; // B_9x19_Ball 1
+        nvgOnly=0; // B_9x21_Ball 1
         audibleFire=30;
         aiAmmoUsageFlags=64;
         dangerRadiusBulletClose=4;
@@ -138,9 +138,9 @@ class CfgAmmo
     class JCA_B_9x19_Ball_P226_JHP: JCA_B_9x19_Ball_P226_FMJ // M17 Sig Sauer NATO 9x19mm +P 124gr V-Crown https://www.sigsauer.com/blog/sig-sauer-introduces-m17-9mm-p-ammunition
     {
         ACE_ballisticCoefficients[]={0.166}; // ICAO G1 BC from exterior ballistic app "EBC V2" based on Sig Sauer 2024 datas https://cdn.bfldr.com/EN1VTHA0/at/k4vxwr73g8mj5bt485mh8bcz/2024_DSG_CATALOG__6-3-24_SL.pdf#page=57
-        hit=8; // Jacketed Hollow Point, 574 Joules, B_9x19_Ball 5
+        hit=8; // Jacketed Hollow Point, 574 Joules, B_9x21_Ball 5
         airFriction=-0.00193931; // ICAO conditions (15°C, 1013.25hPa, 0%), airFrictionAnalysis.txt in docs folder
-        caliber=0.72; // Jacketed Hollow Point, B_9x19_Ball 1.2
+        caliber=0.72; // Jacketed Hollow Point, B_9x21_Ball 1.2
     };
     class JCA_B_9x19_Ball_P226_SUB: JCA_B_9x19_Ball_P226_FMJ // M1153 Sig Sauer 9x19mm 147gr Jacketed Hollow Point JHP https://cdn.bfldr.com/EN1VTHA0/at/k4vxwr73g8mj5bt485mh8bcz/2024_DSG_CATALOG__6-3-24_SL.pdf#page=57
     {
@@ -148,16 +148,16 @@ class CfgAmmo
         ACE_bulletMass=9.525; // 147gr
         ACE_ballisticCoefficients[]={0.193}; // ICAO G1 BC from exterior ballistic app "EBC V2" based on Sig Sauer 2024 datas https://cdn.bfldr.com/EN1VTHA0/at/k4vxwr73g8mj5bt485mh8bcz/2024_DSG_CATALOG__6-3-24_SL.pdf#page=57
         ACE_muzzleVelocities[]={301,327,354}; // Muzzle Velocities 70°F (21°C) +1m/s, 311m/s (1020fps) 4.4" (112mm) ICAO conditions (15°C, 1013.25hPa, 0%) according to JCA_P226 initSpeed
-        hit=7.2; // Jacketed Hollow Point, 461 Joules, B_9x19_Ball 5
+        hit=7.2; // Jacketed Hollow Point, 461 Joules, B_9x21_Ball 5
         typicalSpeed=311; // JCA_15Rnd_9x19_P226_SUB_Mag initSpeed
         airFriction=-0.00114081; // ICAO conditions (15°C, 1013.25hPa, 0%), airFrictionAnalysis.txt in docs folder
-        caliber=0.72; // Jacketed Hollow Point, B_9x19_Ball 1.2
+        caliber=0.72; // Jacketed Hollow Point, B_9x21_Ball 1.2
         visibleFire=1; // Subsonic, B_127x54_Ball, BulletBase 3
-        audibleFire=5; // Subsonic, B_127x54_Ball, B_9x19_Ball 30
+        audibleFire=5; // Subsonic, B_127x54_Ball, B_9x21_Ball 30
     };
     class JCA_B_9x19_Ball_P226_Tracer_Green: JCA_B_9x19_Ball_P226_FMJ
     {
-        visibleFire=5; // B_9x19_Ball 3, B_762x51_Ball 3, B_762x51_Minigun_Tracer_Red 5
+        visibleFire=5; // B_9x21_Ball 3, B_762x51_Ball 3, B_762x51_Minigun_Tracer_Red 5
         model="\A3\Weapons_f\Data\bullettracer\tracer_green";
     };
     class JCA_B_9x19_Ball_P226_Tracer_Red: JCA_B_9x19_Ball_P226_Tracer_Green
@@ -184,7 +184,7 @@ class CfgAmmo
         ACE_dragModel=1;
         ACE_barrelLengths[]={101.6,127,228.6}; // default ACE3 4", 5", 9" barrel lengths
         ACE_muzzleVelocities[]={365,397,429}; // 365m/s (1198fps) barrel length 4", 394m/s (1293fps) barrel length 4.9" (125mm) ICAO conditions (15°C, 1013.25 hPa, 0%) according to JCA_15Rnd_9x19_M9A1 magazines initSpeed
-        hit=5; // Full Metal Jacket, 624 Joules, B_9x19_Ball 5
+        hit=5; // Full Metal Jacket, 624 Joules, B_9x21_Ball 5
         indirectHit=0;
         indirectHitRange=0;
         cartridge="FxCartridge_9mm";
@@ -198,7 +198,7 @@ class CfgAmmo
         tracerScale=0.5;
         tracerStartTime=0.05;
         tracerEndTime=1;
-        nvgOnly=0; // B_9x19_Ball 1
+        nvgOnly=0; // B_9x21_Ball 1
         audibleFire=30;
         aiAmmoUsageFlags=64;
         dangerRadiusBulletClose=4;
@@ -209,25 +209,25 @@ class CfgAmmo
     class JCA_B_9x19_Ball_M9A1_JHP: JCA_B_9x19_Ball_M9A1_FMJ // M17 Sig Sauer NATO 9x19mm +P 124gr V-Crown https://www.sigsauer.com/blog/sig-sauer-introduces-m17-9mm-p-ammunition
     {
         ACE_ballisticCoefficients[]={0.181}; // ICAO G1 BC from exterior ballistic app "EBC V2" based on Sig Sauer 2024 datas https://cdn.bfldr.com/EN1VTHA0/at/k4vxwr73g8mj5bt485mh8bcz/2024_DSG_CATALOG__6-3-24_SL.pdf#page=57
-        hit=8.3; // Jacketed Hollow Point, 624 Joules, B_9x19_Ball 5
+        hit=8.3; // Jacketed Hollow Point, 624 Joules, B_9x21_Ball 5
         airFriction=-0.00187711; // ICAO conditions (15°C, 1013.25hPa, 0%), airFrictionAnalysis.txt in docs folder
-        caliber=0.72; // Jacketed Hollow Point, B_9x19_Ball 1.2
+        caliber=0.72; // Jacketed Hollow Point, B_9x21_Ball 1.2
     };
     class JCA_B_9x19_Ball_M9A1_SUB: JCA_B_9x19_Ball_M9A1_FMJ // M1153 Sig Sauer 9x19mm 147gr Jacketed Hollow Point JHP https://cdn.bfldr.com/EN1VTHA0/at/k4vxwr73g8mj5bt485mh8bcz/2024_DSG_CATALOG__6-3-24_SL.pdf#page=57
     {
         ACE_bulletMass=9.525; // 147gr
         ACE_ballisticCoefficients[]={0.217}; // ICAO G1 BC from exterior ballistic app "EBC V2" based on Sig Sauer 2024 datas https://cdn.bfldr.com/EN1VTHA0/at/k4vxwr73g8mj5bt485mh8bcz/2024_DSG_CATALOG__6-3-24_SL.pdf#page=57
         ACE_muzzleVelocities[]={300,326,353}; // 300m/s (985fps) barrel length 4", 324m/s (1063fps) barrel length 4.9" (125mm) ICAO conditions (15°C, 1013.25 hPa, 0%) according to JCA_15Rnd_9x19_M9A1 magazines initSpeed
-        hit=7.5; // Jacketed Hollow Point, 500 Joules, B_9x19_Ball 5
+        hit=7.5; // Jacketed Hollow Point, 500 Joules, B_9x21_Ball 5
         typicalSpeed=324; // JCA_15Rnd_9x19_M9A1_SUB_Mag initSpeed
         airFriction=-0.001106; // ICAO conditions (15°C, 1013.25hPa, 0%), airFrictionAnalysis.txt in docs folder
-        caliber=0.72; // Jacketed Hollow Point, B_9x19_Ball 1.2
+        caliber=0.72; // Jacketed Hollow Point, B_9x21_Ball 1.2
         visibleFire=1; // Subsonic, B_127x54_Ball, BulletBase 3
-        audibleFire=5; // Subsonic, B_127x54_Ball, B_9x19_Ball 30
+        audibleFire=5; // Subsonic, B_127x54_Ball, B_9x21_Ball 30
     };
     class JCA_B_9x19_Ball_M9A1_Tracer_Green: JCA_B_9x19_Ball_M9A1_FMJ
     {
-        visibleFire=5; // B_9x19_Ball 3, B_762x51_Ball 3, B_762x51_Minigun_Tracer_Red 5
+        visibleFire=5; // B_9x21_Ball 3, B_762x51_Ball 3, B_762x51_Minigun_Tracer_Red 5
         model="\A3\Weapons_f\Data\bullettracer\tracer_green";
     };
     class JCA_B_9x19_Ball_M9A1_Tracer_Red: JCA_B_9x19_Ball_M9A1_Tracer_Green
@@ -254,7 +254,7 @@ class CfgAmmo
         ACE_dragModel=1;
         ACE_barrelLengths[]={101.6,127,228.6}; // default ACE3 4", 5", 9" barrel lengths
         ACE_muzzleVelocities[]={366,398,430}; // Muzzle Velocities 70°F (21°C) +1m/s, 365m/s (1198fps, 4"), 428m/s (1404fps) 8.858" (225mm) ICAO conditions (15°C, 1013.25hPa, 0%) according to JCA_MP5A5 initSpeed
-        hit=5.4; // Full Metal Jacket, 736 Joules, B_9x19_Ball 5
+        hit=5.4; // Full Metal Jacket, 736 Joules, B_9x21_Ball 5
         indirectHit=0;
         indirectHitRange=0;
         cartridge="FxCartridge_9mm";
@@ -268,7 +268,7 @@ class CfgAmmo
         tracerScale=0.5;
         tracerStartTime=0.05;
         tracerEndTime=1;
-        nvgOnly=0; // B_9x19_Ball 1
+        nvgOnly=0; // B_9x21_Ball 1
         audibleFire=30;
         aiAmmoUsageFlags=64;
         dangerRadiusBulletClose=4;
@@ -279,13 +279,13 @@ class CfgAmmo
     class JCA_B_9x19_Ball_MP5_JHP: JCA_B_9x19_Ball_MP5_FMJ // M17 Sig Sauer NATO 9x19mm +P 124gr V-Crown https://www.sigsauer.com/blog/sig-sauer-introduces-m17-9mm-p-ammunition
     {
         ACE_ballisticCoefficients[]={0.204}; // ICAO G1 BC from exterior ballistic app "EBC V2" based on Sig Sauer 2024 datas https://cdn.bfldr.com/EN1VTHA0/at/k4vxwr73g8mj5bt485mh8bcz/2024_DSG_CATALOG__6-3-24_SL.pdf#page=57
-        hit=9; // Jacketed Hollow Point, 736 Joules, B_9x19_Ball 5
+        hit=9; // Jacketed Hollow Point, 736 Joules, B_9x21_Ball 5
         airFriction=-0.00180949; // ICAO conditions (15°C, 1013.25hPa, 0%), airFrictionAnalysis.txt in docs folder
-        caliber=0.72; // Jacketed Hollow Point, B_9x19_Ball 1.2
+        caliber=0.72; // Jacketed Hollow Point, B_9x21_Ball 1.2
     };
     class JCA_B_9x19_Ball_MP5_Tracer_Green: JCA_B_9x19_Ball_MP5_FMJ
     {
-        visibleFire=5; // B_9x19_Ball 3, B_762x51_Ball 3, B_762x51_Minigun_Tracer_Red 5
+        visibleFire=5; // B_9x21_Ball 3, B_762x51_Ball 3, B_762x51_Minigun_Tracer_Red 5
         model="\A3\Weapons_f\Data\bullettracer\tracer_green";
     };
     class JCA_B_9x19_Ball_MP5_Tracer_Red: JCA_B_9x19_Ball_MP5_Tracer_Green
@@ -1196,7 +1196,7 @@ class CfgMagazines
         author="Laid3acK";
         displayName="9 mm 15Rnd P320 FMJ Mag";
         ammo="JCA_B_9x19_Ball_P320C_FMJ";
-        type=16; // 16Rnd_9x19_Mag
+        type=16; // 16Rnd_9x21_Mag
         count=15;
         mass=5.6; // magazine 15 rounds empty 76g + 15x 11.9g, JCA 6
         initSpeed=361; // according to ACE_muzzleVelocities 3.9" barrel (99mm) ICAO conditions (15°C, 1013.25hPa, 0%), JCA 410
@@ -1244,9 +1244,9 @@ class CfgMagazines
         author="Laid3acK";
         displayName="9 mm 15Rnd P226 FMJ Mag";
         ammo="JCA_B_9x19_Ball_P226_FMJ";
-        type=16; // 16Rnd_9x19_Mag
+        type=16; // 16Rnd_9x21_Mag
         count=15;
-        mass=5.7; // magazine 15 rounds empty 76g + 15x 12.3g, 16Rnd_9x19_Mag 6, JCA 6
+        mass=5.7; // magazine 15 rounds empty 76g + 15x 12.3g, 16Rnd_9x21_Mag 6, JCA 6
         initSpeed=378; // according to ACE_muzzleVelocities barrel length 4.4" (112mm) ICAO conditions (15°C, 1013.25hPa, 0%), JCA 410
         displaynameshort="FMJ";
     };
@@ -1262,7 +1262,7 @@ class CfgMagazines
         author="Laid3acK";
         displayName="9 mm 15Rnd P226 Subsonic Mag";
         ammo="JCA_B_9x19_Ball_P226_SUB";
-        mass=6.3; // magazine 15 rounds empty 76g + 15x 13.9g, 16Rnd_9x19_Mag 6, JCA 6
+        mass=6.3; // magazine 15 rounds empty 76g + 15x 13.9g, 16Rnd_9x21_Mag 6, JCA 6
         initSpeed=311; // according to ACE_muzzleVelocities barrel length 4.4" (112mm) ICAO conditions (15°C, 1013.25hPa, 0%)
         displaynameshort="Subsonic";
     };
@@ -1298,7 +1298,7 @@ class CfgMagazines
         author="Laid3acK";
         displayName="9 mm 15Rnd M9A1 FMJ Mag";
         ammo="JCA_B_9x19_Ball_M9A1_FMJ";
-        type=16; // 16Rnd_9x19_Mag
+        type=16; // 16Rnd_9x21_Mag
         mass=6.1; // magazine 15 rounds empty 91g + 15x 12.3g, JCA 6
         initSpeed=394; // according to ACE_muzzleVelocities barrel length 4.9" (125mm) ICAO conditions (15°C, 1013.25 hPa, 0%), JCA 410
         descriptionShort="Caliber: 9x19 mm<br />Rounds: 15<br />Used in: M9A1";
@@ -1352,7 +1352,7 @@ class CfgMagazines
         author="Laid3acK";
         displayName="9 mm 30Rnd MP5 FMJ Mag";
         ammo="JCA_B_9x19_Ball_MP5_FMJ";
-        mass=10; // 11.9 magazine 30 rounds empty 170g + 30x 12.3g, 30Rnd_9x19_Mag 10, JCA 10
+        mass=10; // 11.9 magazine 30 rounds empty 170g + 30x 12.3g, 30Rnd_9x21_Mag 10, JCA 10
         initSpeed=428; // according to ACE_muzzleVelocities ICAO conditions (15°C, 1013.25hPa, 0%), JCA 370
         descriptionShort="Caliber: 9x19 mm<br />Rounds: 30<br />Used in: MP5A5";
         displaynameshort="FMJ";
@@ -1420,7 +1420,7 @@ class CfgMagazines
         author="Laid3acK";
         displayName="9 mm 30Rnd MP5 FMJ Sand Mag";
         ammo="JCA_B_9x19_Ball_MP5_FMJ";
-        mass=10; // 11.9 magazine 30 rounds empty 170g + 30x 12.3g, 30Rnd_9x19_Mag 10, JCA 10
+        mass=10; // 11.9 magazine 30 rounds empty 170g + 30x 12.3g, 30Rnd_9x21_Mag 10, JCA 10
         initSpeed=428; // according to ACE_muzzleVelocities ICAO conditions (15°C, 1013.25hPa, 0%), JCA 370
         descriptionShort="Caliber: 9x19 mm<br />Rounds: 30<br />Used in: MP5A5";
         displaynameshort="FMJ";
