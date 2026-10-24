@@ -21,7 +21,7 @@ class CfgPatches
             "Weapons_F_JCA_IA_Rifles_SR25",
             "Weapons_F_JCA_IA_SMGs_MP5",
             "Weapons_F_JCA_IA_SMGs_UMP",
-            "Weapons_F_JCA_Pistols_M9A1",
+            "Weapons_F_JCA_IA_Pistols_M9A1",
             "Weapons_F_JCA_HF_Explosives"
         };
         skipWhenMissingDependencies = 1;
@@ -1184,14 +1184,14 @@ class CfgAmmo
 class CfgMagazines
 {
     class CA_Magazine;
-    class JCA_15Rnd_9x21_M9A1_Mag;
-    class JCA_15Rnd_9x21_P226_Mag;
-    class JCA_17Rnd_9x21_P320_Mag;
-    class JCA_30Rnd_9x21_MP5_Mag;
-    class JCA_30Rnd_9x21_MP5_Sand_Mag;
+    class JCA_15Rnd_9x19_M9A1_Mag;
+    class JCA_15Rnd_9x19_P226_Mag;
+    class JCA_17Rnd_9x19_P320_Mag;
+    class JCA_30Rnd_9x19_MP5_Mag;
+    class JCA_30Rnd_9x19_MP5_Sand_Mag;
     class JCA_10Rnd_127x99_M107_Mag;
     class JCA_10Rnd_127x99_M107_Sand_Mag;
-    class JCA_15Rnd_9x19_P320C_FMJ_Mag: JCA_17Rnd_9x21_P320_Mag // M1152 Sig Sauer 9x19mm 115gr Full Metal Jacket FMJ
+    class JCA_15Rnd_9x19_P320C_FMJ_Mag: JCA_17Rnd_9x19_P320_Mag // M1152 Sig Sauer 9x19mm 115gr Full Metal Jacket FMJ
     {
         author="Laid3acK";
         displayName="9 mm 15Rnd P320 FMJ Mag";
@@ -1239,7 +1239,7 @@ class CfgMagazines
         ammo="JCA_B_9x19_Ball_P320C_Tracer_IR";
         displaynameshort="Tracer IR";
     };
-    class JCA_15Rnd_9x19_P226_FMJ_Mag: JCA_15Rnd_9x21_P226_Mag // M17 Sig Sauer NATO 9x19mm +P 124gr Full Metal Jacket FMJ
+    class JCA_15Rnd_9x19_P226_FMJ_Mag: JCA_15Rnd_9x19_P226_Mag // M17 Sig Sauer NATO 9x19mm +P 124gr Full Metal Jacket FMJ
     {
         author="Laid3acK";
         displayName="9 mm 15Rnd P226 FMJ Mag";
@@ -1293,7 +1293,7 @@ class CfgMagazines
         ammo="JCA_B_9x19_Ball_P226_Tracer_IR";
         displaynameshort="Tracer IR";
     };
-    class JCA_15Rnd_9x19_M9A1_FMJ_Mag: JCA_15Rnd_9x21_M9A1_Mag // M17 Sig Sauer NATO 9x19mm +P 124gr Full Metal Jacket FMJ
+    class JCA_15Rnd_9x19_M9A1_FMJ_Mag: JCA_15Rnd_9x19_M9A1_Mag // M17 Sig Sauer NATO 9x19mm +P 124gr Full Metal Jacket FMJ
     {
         author="Laid3acK";
         displayName="9 mm 15Rnd M9A1 FMJ Mag";
@@ -1347,7 +1347,7 @@ class CfgMagazines
         ammo="JCA_B_9x19_Ball_M9A1_Tracer_IR";
         displaynameshort="Tracer IR";
     };
-    class JCA_30Rnd_9x19_MP5_FMJ_Mag: JCA_30Rnd_9x21_MP5_Mag // M17 Sig Sauer NATO 9x19mm +P 124gr Full Metal Jacket FMJ
+    class JCA_30Rnd_9x19_MP5_FMJ_Mag: JCA_30Rnd_9x19_MP5_Mag // M17 Sig Sauer NATO 9x19mm +P 124gr Full Metal Jacket FMJ
     {
         author="Laid3acK";
         displayName="9 mm 30Rnd MP5 FMJ Mag";
@@ -1415,7 +1415,7 @@ class CfgMagazines
         ammo="JCA_B_9x19_Ball_MP5_Tracer_IR";
         displaynameshort="Tracer IR";
     };
-    class JCA_30Rnd_9x19_MP5_FMJ_Sand_Mag: JCA_30Rnd_9x21_MP5_Sand_Mag // M17 Sig Sauer NATO 9x19mm +P 124gr Full Metal Jacket FMJ
+    class JCA_30Rnd_9x19_MP5_FMJ_Sand_Mag: JCA_30Rnd_9x19_MP5_Sand_Mag // M17 Sig Sauer NATO 9x19mm +P 124gr Full Metal Jacket FMJ
     {
         author="Laid3acK";
         displayName="9 mm 30Rnd MP5 FMJ Sand Mag";
