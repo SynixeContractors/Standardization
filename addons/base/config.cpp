@@ -9,7 +9,7 @@ class CfgPatches {
         requiredAddons[] = {
             "synixe_standardization_main",
             "ace_realisticnames",
-	    "A3_Air_F_Orange_UAV_06",
+            "A3_Air_F_Orange_UAV_06",
         };
         VERSION_CONFIG;
         addonRootClass = "A3_Characters_F";
