@@ -1,0 +1,17 @@
+#include "script_component.hpp"
+
+class CfgPatches {
+    class ADDON {
+        name = QUOTE(COMPONENT);
+        units[] = {};
+        weapons[] = {};
+        requiredVersion = REQUIRED_VERSION;
+        requiredAddons[] = {
+            "synixe_standardization_main",
+
+            "RF_Data_Loadorder"
+        };
+    };
+};
+
+#include "CfgVehicles.hpp"
