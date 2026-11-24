@@ -8,6 +8,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "synixe_standardization_main",
+            "cba_xeh",
             "A3_expEden_characters",
             "A3_expEden",
             "A3_Props_F_Globe_Items_Decorative",
@@ -16,7 +17,11 @@ class CfgPatches {
             "Props_Globe_Humanitarian_Supplies",
             "Props_Globe_Items_Electronics",
         };
+        skipWhenMissingDependencies = 1;
+        author = "Synixe Contractors";
         VERSION_CONFIG;
         addonRootClass = "A3_Characters_F";
     };
 };
+
+#include "CfgVehicles.hpp"

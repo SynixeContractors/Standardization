@@ -9,6 +9,8 @@ class CfgPatches {
         requiredAddons[] = {
             "synixe_standardization_main",
         };
+        author = "Synixe Contractors";
         VERSION_CONFIG;
+        addonRootClass = "A3_Characters_F";
     };
 };

@@ -7,12 +7,12 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "synixe_standarization_main",
+            "synixe_standardization_main",
             "map_north_takistan"
         };
         addonRootClass = "map_north_takistan";
         skipWhenMissingDependencies = 1;
-        author = "Brett";
+        author = "Synixe Contractors";
         VERSION_CONFIG;
     };
 };

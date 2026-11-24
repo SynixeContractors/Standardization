@@ -10,7 +10,7 @@ class CfgPatches {
             "ace_missileguidance",
         };
         skipWhenMissingDependencies = 1;
-        authors[] = {"Synixe Contractors"};
+        author = "Synixe Contractors";
         VERSION_CONFIG;
         addonRootClass = "A3_Characters_F";
     };

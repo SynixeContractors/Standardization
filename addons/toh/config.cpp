@@ -11,6 +11,7 @@ class CfgPatches {
             "HSim_Characters_Woman_H_Uniforms",
         };
         skipWhenMissingDependencies = 1;
+        author = "Synixe Contractors";
         VERSION_CONFIG;
         addonRootClass = "A3_Characters_F";
     };

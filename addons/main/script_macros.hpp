@@ -22,3 +22,8 @@
 #define HIDE_UNIFORM(CLASS) class CLASS: Uniform_Base { scope = 1; scopeArsenal = 1; }
 
 #define REMOVE_LINKED class LinkedItems: LinkedItems { delete LinkedItemsUnder; }
+
+// CBA XEH
+#define XEH class EventHandlers { \
+    class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base {}; \
+}

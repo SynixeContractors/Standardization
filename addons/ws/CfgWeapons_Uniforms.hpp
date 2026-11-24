@@ -16,15 +16,29 @@ class U_O_LCF_noInsignia_hex_lxws: Uniform_Base {
     displayName = "Light Fatigues [CSP] (Hex Ochre)";
 };
 
+// Light Fatigues
+class U_lxWS_SFIA_soldier_2;
+class U_lxWS_SFIA_soldier_2_O: U_lxWS_SFIA_soldier_2 {
+    displayName = "Light Fatigues (Mudwalker)";
+};
+class U_lxWS_SFIA_soldier_1;
+class U_lxWS_SFIA_soldier_1_O: U_lxWS_SFIA_soldier_1 {
+    displayName = "Light Fatigues (Mudwalker, Rolled-Up)";
+};
+class U_lxWS_UN_Camo2: Uniform_Base {
+    displayName = "Light Fatigues (Desert Stripe)";
+};
+class U_lxWS_UN_Camo3: Uniform_Base {
+    displayName = "Light Fatigues (Desert Stripe, Rolled-Up)";
+};
+
 // Pilot Coveralls
 class U_lxWS_UN_Pilot: Uniform_Base {
     displayName = "Worker Coveralls [UNA] (Tan)";
 };
-
-// Combat Something
 class U_lxWS_SFIA_pilot;
 class U_lxWS_SFIA_pilot_O: U_lxWS_SFIA_pilot {
-    displayName = "TODO";
+    displayName = "Pilot Coveralls (Mudwalker)";
 };
 
 // Combat Uniform

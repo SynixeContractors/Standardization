@@ -7,12 +7,12 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "synixe_standarization_main",
+            "synixe_standardization_main",
             "archipelago"
         };
         skipWhenMissingDependencies = 1;
         addonRootClass = "archipelago";
-        author = "Brett";
+        author = "Synixe Contractors";
         VERSION_CONFIG;
     };
 };

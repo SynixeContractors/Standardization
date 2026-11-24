@@ -1,12 +1,12 @@
-name = "Synixe Standarization";
+name = "Synixe Standardization";
 picture = "logo_ca.paa";
 actionName = "GitHub";
 action = "https://github.com/SynixeContractors/Standardization";
-description = "Synixe Standarization provides consistency in naming of arma gear.";
+description = "Synixe Standardization provides consistency in naming of arma gear.";
 logo = "logo_ca.paa";
 logoOver = "logo_ca.paa";
-tooltip = "Synixe Standarization";
-tooltipOwned = "Synixe Standarization Owned";
-overview = "Synixe Standarization provides consistency in naming of arma gear.";
+tooltip = "Synixe Standardization";
+tooltipOwned = "Synixe Standardization Owned";
+overview = "Synixe Standardization provides consistency in naming of arma gear.";
 author = "Synixe Contractors";
 overviewPicture = "logo_ca.paa";

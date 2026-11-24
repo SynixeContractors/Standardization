@@ -2,9 +2,24 @@ let data = parse_json(HEMTT_VFS.join("addons/worlds/worlds.json").open_file().re
 let worlds = data["worlds"];
 let tips_raw = data["tips"];
 
+// Config strings escape a double quote by doubling it
+fn escape(text) {
+    let out = text;
+    out.replace("\"", "\"\"");
+    out
+}
+
+// Optional 5th world field: license plate format
+fn plate_format(world) {
+    if (world.len() >= 5) {
+        return "\n" + `        plateFormat = "${escape(world[4])}";`;
+    }
+    ""
+}
+
 let tips = "";
 for tip in tips_raw {
-    tips = tips + "\"" + tip + "\",";
+    tips = tips + "\"" + escape(tip) + "\",";
 }
 
 let cup_worlds = [];
@@ -24,13 +39,9 @@ for world in worlds {
     let config = dir.join("config.cpp").create_file();
     let name = "";
     if (world[0] != "") {
-        name = `description = "${world[0]}";`;
+        name = `description = "${escape(world[0])}";`;
     }
-
-    let extra = "";
-    if (world.len() >= 5) {
-        extra += "\n" + `plateFormat = "${world[4]}";`;
-    }
+    let extra = plate_format(world);
 
     config.write(`
 #include "script_component.hpp"
@@ -45,6 +56,7 @@ class CfgPatches {
         };
         addonRootClass = "${world[3]}";
         skipWhenMissingDependencies = 1;
+        author = "Synixe Contractors";
         VERSION_CONFIG;
     };
 };
@@ -53,8 +65,7 @@ class CfgWorlds {
     class ${world[2]};
     class ${world[1]}: ${world[2]} {
         ${name}
-        loadingTexts[] = {${tips}};
-        ${extra}
+        loadingTexts[] = {${tips}};${extra}
     };
 };`);
     let script_component = dir.join("script_component.hpp").create_file();
@@ -76,12 +87,13 @@ for group in [[cup_worlds, "cup"], [bi_worlds, "bi"]] {
     for world in group[0] {
         let name = "";
         if (world[0] != "") {
-            name = `description = "${world[0]}";`;
+            name = `description = "${escape(world[0])}";`;
         }
+        let extra = plate_format(world);
         worlds_cfg = worlds_cfg + `
     class ${world[1]}: ${world[2]} {
         ${name}
-        loadingTexts[] = {${tips}};
+        loadingTexts[] = {${tips}};${extra}
     };`;
         required = required + `"${world[3]}",`;
         addonRootClass = world[3];
@@ -106,6 +118,7 @@ class CfgPatches {
         };
         addonRootClass = "${addonRootClass}";
         skipWhenMissingDependencies = 1;
+        author = "Synixe Contractors";
         VERSION_CONFIG;
     };
 };

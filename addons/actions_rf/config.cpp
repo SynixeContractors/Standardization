@@ -9,8 +9,12 @@ class CfgPatches {
         requiredAddons[] = {
             "synixe_standardization_main",
 
-            "RF_Data_Loadorder"
+            "RF_Data_Loadorder",
         };
+        skipWhenMissingDependencies = 1;
+        author = "Synixe Contractors";
+        VERSION_CONFIG;
+        addonRootClass = "A3_Characters_F";
     };
 };
 

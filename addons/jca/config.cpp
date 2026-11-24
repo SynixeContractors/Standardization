@@ -23,7 +23,7 @@ class CfgPatches {
             "Facewear_F_JCA_IE",
         };
         skipWhenMissingDependencies = 1;
-        authors[] = {"Synixe Contractors"};
+        author = "Synixe Contractors";
         VERSION_CONFIG;
         addonRootClass = "A3_Characters_F";
     };
