@@ -7,8 +7,19 @@ on:
     branches: [main]
 
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup HEMTT
+        uses: arma-actions/hemtt@v1
+
+      - name: Check Mod
+        run: hemtt check
+
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
+    needs: check
     steps:
       - uses: actions/checkout@v4
       - name: Setup HEMTT
@@ -23,6 +34,6 @@ jobs:
       - name: Upload
         uses: actions/upload-artifact@v4
         with:
-          name: synixe_standardization.zip
+          name: synixe_standardization
           path: .hemttout/@*
-          include-hidden-files: true 
+          include-hidden-files: true

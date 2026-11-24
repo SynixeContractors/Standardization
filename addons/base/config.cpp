@@ -11,6 +11,7 @@ class CfgPatches {
             "ace_realisticnames",
             "A3_Air_F_Orange_UAV_06",
         };
+        author = "Synixe Contractors";
         VERSION_CONFIG;
         addonRootClass = "A3_Characters_F";
     };

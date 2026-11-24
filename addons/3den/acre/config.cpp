@@ -7,11 +7,12 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "synixe_main",
+            "synixe_standardization_main",
             "acre_sys_radio",
             "acre_api"
         };
         skipWhenMissingDependencies = 1;
+        author = "Synixe Contractors";
         VERSION_CONFIG;
         addonRootClass = "A3_Characters_F";
     };

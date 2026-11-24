@@ -287,6 +287,12 @@ class Atlas_U_I_UW_CombatUniform_UNO: Uniform_Base {
 class Atlas_U_I_UW_CombatUniform_shortsleeve_UNO: Uniform_Base {
     displayName = "Light Fatigues [CDF] (Polywood, Rolled-Up)";
 };
+HIDE_UNIFORM(Atlas_U_I_I_CombatUniform_olive);
+HIDE_UNIFORM(Atlas_U_I_I_CombatUniform_shortsleeve_olive);
+HIDE_UNIFORM(Aegis_U_O_CombatFatigues_ruarid_F);
+HIDE_UNIFORM(Aegis_U_O_CombatFatigues_02_ruarid_F);
+HIDE_UNIFORM(Aegis_U_O_CombatFatigues_rutaiga_F);
+HIDE_UNIFORM(Aegis_U_O_CombatFatigues_02_rutaiga_F);
 class Atlas_U_B_H_Soldier_F: Uniform_Base {
     displayName = "Light Fatigues [HI] (Horizon Stripe)";
 };

@@ -10,6 +10,7 @@ class CfgPatches {
             "synixe_standardization_main",
             "ace_realisticnames",
         };
+        author = "Synixe Contractors";
         VERSION_CONFIG;
         addonRootClass = "A3_Characters_F";
     };

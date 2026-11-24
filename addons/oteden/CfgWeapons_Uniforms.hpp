@@ -50,58 +50,6 @@ HIDE_UNIFORM(U_O_ParamilitaryUniform_F);
 HIDE_UNIFORM(U_B_CombatUniform_wdl_worn);
 HIDE_UNIFORM(U_B_CombatUniformRoll_wdl_vest);
 
-// Light Fatigues
-HIDE_UNIFORM(Atlas_U_I_I_CombatUniform_olive);
-HIDE_UNIFORM(Atlas_U_I_I_CombatUniform_shortsleeve_olive);
-HIDE_UNIFORM(Aegis_U_O_CombatFatigues_ruarid_F);
-HIDE_UNIFORM(Aegis_U_O_CombatFatigues_02_ruarid_F);
-HIDE_UNIFORM(Aegis_U_O_CombatFatigues_rutaiga_F);
-HIDE_UNIFORM(Aegis_U_O_CombatFatigues_02_rutaiga_F);
-class Atlas_U_B_H_Soldier_F: Uniform_Base {
-    displayName = "Light Fatigues (Horizon Stripe)";
-};
-class Atlas_U_B_H_Soldier_2_F: Uniform_Base {
-    displayName = "Light Fatigues (Horizon Stripe, Rolled-Up)";
-};
-class Atlas_U_B_H_Soldier_3_F: Uniform_Base {
-    displayName = "Light Fatigues (Horizon Stripe, Tank Top)";
-};
-class Atlas_U_B_K_CombatUniform: Uniform_Base {
-    displayName = "Light Fatigues [KR] (Khaybaran)";
-};
-class Atlas_U_B_K_CombatUniform_shortsleeve: Uniform_Base {
-    displayName = "Light Fatigues [KR] (Khaybaran, Rolled-Up)";
-};
-class Atlas_U_B_M_CombatUniform_des: Uniform_Base {
-    displayName = "Light Fatigues [Marar] (SanDig)";
-};
-class Atlas_U_B_M_CombatUniform_shortsleeve_des: Uniform_Base {
-    displayName = "Light Fatigues [Marar] (SanDig, Rolled-Up)";
-};
-class Atlas_U_B_M_CombatUniform_tee_des: Uniform_Base {
-    displayName = "Light Fatigues [Marar] (SanDig, Tank Top)";
-};
-class Atlas_U_I_U_CombatUniform_UNO: Uniform_Base {
-    displayName = "Light Fatigues [RACS] (SDP)";
-};
-class Atlas_U_I_U_CombatUniform_shortsleeve_UNO: Uniform_Base {
-    displayName = "Light Fatigues [RACS] (SDP, Rolled-Up)";
-};
-class U_lxWS_SFIA_soldier_2;
-class U_lxWS_SFIA_soldier_2_O: U_lxWS_SFIA_soldier_2 {
-    displayName = "Light Fatigues (Mudwalker)";
-};
-class U_lxWS_SFIA_soldier_1;
-class U_lxWS_SFIA_soldier_1_O: U_lxWS_SFIA_soldier_1 {
-    displayName = "Light Fatigues (Mudwalker, Rolled-Up)";
-};
-class U_lxWS_UN_Camo2: Uniform_Base {
-    displayName = "Light Fatigues (Desert Stripe)";
-};
-class U_lxWS_UN_Camo3: Uniform_Base {
-    displayName = "Light Fatigues (Desert Stripe, Rolled-Up)";
-};
-
 // Fins
 HIDE_UNIFORM(U_B_CTRG_Diver);
 HIDE_UNIFORM(U_B_CTRG_Diver_noPop);

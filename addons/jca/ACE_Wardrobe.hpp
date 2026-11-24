@@ -11,18 +11,18 @@ class ace_wardrobe {
     #define HEADSET_CLASS(COLOR) JCA_H_Headset_Combat_01_##COLOR##_F
 
     #define COLOR black
-    #include "wardrobe/AMCH.hpp"
-    #include "wardrobe/Beret.hpp"
-    #include "wardrobe/Headset.hpp"
+    #include "wardrobe\AMCH.hpp"
+    #include "wardrobe\Beret.hpp"
+    #include "wardrobe\Headset.hpp"
     #undef COLOR
     #define COLOR olive
-    #include "wardrobe/AMCH.hpp"
-    #include "wardrobe/Beret.hpp"
-    #include "wardrobe/Headset.hpp"
+    #include "wardrobe\AMCH.hpp"
+    #include "wardrobe\Beret.hpp"
+    #include "wardrobe\Headset.hpp"
     #undef COLOR
     #define COLOR sand
-    #include "wardrobe/AMCH.hpp"
-    #include "wardrobe/Beret.hpp"
-    #include "wardrobe/Headset.hpp"
+    #include "wardrobe\AMCH.hpp"
+    #include "wardrobe\Beret.hpp"
+    #include "wardrobe\Headset.hpp"
     #undef COLOR
 };
