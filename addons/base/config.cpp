@@ -9,6 +9,7 @@ class CfgPatches {
         requiredAddons[] = {
             "synixe_standardization_main",
             "ace_realisticnames",
+            "A3_Air_F_Orange_UAV_06",
         };
         author = "Synixe Contractors";
         VERSION_CONFIG;
